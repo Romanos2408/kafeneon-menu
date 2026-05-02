@@ -12,23 +12,21 @@
 </head>
 <body>
   <header class="hero">
+    <div class="lang-wrap">
+      <button class="lang-toggle" id="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false">
+        <span id="lang-current">EL</span>
+        <svg width="10" height="10" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <ul class="lang-menu" id="lang-menu" role="listbox" hidden>
+        <li role="option" data-lang="el" tabindex="0">EL · Ελληνικά</li>
+        <li role="option" data-lang="en" tabindex="0">EN · English</li>
+      </ul>
+    </div>
     <img class="hero-logo" src="assets/logo.jpeg" alt="Η ΓΩΝΙΑ — ΚΑΦΕΝΕΟΝ" />
-    <p class="brand-tag" id="tagline">Taste the true coffee</p>
     <p class="brand-address" id="address">Ελευθερίου Βενιζέλου 133, Χρυσούπολη 64200</p>
   </header>
 
-  <nav class="lang">
-    <button class="lang-btn active" data-lang="el" type="button">ΕΛ</button>
-    <button class="lang-btn" data-lang="en" type="button">EN</button>
-  </nav>
-
-  <div class="search">
-    <input id="search" type="search" placeholder="Αναζήτηση…" autocomplete="off" />
-  </div>
-
-  <nav class="cat-nav" id="cat-nav" aria-label="Κατηγορίες"></nav>
-
-  <main id="menu" class="menu" aria-live="polite"></main>
+  <main id="app"></main>
 
   <footer class="foot">
     <p id="foot-shop">Η ΓΩΝΙΑ · ΚΑΦΕΝΕΟΝ</p>
