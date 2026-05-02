@@ -98,14 +98,14 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: var(--olive);
+  background: #6a665d;
   color: #f6f2e7;
   text-decoration: none;
   transition: transform 0.15s ease, background 0.15s ease;
 }
 
 .hero-social:hover {
-  background: #2f2d29;
+  background: #56524a;
   transform: translateY(-1px);
 }
 
@@ -126,7 +126,7 @@ body {
   left: 14px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 4px;
   z-index: 10;
 }
@@ -135,7 +135,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--olive);
+  background: #6a665d;
   color: #f6f2e7;
   border-radius: 999px;
   padding: 6px 12px 6px 10px;
@@ -159,18 +159,18 @@ body {
 }
 
 .hero-phone:hover {
-  background: #2f2d29;
+  background: #56524a;
 }
 
 .hero-cta-caption {
   display: inline-block;
-  padding-left: 6px;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--olive);
-  opacity: 0.75;
+  opacity: 0.85;
+  text-align: center;
 }
 
 @media (max-width: 360px) {

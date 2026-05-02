@@ -432,9 +432,6 @@
       // Footer VAT line
       $(".foot-sm").textContent = t().vat;
 
-      // Footer action icons (directions only — phone in hero, socials in hero)
-      renderFootActions(shop);
-
       // Hero social icons (Instagram + Facebook), under the logo
       renderHeroSocials(shop);
 
@@ -460,35 +457,6 @@
       link.rel = "noopener";
       link.setAttribute("aria-label", s.aria);
       link.innerHTML = s.icon;
-      host.appendChild(link);
-    });
-  }
-
-  function renderFootActions(shop) {
-    const host = $("#foot-actions");
-    host.innerHTML = "";
-    const actions = [];
-    // Phone is now the prominent take-away CTA in the hero; no duplicate here.
-    if (shop.maps_url) {
-      actions.push({
-        href: shop.maps_url,
-        label: t().directions,
-        icon: FOOT_ICONS.map,
-        aria: t().directions,
-        external: true,
-      });
-    }
-    // Instagram & Facebook live in the hero now, not the footer.
-    actions.forEach((a) => {
-      const link = document.createElement("a");
-      link.className = "foot-action";
-      link.href = a.href;
-      link.setAttribute("aria-label", a.aria);
-      if (a.external) {
-        link.target = "_blank";
-        link.rel = "noopener";
-      }
-      link.innerHTML = a.icon + `<span>${escapeHtml(a.label)}</span>`;
       host.appendChild(link);
     });
   }
