@@ -1,0 +1,264 @@
+:root {
+  --bg: #f4f1ea;
+  --paper: #fbfaf6;
+  --ink: #1f2a24;
+  --ink-soft: #5c6660;
+  --line: #d9d4c7;
+  --accent: #3a4a3a;
+  --accent-soft: #6f7d6a;
+  --gold: #b6915b;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(31, 42, 36, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 16px 64px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 40px 16px 24px;
+  background: linear-gradient(180deg, #3a4a3a 0%, #4d5c4a 100%);
+  color: #f6f2e7;
+  border-radius: 0 0 28px 28px;
+  margin: 0 -16px 16px;
+  box-shadow: var(--shadow);
+}
+
+.brand-mark {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  line-height: 52px;
+  font-size: 30px;
+  font-weight: 700;
+  border: 2px solid #f6f2e7;
+  border-radius: 14px;
+  margin-bottom: 10px;
+  letter-spacing: 0.02em;
+}
+
+.brand-name {
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 0.18em;
+  font-weight: 800;
+}
+
+.brand-sub {
+  margin: 4px 0 0;
+  font-size: 13px;
+  letter-spacing: 0.42em;
+  opacity: 0.85;
+}
+
+.brand-tag {
+  margin: 14px 0 0;
+  font-size: 13px;
+  font-style: italic;
+  opacity: 0.75;
+  letter-spacing: 0.04em;
+}
+
+/* Language toggle */
+.lang {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin: 0 0 12px;
+}
+
+.lang-btn {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink-soft);
+  padding: 6px 14px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.lang-btn.active {
+  background: var(--accent);
+  color: #f6f2e7;
+  border-color: var(--accent);
+}
+
+/* Search */
+.search {
+  margin: 8px 0 14px;
+}
+
+.search input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+  font-size: 16px;
+  color: var(--ink);
+  outline: none;
+}
+
+.search input:focus {
+  border-color: var(--accent-soft);
+  box-shadow: 0 0 0 3px rgba(58, 74, 58, 0.12);
+}
+
+/* Category nav (chips) */
+.cat-nav {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 4px 2px 12px;
+  scrollbar-width: none;
+}
+
+.cat-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.cat-chip {
+  flex: 0 0 auto;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.cat-chip.active {
+  background: var(--accent);
+  color: #f6f2e7;
+  border-color: var(--accent);
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.cat {
+  background: var(--paper);
+  border-radius: 16px;
+  padding: 18px 18px 8px;
+  box-shadow: var(--shadow);
+  scroll-margin-top: 12px;
+}
+
+.cat-title {
+  margin: 0 0 12px;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  position: relative;
+  padding-left: 14px;
+}
+
+.cat-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 4px;
+  background: var(--gold);
+  border-radius: 2px;
+}
+
+.item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--line);
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+.item-name {
+  flex: 1;
+  font-size: 15px;
+  color: var(--ink);
+}
+
+.item-dots {
+  flex: 1;
+  border-bottom: 1px dotted var(--line);
+  transform: translateY(-4px);
+  min-width: 16px;
+}
+
+.item-price {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 15px;
+}
+
+.item.hidden {
+  display: none;
+}
+
+.empty {
+  padding: 24px;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+/* Footer */
+.foot {
+  text-align: center;
+  margin-top: 32px;
+  color: var(--ink-soft);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}
+
+.foot p {
+  margin: 4px 0;
+}
+
+.foot-sm {
+  opacity: 0.7;
+  font-size: 11px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

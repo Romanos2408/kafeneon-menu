@@ -1,0 +1,81 @@
+{
+  "shop": {
+    "name": "Η ΓΩΝΙΑ",
+    "subtitle": "ΚΑΦΕΝΕΙΟΝ",
+    "tagline": "Taste the true coffee",
+    "phone": "",
+    "address": "",
+    "instagram": ""
+  },
+  "categories": [
+    {
+      "id": "coffee-hot",
+      "name": "Ζεστοί Καφέδες",
+      "name_en": "Hot Coffee",
+      "items": [
+        { "name": "Ελληνικός μονός", "name_en": "Greek coffee, single", "price": 1.80 },
+        { "name": "Ελληνικός διπλός", "name_en": "Greek coffee, double", "price": 2.50 },
+        { "name": "Espresso", "name_en": "Espresso", "price": 2.00 },
+        { "name": "Espresso διπλός", "name_en": "Double espresso", "price": 2.50 },
+        { "name": "Cappuccino", "name_en": "Cappuccino", "price": 2.80 },
+        { "name": "Καφές φίλτρου", "name_en": "Filter coffee", "price": 2.20 }
+      ]
+    },
+    {
+      "id": "coffee-cold",
+      "name": "Κρύοι Καφέδες",
+      "name_en": "Cold Coffee",
+      "items": [
+        { "name": "Freddo espresso", "name_en": "Freddo espresso", "price": 2.50 },
+        { "name": "Freddo cappuccino", "name_en": "Freddo cappuccino", "price": 3.00 },
+        { "name": "Φραπέ", "name_en": "Frappé", "price": 2.50 },
+        { "name": "Cold brew", "name_en": "Cold brew", "price": 3.20 }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "Τσάι & Ροφήματα",
+      "name_en": "Tea & Infusions",
+      "items": [
+        { "name": "Τσάι του βουνού", "name_en": "Greek mountain tea", "price": 2.00 },
+        { "name": "Χαμομήλι", "name_en": "Chamomile", "price": 2.00 },
+        { "name": "Ζεστή σοκολάτα", "name_en": "Hot chocolate", "price": 3.00 }
+      ]
+    },
+    {
+      "id": "juice",
+      "name": "Χυμοί & Αναψυκτικά",
+      "name_en": "Juices & Soft Drinks",
+      "items": [
+        { "name": "Φρέσκος χυμός πορτοκάλι", "name_en": "Fresh orange juice", "price": 3.50 },
+        { "name": "Coca-Cola", "name_en": "Coca-Cola", "price": 2.50 },
+        { "name": "Coca-Cola Zero", "name_en": "Coca-Cola Zero", "price": 2.50 },
+        { "name": "Σόδα", "name_en": "Soda", "price": 2.00 },
+        { "name": "Νερό 500ml", "name_en": "Water 500ml", "price": 0.50 }
+      ]
+    },
+    {
+      "id": "spirits",
+      "name": "Ποτά",
+      "name_en": "Spirits",
+      "items": [
+        { "name": "Τσίπουρο 50ml", "name_en": "Tsipouro 50ml", "price": 3.00 },
+        { "name": "Ούζο 50ml", "name_en": "Ouzo 50ml", "price": 3.00 },
+        { "name": "Κρασί ποτήρι", "name_en": "Wine, glass", "price": 4.00 },
+        { "name": "Μπύρα", "name_en": "Beer", "price": 3.50 }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": "Σνακ & Γλυκά",
+      "name_en": "Snacks & Sweets",
+      "items": [
+        { "name": "Τυρόπιτα", "name_en": "Cheese pie", "price": 2.50 },
+        { "name": "Σπανακόπιτα", "name_en": "Spinach pie", "price": 2.50 },
+        { "name": "Κουλούρι Θεσσαλονίκης", "name_en": "Sesame bread ring", "price": 1.00 },
+        { "name": "Γλυκό κουταλιού", "name_en": "Spoon sweet", "price": 3.00 },
+        { "name": "Λουκουμάδες", "name_en": "Loukoumades", "price": 4.50 }
+      ]
+    }
+  ]
+}
