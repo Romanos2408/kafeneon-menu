@@ -160,7 +160,7 @@
 
       const name = document.createElement("div");
       name.className = "cat-tile-name";
-      name.textContent = pickCatShortName(c);
+      name.textContent = pickCatName(c);
 
       const count = document.createElement("div");
       count.className = "cat-tile-count";
