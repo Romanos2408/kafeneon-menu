@@ -14,7 +14,6 @@
       vat: "Τιμές σε ευρώ. Συμπεριλαμβάνεται ΦΠΑ.",
       back: "Πίσω",
       items: (n) => `${n} προϊόντα`,
-      from: "από",
     },
     en: {
       search: "Search…",
@@ -22,7 +21,6 @@
       vat: "Prices in euro. VAT included.",
       back: "Back",
       items: (n) => `${n} items`,
-      from: "from",
     },
   };
 
@@ -79,8 +77,11 @@
 
     const price = document.createElement("span");
     price.className = "item-price";
-    if (it.price_from) {
-      price.textContent = `${t().from} ${fmtPrice(it.price)}`;
+    if (it.price_from && Array.isArray(it.variants) && it.variants.length > 1) {
+      const prices = it.variants.map((v) => v.price);
+      const lo = Math.min(...prices);
+      const hi = Math.max(...prices);
+      price.textContent = `${fmtPrice(lo)} – ${fmtPrice(hi)}`;
     } else {
       price.textContent = fmtPrice(it.price);
     }
