@@ -327,8 +327,8 @@ body {
 
 .variant-head {
   display: grid;
-  grid-template-columns: 1fr repeat(var(--cols, 2), 70px);
-  column-gap: 12px;
+  grid-template-columns: 1fr repeat(var(--cols, 2), 84px);
+  column-gap: 22px;
   padding: 0 0 8px;
   border-bottom: 1px solid var(--line);
   margin: 0 0 4px;
@@ -353,8 +353,8 @@ body {
 
 .variant-table .item {
   display: grid;
-  grid-template-columns: 1fr repeat(var(--cols, 2), 70px);
-  column-gap: 12px;
+  grid-template-columns: 1fr repeat(var(--cols, 2), 84px);
+  column-gap: 22px;
   align-items: baseline;
 }
 
