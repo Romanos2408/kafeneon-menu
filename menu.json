@@ -1225,6 +1225,13 @@
           "price": 4.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
+        },
+        {
+          "name": "Πιατέλα Μπίρας",
+          "name_en": "Beer Plate",
+          "price": 10.0,
+          "section": "ΠΙΑΤΕΛΑ ΜΠΙΡΑΣ",
+          "section_en": "BEER PLATE"
         }
       ]
     },
@@ -1241,13 +1248,13 @@
           "section_en": "RED WINES",
           "variants": [
             {
-              "label": "ΠΟΤΗΡΙ",
-              "label_en": "ΠΟΤΗΡΙ",
+              "label": "ποτήρι",
+              "label_en": "glass",
               "price": 7.0
             },
             {
-              "label": "ΦΙΑΛΗ",
-              "label_en": "ΦΙΑΛΗ",
+              "label": "φιάλη",
+              "label_en": "bottle",
               "price": 35.0
             }
           ],
@@ -1261,13 +1268,13 @@
           "section_en": "RED WINES",
           "variants": [
             {
-              "label": "ΠΟΤΗΡΙ",
-              "label_en": "ΠΟΤΗΡΙ",
+              "label": "ποτήρι",
+              "label_en": "glass",
               "price": 7.0
             },
             {
-              "label": "ΦΙΑΛΗ",
-              "label_en": "ΦΙΑΛΗ",
+              "label": "φιάλη",
+              "label_en": "bottle",
               "price": 35.0
             }
           ],
@@ -1281,13 +1288,13 @@
           "section_en": "WHITE WINES",
           "variants": [
             {
-              "label": "ΠΟΤΗΡΙ",
-              "label_en": "ΠΟΤΗΡΙ",
+              "label": "ποτήρι",
+              "label_en": "glass",
               "price": 6.0
             },
             {
-              "label": "ΦΙΑΛΗ",
-              "label_en": "ΦΙΑΛΗ",
+              "label": "φιάλη",
+              "label_en": "bottle",
               "price": 30.0
             }
           ],
@@ -1301,13 +1308,13 @@
           "section_en": "WHITE WINES",
           "variants": [
             {
-              "label": "ΠΟΤΗΡΙ",
-              "label_en": "ΠΟΤΗΡΙ",
+              "label": "ποτήρι",
+              "label_en": "glass",
               "price": 6.0
             },
             {
-              "label": "ΦΙΑΛΗ",
-              "label_en": "ΦΙΑΛΗ",
+              "label": "φιάλη",
+              "label_en": "bottle",
               "price": 30.0
             }
           ],
@@ -1321,13 +1328,13 @@
           "section_en": "WHITE WINES",
           "variants": [
             {
-              "label": "ΠΟΤΗΡΙ",
-              "label_en": "ΠΟΤΗΡΙ",
+              "label": "ποτήρι",
+              "label_en": "glass",
               "price": 6.0
             },
             {
-              "label": "ΦΙΑΛΗ",
-              "label_en": "ΦΙΑΛΗ",
+              "label": "φιάλη",
+              "label_en": "bottle",
               "price": 30.0
             }
           ],
@@ -1341,13 +1348,13 @@
           "section_en": "WHITE WINES",
           "variants": [
             {
-              "label": "ΠΟΤΗΡΙ",
-              "label_en": "ΠΟΤΗΡΙ",
+              "label": "ποτήρι",
+              "label_en": "glass",
               "price": 6.0
             },
             {
-              "label": "ΦΙΑΛΗ",
-              "label_en": "ΦΙΑΛΗ",
+              "label": "φιάλη",
+              "label_en": "bottle",
               "price": 30.0
             }
           ],
@@ -1361,13 +1368,13 @@
           "section_en": "ROSE WINES",
           "variants": [
             {
-              "label": "ΠΟΤΗΡΙ",
-              "label_en": "ΠΟΤΗΡΙ",
+              "label": "ποτήρι",
+              "label_en": "glass",
               "price": 5.0
             },
             {
-              "label": "ΦΙΑΛΗ",
-              "label_en": "ΦΙΑΛΗ",
+              "label": "φιάλη",
+              "label_en": "bottle",
               "price": 28.0
             }
           ],
