@@ -1482,9 +1482,11 @@
           "section_en": "SWEETS"
         },
         {
-          "name": "Zeo Bakers Muffin Cheese Cake",
-          "name_en": "Zeo Bakers Muffin Cheese Cake",
+          "name": "Zeo Bakers Muffin",
+          "name_en": "Zeo Bakers Muffin",
           "price": 2.5,
+          "description": "Cheese Cake",
+          "description_en": "Cheese Cake",
           "section": "ΓΛΥΚΑ",
           "section_en": "SWEETS"
         },
