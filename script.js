@@ -231,16 +231,18 @@
       }
       const groups = groupBySection(filtered);
       groups.forEach((g) => {
-        if (g.sec) {
+        // detect uniform variants in this section (skip for beers — keep per-row labels)
+        const sigs = new Set(g.items.map(variantSignature));
+        const uniformVariant =
+          cat.id !== "beers" && sigs.size === 1 && [...sigs][0] !== "";
+
+        if (g.sec && !uniformVariant) {
           const sh = document.createElement("h3");
           sh.className = "section-title";
           sh.textContent = g.sec;
           itemsHost.appendChild(sh);
         }
-        // detect uniform variants in this section (skip for beers — keep per-row labels)
-        const sigs = new Set(g.items.map(variantSignature));
-        const uniformVariant =
-          cat.id !== "beers" && sigs.size === 1 && [...sigs][0] !== "";
+
         const sectionWrap = document.createElement("div");
         if (uniformVariant) {
           const sample = g.items[0].variants;
@@ -248,8 +250,15 @@
           sectionWrap.style.setProperty("--cols", sample.length);
           const head = document.createElement("div");
           head.className = "variant-head";
+          // section title sits inline as the first cell
+          const title = document.createElement("span");
+          title.className = "variant-head-title";
+          title.textContent = g.sec || "";
+          head.appendChild(title);
+          // variant column labels
           sample.forEach((v) => {
             const lbl = document.createElement("span");
+            lbl.className = "variant-head-label";
             lbl.textContent = pickVariantLabel(v);
             head.appendChild(lbl);
           });

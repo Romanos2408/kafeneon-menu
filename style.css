@@ -320,22 +320,26 @@ body {
   display: grid;
   grid-template-columns: 1fr repeat(var(--cols, 2), 70px);
   column-gap: 12px;
-  padding: 8px 0 6px;
+  padding: 14px 0 8px;
   border-bottom: 1px solid var(--line);
   margin-bottom: 4px;
+  align-items: baseline;
 }
 
-.variant-head span {
-  grid-column: span 1;
-  font-size: 11px;
+.variant-head-title {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  font-weight: 700;
+}
+
+.variant-head-label {
+  font-size: 12px;
   font-style: italic;
   color: var(--ink-soft);
-  letter-spacing: 0.04em;
-  text-align: right;
-}
-
-.variant-head span:first-child {
-  grid-column-start: 2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .variant-table .item {
