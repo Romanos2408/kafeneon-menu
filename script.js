@@ -184,16 +184,15 @@
     bar.append(back, searchWrap);
     root.appendChild(bar);
 
-    const section = document.createElement("section");
-    section.className = "cat";
-    const h = document.createElement("h2");
-    h.className = "cat-title";
-    h.textContent = pickCatName(cat);
-    section.appendChild(h);
+    // Category title rendered as page heading, outside the section cards
+    const pageTitle = document.createElement("h1");
+    pageTitle.className = "page-title";
+    pageTitle.textContent = pickCatName(cat);
+    root.appendChild(pageTitle);
 
     const itemsHost = document.createElement("div");
-    section.appendChild(itemsHost);
-    root.appendChild(section);
+    itemsHost.className = "section-stack";
+    root.appendChild(itemsHost);
 
     function variantSignature(it) {
       if (!Array.isArray(it.variants) || !it.variants.length) return "";
@@ -236,38 +235,38 @@
         const uniformVariant =
           cat.id !== "beers" && sigs.size === 1 && [...sigs][0] !== "";
 
-        if (g.sec && !uniformVariant) {
-          const sh = document.createElement("h3");
-          sh.className = "section-title";
-          sh.textContent = g.sec;
-          itemsHost.appendChild(sh);
-        }
+        // Each section becomes its own card
+        const card = document.createElement("section");
+        card.className = "section-card";
 
-        const sectionWrap = document.createElement("div");
         if (uniformVariant) {
+          card.classList.add("section-card--variant");
           const sample = g.items[0].variants;
-          sectionWrap.classList.add("variant-table");
-          sectionWrap.style.setProperty("--cols", sample.length);
+          card.style.setProperty("--cols", sample.length);
           const head = document.createElement("div");
           head.className = "variant-head";
-          // section title sits inline as the first cell
           const title = document.createElement("span");
           title.className = "variant-head-title";
           title.textContent = g.sec || "";
           head.appendChild(title);
-          // variant column labels
           sample.forEach((v) => {
             const lbl = document.createElement("span");
             lbl.className = "variant-head-label";
             lbl.textContent = pickVariantLabel(v);
             head.appendChild(lbl);
           });
-          sectionWrap.appendChild(head);
+          card.appendChild(head);
+        } else if (g.sec) {
+          const sh = document.createElement("h3");
+          sh.className = "section-card-title";
+          sh.textContent = g.sec;
+          card.appendChild(sh);
         }
+
         g.items.forEach((it) => {
-          sectionWrap.appendChild(buildItemRow(it, uniformVariant));
+          card.appendChild(buildItemRow(it, uniformVariant));
         });
-        itemsHost.appendChild(sectionWrap);
+        itemsHost.appendChild(card);
       });
     }
 

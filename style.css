@@ -242,45 +242,54 @@ body {
   box-shadow: 0 0 0 3px rgba(138, 163, 133, 0.2);
 }
 
-.cat {
-  background: var(--paper);
-  border-radius: 16px;
-  padding: 18px 18px 8px;
-  box-shadow: var(--shadow);
-}
-
-.cat-title {
-  margin: 0 0 12px;
-  font-size: 17px;
-  letter-spacing: 0.06em;
+/* Page heading (category title outside the cards) */
+.page-title {
+  margin: 4px 4px 14px;
+  font-size: 22px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--olive);
+  font-weight: 800;
   position: relative;
-  padding-left: 14px;
+  padding: 4px 0 10px;
+  border-bottom: 1px solid var(--line);
 }
 
-.cat-title::before {
+.page-title::after {
   content: "";
   position: absolute;
   left: 0;
-  top: 4px;
-  bottom: 4px;
-  width: 4px;
+  bottom: -1px;
+  width: 48px;
+  height: 2px;
   background: var(--sage-deep);
-  border-radius: 2px;
+  border-radius: 1px;
 }
 
-.section-title {
-  margin: 18px 0 6px;
-  font-size: 12px;
+/* Stack of section cards on a category page */
+.section-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.section-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px 18px 10px;
+  box-shadow: var(--shadow);
+}
+
+.section-card-title {
+  margin: 0 0 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--sage-deep);
   font-weight: 700;
-}
-
-.cat-title + .section-title {
-  margin-top: 4px;
 }
 
 .item {
@@ -320,9 +329,9 @@ body {
   display: grid;
   grid-template-columns: 1fr repeat(var(--cols, 2), 70px);
   column-gap: 12px;
-  padding: 14px 0 8px;
+  padding: 0 0 8px;
   border-bottom: 1px solid var(--line);
-  margin-bottom: 4px;
+  margin: 0 0 4px;
   align-items: baseline;
 }
 
@@ -339,7 +348,7 @@ body {
   font-style: italic;
   color: var(--ink-soft);
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: right;
 }
 
 .variant-table .item {
