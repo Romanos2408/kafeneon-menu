@@ -16,7 +16,13 @@
     new Intl.NumberFormat("el-GR", { style: "currency", currency: "EUR" }).format(n);
 
   const pickName = (it) => (STATE.lang === "en" && it.name_en ? it.name_en : it.name);
+  const pickDesc = (it) =>
+    STATE.lang === "en" ? it.description_en || null : it.description || null;
+  const pickSection = (it) =>
+    STATE.lang === "en" ? it.section_en || it.section || null : it.section || null;
   const pickCatName = (c) => (STATE.lang === "en" && c.name_en ? c.name_en : c.name);
+  const pickVariantLabel = (v) =>
+    STATE.lang === "en" && v.label_en ? v.label_en : v.label;
 
   const $ = (sel) => document.querySelector(sel);
 
@@ -33,14 +39,62 @@
     });
   }
 
+  function itemMatches(it, q) {
+    if (!q) return true;
+    const fields = [it.name, it.name_en, it.description, it.description_en, it.section, it.section_en];
+    return fields.some((f) => f && f.toLowerCase().includes(q));
+  }
+
+  function buildItemRow(it) {
+    const row = document.createElement("div");
+    row.className = "item";
+
+    const name = document.createElement("span");
+    name.className = "item-name";
+    name.textContent = pickName(it);
+
+    const price = document.createElement("span");
+    price.className = "item-price";
+    price.textContent = fmtPrice(it.price);
+
+    row.append(name, price);
+
+    const desc = pickDesc(it);
+    if (desc) {
+      const d = document.createElement("p");
+      d.className = "item-desc";
+      d.textContent = desc;
+      row.appendChild(d);
+    }
+
+    if (Array.isArray(it.variants) && it.variants.length) {
+      const wrap = document.createElement("div");
+      wrap.className = "item-variants";
+      it.variants.forEach((v) => {
+        const span = document.createElement("span");
+        span.className = "variant";
+        const label = document.createTextNode(pickVariantLabel(v) + " · ");
+        const strong = document.createElement("strong");
+        strong.textContent = fmtPrice(v.price);
+        span.append(label, strong);
+        wrap.appendChild(span);
+      });
+      row.appendChild(wrap);
+    }
+
+    return row;
+  }
+
   function renderMenu() {
     const root = $("#menu");
     root.innerHTML = "";
     const q = STATE.query.trim().toLowerCase();
-
     let anyVisible = false;
 
     STATE.data.categories.forEach((cat) => {
+      const visibleItems = cat.items.filter((it) => itemMatches(it, q));
+      if (!visibleItems.length) return;
+
       const section = document.createElement("section");
       section.className = "cat";
       section.id = cat.id;
@@ -50,43 +104,23 @@
       h.textContent = pickCatName(cat);
       section.appendChild(h);
 
-      let visibleInCat = 0;
-
-      cat.items.forEach((it) => {
-        const name = pickName(it);
-        const matches =
-          !q ||
-          name.toLowerCase().includes(q) ||
-          (it.name && it.name.toLowerCase().includes(q)) ||
-          (it.name_en && it.name_en.toLowerCase().includes(q));
-
-        const row = document.createElement("div");
-        row.className = "item" + (matches ? "" : " hidden");
-
-        const n = document.createElement("span");
-        n.className = "item-name";
-        n.textContent = name;
-
-        const d = document.createElement("span");
-        d.className = "item-dots";
-
-        const p = document.createElement("span");
-        p.className = "item-price";
-        p.textContent = fmtPrice(it.price);
-
-        row.append(n, d, p);
-        section.appendChild(row);
-        if (matches) visibleInCat++;
+      let lastSection = null;
+      visibleItems.forEach((it) => {
+        const sec = pickSection(it);
+        if (sec && sec !== lastSection) {
+          const sh = document.createElement("h3");
+          sh.className = "section-title";
+          sh.textContent = sec;
+          section.appendChild(sh);
+          lastSection = sec;
+        } else if (!sec) {
+          lastSection = null;
+        }
+        section.appendChild(buildItemRow(it));
       });
 
-      if (visibleInCat > 0 || !q) {
-        if (q && visibleInCat === 0) {
-          // skip empty categories during search
-        } else {
-          root.appendChild(section);
-          anyVisible = true;
-        }
-      }
+      root.appendChild(section);
+      anyVisible = true;
     });
 
     if (!anyVisible) {
@@ -107,6 +141,8 @@
     if (STATE.data) {
       const tag = STATE.data.shop.tagline || "";
       $("#tagline").textContent = tag;
+      const addr = STATE.data.shop.address || "";
+      $("#address").textContent = addr;
       renderNav();
       renderMenu();
     }
@@ -157,7 +193,8 @@
     if (!data) return;
     STATE.data = data;
     if (data.shop && data.shop.name) {
-      document.title = `${data.shop.name} — ${data.shop.subtitle || "Menu"}`;
+      const sub = data.shop.subtitle ? ` ${data.shop.subtitle}` : "";
+      document.title = `${data.shop.name}${sub} — Menu`;
     }
     applyLanguage();
   }
