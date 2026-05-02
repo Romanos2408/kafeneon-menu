@@ -470,150 +470,6 @@
       "short_name_en": "Tea"
     },
     {
-      "id": "cocktails",
-      "name": "COCKTAILS",
-      "name_en": "COCKTAILS",
-      "items": [
-        {
-          "name": "Paloma",
-          "name_en": "Paloma",
-          "price": 7.0,
-          "description": "Tequila blanco, lime juice, pink soda",
-          "description_en": "Tequila blanco, lime juice, pink soda",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Margarita",
-          "name_en": "Margarita",
-          "price": 7.0,
-          "description": "Tequila blanco, lime juice, orange liqueur",
-          "description_en": "Tequila blanco, lime juice, orange liqueur",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Mojito",
-          "name_en": "Mojito",
-          "price": 7.0,
-          "description": "White rum, simple syrup, lime, mint, soda",
-          "description_en": "White rum, simple syrup, lime, mint, soda",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Mai Tai",
-          "name_en": "Mai Tai",
-          "price": 7.0,
-          "description": "Dark Rum, lime juice, orange liqueur, bitter almond",
-          "description_en": "Dark Rum, lime juice, orange liqueur, bitter almond",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Pornstar",
-          "name_en": "Pornstar",
-          "price": 7.0,
-          "description": "Vodka, passion fruit, vanilla",
-          "description_en": "Vodka, passion fruit, vanilla",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Negroni",
-          "name_en": "Negroni",
-          "price": 7.0,
-          "description": "Gin, campari, sweet vermouth",
-          "description_en": "Gin, campari, sweet vermouth",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Old Fashioned",
-          "name_en": "Old Fashioned",
-          "price": 7.0,
-          "description": "Bourbon, simple syrup, aromatic bitters",
-          "description_en": "Bourbon, simple syrup, aromatic bitters",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Aperol Spritz",
-          "name_en": "Aperol Spritz",
-          "price": 7.0,
-          "description": "Aperol, prosecco, soda",
-          "description_en": "Aperol, prosecco, soda",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Cuba Libre",
-          "name_en": "Cuba Libre",
-          "price": 7.0,
-          "description": "Dark Rum, lime, cola",
-          "description_en": "Dark Rum, lime, cola",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Long Island",
-          "name_en": "Long Island",
-          "price": 7.0,
-          "description": "Vodka, gin, tequila, rum, orange liqueur, cola",
-          "description_en": "Vodka, gin, tequila, rum, orange liqueur, cola",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Daiquiri Strawberry",
-          "name_en": "Daiquiri Strawberry",
-          "price": 7.0,
-          "description": "Rum, strawberry, lime",
-          "description_en": "Rum, strawberry, lime",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Caipiroska",
-          "name_en": "Caipiroska",
-          "price": 7.0,
-          "description": "Vodka, simple syrup, lime",
-          "description_en": "Vodka, simple syrup, lime",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Piña Colada",
-          "name_en": "Piña Colada",
-          "price": 7.0,
-          "description": "Malibu, pineapple juice, coconut liqueur",
-          "description_en": "Malibu, pineapple juice, coconut liqueur",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Mojito Virgin",
-          "name_en": "Mojito Virgin",
-          "price": 5.0,
-          "description": "Mint, simple syrup, lime, soda",
-          "description_en": "Mint, simple syrup, lime, soda",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Mocktail",
-          "name_en": "Mocktail",
-          "price": 5.0,
-          "description": "Cranberry juice, orange juice, sprite",
-          "description_en": "Cranberry juice, orange juice, sprite",
-          "section": "COKTAILS",
-          "section_en": "COKTAILS"
-        }
-      ],
-      "short_name": "COCKTAILS",
-      "short_name_en": "Cocktails"
-    },
-    {
       "id": "soft-drinks",
       "name": "ΑΝΑΨΥΚΤΙΚΑ - SMOOTHIES - ΓΡΑΝΙΤΕΣ",
       "name_en": "SOFT DRINKS - SMOOTHIES - GRANITES",
@@ -633,6 +489,13 @@
           "section_en": "SOFT DRINKS"
         },
         {
+          "name": "Sprite 330ml",
+          "name_en": "Sprite 330ml",
+          "price": 2.5,
+          "section": "ΑΝΑΨΥΚΤΙΚΑ",
+          "section_en": "SOFT DRINKS"
+        },
+        {
           "name": "Fanta Πορτοκαλάδα 330ml",
           "name_en": "Fanta Orange 330ml",
           "price": 2.5,
@@ -647,16 +510,16 @@
           "section_en": "SOFT DRINKS"
         },
         {
-          "name": "Sprite 330ml",
-          "name_en": "Sprite 330ml",
-          "price": 2.5,
+          "name": "Three Cents Pink Soda 250ml",
+          "name_en": "Three Cents Pink Soda 250ml",
+          "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
         {
-          "name": "Three Cents Pink Soda 250ml",
-          "name_en": "Three Cents Pink Soda 250ml",
-          "price": 3.0,
+          "name": "Lipton Ice Tea Λεμόνι 330ml",
+          "name_en": "Lipton Ice Tea Lemon 330ml",
+          "price": 2.5,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
@@ -675,13 +538,6 @@
           "section_en": "SOFT DRINKS"
         },
         {
-          "name": "Lipton Ice Tea Λεμόνι 330ml",
-          "name_en": "Lipton Ice Tea Lemon 330ml",
-          "price": 2.5,
-          "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
-        },
-        {
           "name": "Νερό 500ml",
           "name_en": "Water 500ml",
           "price": 0.5,
@@ -689,44 +545,16 @@
           "section_en": "SOFT DRINKS"
         },
         {
-          "name": "Monster Energy Green 500ml",
-          "name_en": "Monster Energy Green 500ml",
-          "price": 3.0,
-          "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
-          "section_en": "ENERGY DRINKS"
-        },
-        {
-          "name": "Monster Energy Absolute Zero 500ml",
-          "name_en": "Monster Energy Absolute Zero 500ml",
-          "price": 3.0,
-          "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
-          "section_en": "ENERGY DRINKS"
-        },
-        {
-          "name": "Red Bull 250ml",
-          "name_en": "Red Bull 250ml",
-          "price": 3.0,
-          "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
-          "section_en": "ENERGY DRINKS"
-        },
-        {
-          "name": "Hell Classics 250ml",
-          "name_en": "Hell Classics 250ml",
-          "price": 2.0,
-          "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
-          "section_en": "ENERGY DRINKS"
-        },
-        {
-          "name": "Φράουλα",
-          "name_en": "Strawberry",
-          "price": 2.5,
+          "name": "Φυσικός χυμός Πορτοκάλι",
+          "name_en": "Natural Orange",
+          "price": 3.5,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
         },
         {
-          "name": "Μπανάνα",
-          "name_en": "Banana",
-          "price": 2.5,
+          "name": "Φυσικός χυμός Ανάμεικτος",
+          "name_en": "Natural Mixed",
+          "price": 4.0,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
         },
@@ -752,8 +580,8 @@
           "section_en": "JUICES"
         },
         {
-          "name": "Βύσσινο",
-          "name_en": "Sour cherry",
+          "name": "Φράουλα",
+          "name_en": "Strawberry",
           "price": 2.5,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
@@ -766,81 +594,18 @@
           "section_en": "JUICES"
         },
         {
-          "name": "Φυσικός χυμός Πορτοκάλι",
-          "name_en": "Natural Orange",
-          "price": 3.5,
+          "name": "Μπανάνα",
+          "name_en": "Banana",
+          "price": 2.5,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
         },
         {
-          "name": "Φυσικός χυμός Ανάμεικτος",
-          "name_en": "Natural Mixed",
-          "price": 4.0,
+          "name": "Βύσσινο",
+          "name_en": "Sour cherry",
+          "price": 2.5,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
-        },
-        {
-          "name": "Smoothie Green Freak",
-          "name_en": "Smoothie Green Freak",
-          "price": 3.5,
-          "description": "με σπανάκι, πορτοκάλι, καρότο και ανανά",
-          "description_en": "with spinach, orange, carrot and pineapple",
-          "section": "SMOTHIES",
-          "section_en": "SMOTHIES"
-        },
-        {
-          "name": "Smoothie Dream Cream",
-          "name_en": "Smoothie Dream Cream",
-          "price": 3.5,
-          "description": "με καρύδα, ανανά και μπανάνα",
-          "description_en": "with coconut, pineapple and banana",
-          "section": "SMOTHIES",
-          "section_en": "SMOTHIES"
-        },
-        {
-          "name": "Smoothie Pink Paradise",
-          "name_en": "Smoothie Pink Paradise",
-          "price": 3.5,
-          "description": "Με φράουλα, ροδάκινο και μάνγκο",
-          "description_en": "With strawberry, peach and mango",
-          "section": "SMOTHIES",
-          "section_en": "SMOTHIES"
-        },
-        {
-          "name": "Smoothie Red Passion",
-          "name_en": "Smoothie Red Passion",
-          "price": 3.5,
-          "description": "με φράουλα, βατόμουρο και μάνγκo",
-          "description_en": "with strawberry, raspberry and mango",
-          "section": "SMOTHIES",
-          "section_en": "SMOTHIES"
-        },
-        {
-          "name": "Smoothie Tropical Mix",
-          "name_en": "Smoothie Tropical Mix",
-          "price": 3.5,
-          "description": "Με ανανα, παπάγια και μάνγκο",
-          "description_en": "With pineapple, papaya and mango",
-          "section": "SMOTHIES",
-          "section_en": "SMOTHIES"
-        },
-        {
-          "name": "Smoothie Wild Forest",
-          "name_en": "Smoothie Wild Forest",
-          "price": 3.5,
-          "description": "Με φράουλα, μύρτιλο, βατόμουρα, μούρο, φρανκοστάφυλο, κόκκινο και μαύρο κερασι",
-          "description_en": "With strawberry, blueberry, blackberry, mulberry, gooseberry, red and black cherry",
-          "section": "SMOTHIES",
-          "section_en": "SMOTHIES"
-        },
-        {
-          "name": "Smoothie Yellow Sunrise",
-          "name_en": "Smoothie Yellow Sunrise",
-          "price": 3.5,
-          "description": "με μάνγκο, ροδάκινο και ανανά",
-          "description_en": "with mango, peach and pineapple",
-          "section": "SMOTHIES",
-          "section_en": "SMOTHIES"
         },
         {
           "name": "Γρανίτα Λεμόνι",
@@ -850,8 +615,8 @@
           "section_en": "GRANITES"
         },
         {
-          "name": "Γρανίτα Μάνγκο",
-          "name_en": "Mango Granita",
+          "name": "Γρανίτα Φράουλα",
+          "name_en": "Strawberry Granita",
           "price": 3.0,
           "section": "ΓΡΑΝΙΤΕΣ",
           "section_en": "GRANITES"
@@ -864,248 +629,187 @@
           "section_en": "GRANITES"
         },
         {
-          "name": "Γρανίτα Φράουλα",
-          "name_en": "Strawberry Granita",
+          "name": "Γρανίτα Μάνγκο",
+          "name_en": "Mango Granita",
           "price": 3.0,
           "section": "ΓΡΑΝΙΤΕΣ",
           "section_en": "GRANITES"
+        },
+        {
+          "name": "Smoothie Green Freak",
+          "name_en": "Smoothie Green Freak",
+          "price": 3.5,
+          "description": "με σπανάκι, πορτοκάλι, καρότο και ανανά",
+          "description_en": "with spinach, orange, carrot and pineapple",
+          "section": "SMOOTHIES",
+          "section_en": "SMOTHIES"
+        },
+        {
+          "name": "Smoothie Dream Cream",
+          "name_en": "Smoothie Dream Cream",
+          "price": 3.5,
+          "description": "με καρύδα, ανανά και μπανάνα",
+          "description_en": "with coconut, pineapple and banana",
+          "section": "SMOOTHIES",
+          "section_en": "SMOTHIES"
+        },
+        {
+          "name": "Smoothie Pink Paradise",
+          "name_en": "Smoothie Pink Paradise",
+          "price": 3.5,
+          "description": "Με φράουλα, ροδάκινο και μάνγκο",
+          "description_en": "With strawberry, peach and mango",
+          "section": "SMOOTHIES",
+          "section_en": "SMOTHIES"
+        },
+        {
+          "name": "Smoothie Red Passion",
+          "name_en": "Smoothie Red Passion",
+          "price": 3.5,
+          "description": "με φράουλα, βατόμουρο και μάνγκo",
+          "description_en": "with strawberry, raspberry and mango",
+          "section": "SMOOTHIES",
+          "section_en": "SMOTHIES"
+        },
+        {
+          "name": "Smoothie Tropical Mix",
+          "name_en": "Smoothie Tropical Mix",
+          "price": 3.5,
+          "description": "Με ανανα, παπάγια και μάνγκο",
+          "description_en": "With pineapple, papaya and mango",
+          "section": "SMOOTHIES",
+          "section_en": "SMOTHIES"
+        },
+        {
+          "name": "Smoothie Wild Forest",
+          "name_en": "Smoothie Wild Forest",
+          "price": 3.5,
+          "description": "Με φράουλα, μύρτιλο, βατόμουρα, μούρο, φρανκοστάφυλο, κόκκινο και μαύρο κερασι",
+          "description_en": "With strawberry, blueberry, blackberry, mulberry, gooseberry, red and black cherry",
+          "section": "SMOOTHIES",
+          "section_en": "SMOTHIES"
+        },
+        {
+          "name": "Smoothie Yellow Sunrise",
+          "name_en": "Smoothie Yellow Sunrise",
+          "price": 3.5,
+          "description": "με μάνγκο, ροδάκινο και ανανά",
+          "description_en": "with mango, peach and pineapple",
+          "section": "SMOOTHIES",
+          "section_en": "SMOTHIES"
+        },
+        {
+          "name": "Red Bull 250ml",
+          "name_en": "Red Bull 250ml",
+          "price": 3.0,
+          "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
+          "section_en": "ENERGY DRINKS"
+        },
+        {
+          "name": "Hell Classics 250ml",
+          "name_en": "Hell Classics 250ml",
+          "price": 2.0,
+          "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
+          "section_en": "ENERGY DRINKS"
+        },
+        {
+          "name": "Monster Energy Green 500ml",
+          "name_en": "Monster Energy Green 500ml",
+          "price": 3.0,
+          "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
+          "section_en": "ENERGY DRINKS"
+        },
+        {
+          "name": "Monster Energy Absolute Zero 500ml",
+          "name_en": "Monster Energy Absolute Zero 500ml",
+          "price": 3.0,
+          "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
+          "section_en": "ENERGY DRINKS"
         }
       ],
       "short_name": "ΑΝΑΨΥΚΤΙΚΑ",
       "short_name_en": "Soft Drinks"
     },
     {
-      "id": "drinks",
-      "name": "ΠΟΤΑ",
-      "name_en": "DRINKS",
+      "id": "snacks",
+      "name": "ΣΝΑΚ & ΓΛΥΚΑ",
+      "name_en": "Snacks & Sweets",
       "items": [
         {
-          "name": "Absolut",
-          "name_en": "Absolut",
-          "price": 6.0,
-          "section": "BOTKA",
-          "section_en": "VODKA"
+          "name": "Panini Κουλουρόψωμο",
+          "name_en": "Panini Bagel",
+          "price": 2.5,
+          "description": "με Μπριζόλα Μπέικον",
+          "description_en": "with Bacon Steak",
+          "section": "ΑΛΜΥΡΑ",
+          "section_en": "SALTY"
         },
         {
-          "name": "Stolichnaya",
-          "name_en": "Stolichnaya",
-          "price": 6.0,
-          "section": "BOTKA",
-          "section_en": "VODKA"
+          "name": "Panini Κρουασάν",
+          "name_en": "Panini Croissant",
+          "price": 2.5,
+          "description": "με Γαλοπούλα",
+          "description_en": "with Turkey",
+          "section": "ΑΛΜΥΡΑ",
+          "section_en": "SALTY"
         },
         {
-          "name": "Serkova",
-          "name_en": "Serkova",
-          "price": 6.0,
-          "section": "BOTKA",
-          "section_en": "VODKA"
+          "name": "Panini Μετσοβίτικα",
+          "name_en": "Panini Metsovitika",
+          "price": 2.5,
+          "description": "με Φιλέτο Κοτόπουλο",
+          "description_en": "with Chicken Fillet",
+          "section": "ΑΛΜΥΡΑ",
+          "section_en": "SALTY"
         },
         {
-          "name": "Belvedere",
-          "name_en": "Belvedere",
-          "price": 7.0,
-          "section": "BOTKA",
-          "section_en": "VODKA"
+          "name": "Panini Τορτίγια",
+          "name_en": "Panini Tortilla",
+          "price": 2.5,
+          "description": "με Φιλέτο Κοτόπουλο",
+          "description_en": "with Chicken Fillet",
+          "section": "ΑΛΜΥΡΑ",
+          "section_en": "SALTY"
         },
         {
-          "name": "Comfort",
-          "name_en": "Comfort",
-          "price": 6.0,
-          "section": "ΛΙΚΕΡ",
-          "section_en": "LIQUEUR"
+          "name": "Panini Ψωμάκι",
+          "name_en": "Panini Bread",
+          "price": 2.5,
+          "description": "με Σουσάμι Γαλοπούλα",
+          "description_en": "with Sesame Turkey",
+          "section": "ΑΛΜΥΡΑ",
+          "section_en": "SALTY"
         },
         {
-          "name": "Dissarono",
-          "name_en": "Dissarono",
-          "price": 6.0,
-          "section": "ΛΙΚΕΡ",
-          "section_en": "LIQUEUR"
+          "name": "Panini Dolce Κρουασάν",
+          "name_en": "Panini Dolce Croissant",
+          "price": 1.5,
+          "description": "με Πραλίνα Φουντουκιού 150gr",
+          "description_en": "with Hazelnut Praline 150gr",
+          "section": "ΓΛΥΚΑ",
+          "section_en": "SWEETS"
         },
         {
-          "name": "Martini",
-          "name_en": "Martini",
-          "price": 6.0,
-          "section": "ΛΙΚΕΡ",
-          "section_en": "LIQUEUR"
+          "name": "Zeo Bakers Muffin",
+          "name_en": "Zeo Bakers Muffin",
+          "price": 2.5,
+          "description": "Cheese Cake",
+          "description_en": "Cheese Cake",
+          "section": "ΓΛΥΚΑ",
+          "section_en": "SWEETS"
         },
         {
-          "name": "Sambuca",
-          "name_en": "Sambuca",
-          "price": 6.0,
-          "section": "ΛΙΚΕΡ",
-          "section_en": "LIQUEUR"
-        },
-        {
-          "name": "Johnrie Red",
-          "name_en": "Johnrie Red",
-          "price": 6.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Tullamore",
-          "name_en": "Tullamore",
-          "price": 6.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Famous",
-          "name_en": "Famous",
-          "price": 6.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Haig",
-          "name_en": "Haig",
-          "price": 6.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Jameson",
-          "name_en": "Jameson",
-          "price": 6.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Dewar's",
-          "name_en": "Dewar's",
-          "price": 6.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Cutty Sark",
-          "name_en": "Cutty Sark",
-          "price": 6.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Johnnie Black",
-          "name_en": "Johnnie Black",
-          "price": 7.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Chivas",
-          "name_en": "Chivas",
-          "price": 7.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Jack Daniels",
-          "name_en": "Jack Daniels",
-          "price": 7.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Double Black",
-          "name_en": "Double Black",
-          "price": 7.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Gordon's",
-          "name_en": "Gordon's",
-          "price": 6.0,
-          "section": "TZIN",
-          "section_en": "GIN"
-        },
-        {
-          "name": "Bombay",
-          "name_en": "Bombay",
-          "price": 7.0,
-          "section": "TZIN",
-          "section_en": "GIN"
-        },
-        {
-          "name": "Tanqueray",
-          "name_en": "Tanqueray",
-          "price": 7.0,
-          "section": "TZIN",
-          "section_en": "GIN"
-        },
-        {
-          "name": "Cuervo Λευκή",
-          "name_en": "Cuervo White",
-          "price": 6.0,
-          "section": "ΤΕΚΙΛΑ",
-          "section_en": "TEQUILA"
-        },
-        {
-          "name": "Cuervo Κίτρινη",
-          "name_en": "Cuervo Yellow",
-          "price": 6.0,
-          "section": "ΤΕΚΙΛΑ",
-          "section_en": "TEQUILA"
-        },
-        {
-          "name": "Havana",
-          "name_en": "Havana",
-          "price": 6.0,
-          "section": "ΡΟΥΜΙ",
-          "section_en": "RUM"
-        },
-        {
-          "name": "Bacardi",
-          "name_en": "Bacardi",
-          "price": 6.0,
-          "section": "ΡΟΥΜΙ",
-          "section_en": "RUM"
-        },
-        {
-          "name": "Campari",
-          "name_en": "Campari",
-          "price": 6.0,
-          "section": "ΑΠΕΡΙΤΙΦ",
-          "section_en": "APERITIF"
-        },
-        {
-          "name": "Aperol",
-          "name_en": "Aperol",
-          "price": 7.0,
-          "section": "ΑΠΕΡΙΤΙΦ",
-          "section_en": "APERITIF"
-        },
-        {
-          "name": "Glenfiddich",
-          "name_en": "Glenfiddich",
-          "price": 8.0,
-          "section": "PREMIUM",
-          "section_en": "PREMIUM"
-        },
-        {
-          "name": "Jameson Black Barrel",
-          "name_en": "Jameson Black Barrel",
-          "price": 8.0,
-          "section": "PREMIUM",
-          "section_en": "PREMIUM"
-        },
-        {
-          "name": "Dimple",
-          "name_en": "Dimple",
-          "price": 8.0,
-          "section": "PREMIUM",
-          "section_en": "PREMIUM"
-        },
-        {
-          "name": "Hendrick's",
-          "name_en": "Hendrick's",
-          "price": 8.0,
-          "section": "PREMIUM",
-          "section_en": "PREMIUM"
+          "name": "Zeo Bakers Muffin",
+          "name_en": "Zeo Bakers Muffin",
+          "price": 2.5,
+          "description": "Σοκολάτα - Φράουλα",
+          "description_en": "Chocolate - Strawberry",
+          "section": "ΓΛΥΚΑ",
+          "section_en": "SWEETS"
         }
       ],
-      "short_name": "ΠΟΤΑ",
-      "short_name_en": "Spirits"
+      "short_name": "ΣΝΑΚ & ΓΛΥΚΑ",
+      "short_name_en": "Snacks & Sweets"
     },
     {
       "id": "beers",
@@ -1113,50 +817,8 @@
       "name_en": "BEERS",
       "items": [
         {
-          "name": "Μάμος 500ml",
-          "name_en": "Mamos 500ml",
-          "price": 4.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
-        },
-        {
-          "name": "Βεργίνα BOUS 500ml",
-          "name_en": "Vergina BOUS 500ml",
-          "price": 4.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
-        },
-        {
-          "name": "Βαρέλι Άλφα 400ml",
-          "name_en": "Vareli Alfa 400ml",
-          "price": 4.0,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
-        },
-        {
-          "name": "Νύμφη 500ml",
-          "name_en": "Nimfi 500ml",
-          "price": 4.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
-        },
-        {
-          "name": "Mythos 500ml",
-          "name_en": "Mythos 500ml",
-          "price": 4.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
-        },
-        {
-          "name": "Heineken 500ml",
-          "name_en": "Heineken 500ml",
-          "price": 4.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
-        },
-        {
-          "name": "Kaiser",
-          "name_en": "Kaiser",
+          "name": "Άλφα",
+          "name_en": "Alfa",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS",
@@ -1175,8 +837,42 @@
           "price_from": true
         },
         {
+          "name": "Mythos 500ml",
+          "name_en": "Mythos 500ml",
+          "price": 4.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS"
+        },
+        {
+          "name": "Heineken 500ml",
+          "name_en": "Heineken 500ml",
+          "price": 4.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS"
+        },
+        {
           "name": "Amstel",
           "name_en": "Amstel",
+          "price": 3.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS",
+          "variants": [
+            {
+              "label": "330ml",
+              "label_en": "330ml",
+              "price": 3.5
+            },
+            {
+              "label": "500ml",
+              "label_en": "500ml",
+              "price": 4.5
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Kaiser",
+          "name_en": "Kaiser",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS",
@@ -1215,24 +911,11 @@
           "price_from": true
         },
         {
-          "name": "Άλφα",
-          "name_en": "Alfa",
-          "price": 3.5,
+          "name": "Βεργίνα BOUS 500ml",
+          "name_en": "Vergina BOUS 500ml",
+          "price": 4.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS",
-          "variants": [
-            {
-              "label": "330ml",
-              "label_en": "330ml",
-              "price": 3.5
-            },
-            {
-              "label": "500ml",
-              "label_en": "500ml",
-              "price": 4.5
-            }
-          ],
-          "price_from": true
+          "section_en": "BEERS"
         },
         {
           "name": "Sol 330ml",
@@ -1256,9 +939,30 @@
           "section_en": "BEERS"
         },
         {
+          "name": "Μάμος 500ml",
+          "name_en": "Mamos 500ml",
+          "price": 4.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS"
+        },
+        {
+          "name": "Νύμφη 500ml",
+          "name_en": "Nimfi 500ml",
+          "price": 4.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS"
+        },
+        {
           "name": "Gorgon's Space 330ml",
           "name_en": "Gorgon's Space 330ml",
           "price": 4.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS"
+        },
+        {
+          "name": "Βαρέλι Άλφα 400ml",
+          "name_en": "Vareli Alfa 400ml",
+          "price": 4.0,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
         },
@@ -1272,6 +976,239 @@
       ],
       "short_name": "ΜΠΙΡΕΣ",
       "short_name_en": "Beers"
+    },
+    {
+      "id": "drinks",
+      "name": "ΠΟΤΑ",
+      "name_en": "DRINKS",
+      "items": [
+        {
+          "name": "Johnrie Red",
+          "name_en": "Johnrie Red",
+          "price": 6.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Famous",
+          "name_en": "Famous",
+          "price": 6.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Jack Daniels",
+          "name_en": "Jack Daniels",
+          "price": 7.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Jameson",
+          "name_en": "Jameson",
+          "price": 6.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Cutty Sark",
+          "name_en": "Cutty Sark",
+          "price": 6.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Dewar's",
+          "name_en": "Dewar's",
+          "price": 6.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Tullamore",
+          "name_en": "Tullamore",
+          "price": 6.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Haig",
+          "name_en": "Haig",
+          "price": 6.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Johnnie Black",
+          "name_en": "Johnnie Black",
+          "price": 7.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Chivas",
+          "name_en": "Chivas",
+          "price": 7.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Double Black",
+          "name_en": "Double Black",
+          "price": 7.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Absolut",
+          "name_en": "Absolut",
+          "price": 6.0,
+          "section": "ΒΟΤΚΑ",
+          "section_en": "VODKA"
+        },
+        {
+          "name": "Stolichnaya",
+          "name_en": "Stolichnaya",
+          "price": 6.0,
+          "section": "ΒΟΤΚΑ",
+          "section_en": "VODKA"
+        },
+        {
+          "name": "Belvedere",
+          "name_en": "Belvedere",
+          "price": 7.0,
+          "section": "ΒΟΤΚΑ",
+          "section_en": "VODKA"
+        },
+        {
+          "name": "Serkova",
+          "name_en": "Serkova",
+          "price": 6.0,
+          "section": "ΒΟΤΚΑ",
+          "section_en": "VODKA"
+        },
+        {
+          "name": "Cuervo Κίτρινη",
+          "name_en": "Cuervo Yellow",
+          "price": 6.0,
+          "section": "ΤΕΚΙΛΑ",
+          "section_en": "TEQUILA"
+        },
+        {
+          "name": "Cuervo Λευκή",
+          "name_en": "Cuervo White",
+          "price": 6.0,
+          "section": "ΤΕΚΙΛΑ",
+          "section_en": "TEQUILA"
+        },
+        {
+          "name": "Bacardi",
+          "name_en": "Bacardi",
+          "price": 6.0,
+          "section": "ΡΟΥΜΙ",
+          "section_en": "RUM"
+        },
+        {
+          "name": "Havana",
+          "name_en": "Havana",
+          "price": 6.0,
+          "section": "ΡΟΥΜΙ",
+          "section_en": "RUM"
+        },
+        {
+          "name": "Bombay",
+          "name_en": "Bombay",
+          "price": 7.0,
+          "section": "ΤΖΙΝ",
+          "section_en": "GIN"
+        },
+        {
+          "name": "Gordon's",
+          "name_en": "Gordon's",
+          "price": 6.0,
+          "section": "ΤΖΙΝ",
+          "section_en": "GIN"
+        },
+        {
+          "name": "Tanqueray",
+          "name_en": "Tanqueray",
+          "price": 7.0,
+          "section": "ΤΖΙΝ",
+          "section_en": "GIN"
+        },
+        {
+          "name": "Sambuca",
+          "name_en": "Sambuca",
+          "price": 6.0,
+          "section": "ΛΙΚΕΡ",
+          "section_en": "LIQUEUR"
+        },
+        {
+          "name": "Comfort",
+          "name_en": "Comfort",
+          "price": 6.0,
+          "section": "ΛΙΚΕΡ",
+          "section_en": "LIQUEUR"
+        },
+        {
+          "name": "Dissarono",
+          "name_en": "Dissarono",
+          "price": 6.0,
+          "section": "ΛΙΚΕΡ",
+          "section_en": "LIQUEUR"
+        },
+        {
+          "name": "Martini",
+          "name_en": "Martini",
+          "price": 6.0,
+          "section": "ΛΙΚΕΡ",
+          "section_en": "LIQUEUR"
+        },
+        {
+          "name": "Aperol",
+          "name_en": "Aperol",
+          "price": 7.0,
+          "section": "ΑΠΕΡΙΤΙΦ",
+          "section_en": "APERITIF"
+        },
+        {
+          "name": "Campari",
+          "name_en": "Campari",
+          "price": 6.0,
+          "section": "ΑΠΕΡΙΤΙΦ",
+          "section_en": "APERITIF"
+        },
+        {
+          "name": "Hendrick's",
+          "name_en": "Hendrick's",
+          "price": 8.0,
+          "section": "PREMIUM",
+          "section_en": "PREMIUM"
+        },
+        {
+          "name": "Glenfiddich",
+          "name_en": "Glenfiddich",
+          "price": 8.0,
+          "section": "PREMIUM",
+          "section_en": "PREMIUM"
+        },
+        {
+          "name": "Jameson Black Barrel",
+          "name_en": "Jameson Black Barrel",
+          "price": 8.0,
+          "section": "PREMIUM",
+          "section_en": "PREMIUM"
+        },
+        {
+          "name": "Dimple",
+          "name_en": "Dimple",
+          "price": 8.0,
+          "section": "PREMIUM",
+          "section_en": "PREMIUM"
+        }
+      ],
+      "short_name": "ΠΟΤΑ",
+      "short_name_en": "Spirits"
     },
     {
       "id": "wines",
@@ -1430,85 +1367,148 @@
       "short_name_en": "Wines"
     },
     {
-      "id": "snacks",
-      "name": "ΣΝΑΚ & ΓΛΥΚΑ",
-      "name_en": "Snacks & Sweets",
+      "id": "cocktails",
+      "name": "COCKTAILS",
+      "name_en": "COCKTAILS",
       "items": [
         {
-          "name": "Panini Κουλουρόψωμο",
-          "name_en": "Panini Bagel",
-          "price": 2.5,
-          "description": "με Μπριζόλα Μπέικον",
-          "description_en": "with Bacon Steak",
-          "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
+          "name": "Mojito",
+          "name_en": "Mojito",
+          "price": 7.0,
+          "description": "White rum, simple syrup, lime, mint, soda",
+          "description_en": "White rum, simple syrup, lime, mint, soda",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
         },
         {
-          "name": "Panini Κρουασάν",
-          "name_en": "Panini Croissant",
-          "price": 2.5,
-          "description": "με Γαλοπούλα",
-          "description_en": "with Turkey",
-          "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
+          "name": "Aperol Spritz",
+          "name_en": "Aperol Spritz",
+          "price": 7.0,
+          "description": "Aperol, prosecco, soda",
+          "description_en": "Aperol, prosecco, soda",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
         },
         {
-          "name": "Panini Μετσοβίτικα",
-          "name_en": "Panini Metsovitika",
-          "price": 2.5,
-          "description": "με Φιλέτο Κοτόπουλο",
-          "description_en": "with Chicken Fillet",
-          "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
+          "name": "Margarita",
+          "name_en": "Margarita",
+          "price": 7.0,
+          "description": "Tequila blanco, lime juice, orange liqueur",
+          "description_en": "Tequila blanco, lime juice, orange liqueur",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
         },
         {
-          "name": "Panini Τορτίγια",
-          "name_en": "Panini Tortilla",
-          "price": 2.5,
-          "description": "με Φιλέτο Κοτόπουλο",
-          "description_en": "with Chicken Fillet",
-          "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
+          "name": "Cuba Libre",
+          "name_en": "Cuba Libre",
+          "price": 7.0,
+          "description": "Dark Rum, lime, cola",
+          "description_en": "Dark Rum, lime, cola",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
         },
         {
-          "name": "Panini Ψωμάκι",
-          "name_en": "Panini Bread",
-          "price": 2.5,
-          "description": "με Σουσάμι Γαλοπούλα",
-          "description_en": "with Sesame Turkey",
-          "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
+          "name": "Negroni",
+          "name_en": "Negroni",
+          "price": 7.0,
+          "description": "Gin, campari, sweet vermouth",
+          "description_en": "Gin, campari, sweet vermouth",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
         },
         {
-          "name": "Panini Dolce Κρουασάν",
-          "name_en": "Panini Dolce Croissant",
-          "price": 1.5,
-          "description": "με Πραλίνα Φουντουκιού 150gr",
-          "description_en": "with Hazelnut Praline 150gr",
-          "section": "ΓΛΥΚΑ",
-          "section_en": "SWEETS"
+          "name": "Old Fashioned",
+          "name_en": "Old Fashioned",
+          "price": 7.0,
+          "description": "Bourbon, simple syrup, aromatic bitters",
+          "description_en": "Bourbon, simple syrup, aromatic bitters",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
         },
         {
-          "name": "Zeo Bakers Muffin",
-          "name_en": "Zeo Bakers Muffin",
-          "price": 2.5,
-          "description": "Cheese Cake",
-          "description_en": "Cheese Cake",
-          "section": "ΓΛΥΚΑ",
-          "section_en": "SWEETS"
+          "name": "Mai Tai",
+          "name_en": "Mai Tai",
+          "price": 7.0,
+          "description": "Dark Rum, lime juice, orange liqueur, bitter almond",
+          "description_en": "Dark Rum, lime juice, orange liqueur, bitter almond",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
         },
         {
-          "name": "Zeo Bakers Muffin",
-          "name_en": "Zeo Bakers Muffin",
-          "price": 2.5,
-          "description": "Σοκολάτα - Φράουλα",
-          "description_en": "Chocolate - Strawberry",
-          "section": "ΓΛΥΚΑ",
-          "section_en": "SWEETS"
+          "name": "Pornstar",
+          "name_en": "Pornstar",
+          "price": 7.0,
+          "description": "Vodka, passion fruit, vanilla",
+          "description_en": "Vodka, passion fruit, vanilla",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Caipiroska",
+          "name_en": "Caipiroska",
+          "price": 7.0,
+          "description": "Vodka, simple syrup, lime",
+          "description_en": "Vodka, simple syrup, lime",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Daiquiri Strawberry",
+          "name_en": "Daiquiri Strawberry",
+          "price": 7.0,
+          "description": "Rum, strawberry, lime",
+          "description_en": "Rum, strawberry, lime",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Long Island",
+          "name_en": "Long Island",
+          "price": 7.0,
+          "description": "Vodka, gin, tequila, rum, orange liqueur, cola",
+          "description_en": "Vodka, gin, tequila, rum, orange liqueur, cola",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Piña Colada",
+          "name_en": "Piña Colada",
+          "price": 7.0,
+          "description": "Malibu, pineapple juice, coconut liqueur",
+          "description_en": "Malibu, pineapple juice, coconut liqueur",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Paloma",
+          "name_en": "Paloma",
+          "price": 7.0,
+          "description": "Tequila blanco, lime juice, pink soda",
+          "description_en": "Tequila blanco, lime juice, pink soda",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Mojito Virgin",
+          "name_en": "Mojito Virgin",
+          "price": 5.0,
+          "description": "Mint, simple syrup, lime, soda",
+          "description_en": "Mint, simple syrup, lime, soda",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Mocktail",
+          "name_en": "Mocktail",
+          "price": 5.0,
+          "description": "Cranberry juice, orange juice, sprite",
+          "description_en": "Cranberry juice, orange juice, sprite",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
         }
       ],
-      "short_name": "ΣΝΑΚ & ΓΛΥΚΑ",
-      "short_name_en": "Snacks & Sweets"
+      "short_name": "COCKTAILS",
+      "short_name_en": "Cocktails"
     }
   ]
 }
