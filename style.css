@@ -321,7 +321,7 @@ body {
 }
 
 /* Restaurant-style variant table: column headers once, prices aligned */
-.variant-table {
+.section-card--variant {
   display: block;
 }
 
@@ -351,30 +351,30 @@ body {
   text-align: right;
 }
 
-.variant-table .item {
+.section-card--variant .item {
   display: grid;
   grid-template-columns: 1fr repeat(var(--cols, 2), 96px);
   column-gap: 40px;
   align-items: baseline;
 }
 
-.variant-table .item .item-name {
+.section-card--variant .item .item-name {
   grid-column: 1;
 }
 
-.variant-table .item-price--cells {
+.section-card--variant .item-price--cells {
   display: contents;
   font-size: 15px;
 }
 
-.variant-table .item-price--cells .variant-amount {
+.section-card--variant .item-price--cells .variant-amount {
   text-align: right;
   font-weight: 700;
   color: var(--olive);
   font-variant-numeric: tabular-nums;
 }
 
-.variant-table .item-desc {
+.section-card--variant .item-desc {
   grid-column: 1 / -1;
 }
 
