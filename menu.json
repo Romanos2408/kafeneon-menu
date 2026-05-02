@@ -731,87 +731,6 @@
       "short_name_en": "Soft Drinks"
     },
     {
-      "id": "snacks",
-      "name": "ΣΝΑΚ & ΓΛΥΚΑ",
-      "name_en": "Snacks & Sweets",
-      "items": [
-        {
-          "name": "Panini Κουλουρόψωμο",
-          "name_en": "Panini Bagel",
-          "price": 2.5,
-          "description": "με Μπριζόλα Μπέικον",
-          "description_en": "with Bacon Steak",
-          "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
-        },
-        {
-          "name": "Panini Κρουασάν",
-          "name_en": "Panini Croissant",
-          "price": 2.5,
-          "description": "με Γαλοπούλα",
-          "description_en": "with Turkey",
-          "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
-        },
-        {
-          "name": "Panini Μετσοβίτικα",
-          "name_en": "Panini Metsovitika",
-          "price": 2.5,
-          "description": "με Φιλέτο Κοτόπουλο",
-          "description_en": "with Chicken Fillet",
-          "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
-        },
-        {
-          "name": "Panini Τορτίγια",
-          "name_en": "Panini Tortilla",
-          "price": 2.5,
-          "description": "με Φιλέτο Κοτόπουλο",
-          "description_en": "with Chicken Fillet",
-          "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
-        },
-        {
-          "name": "Panini Ψωμάκι",
-          "name_en": "Panini Bread",
-          "price": 2.5,
-          "description": "με Σουσάμι Γαλοπούλα",
-          "description_en": "with Sesame Turkey",
-          "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
-        },
-        {
-          "name": "Panini Dolce Κρουασάν",
-          "name_en": "Panini Dolce Croissant",
-          "price": 1.5,
-          "description": "με Πραλίνα Φουντουκιού 150gr",
-          "description_en": "with Hazelnut Praline 150gr",
-          "section": "ΓΛΥΚΑ",
-          "section_en": "SWEETS"
-        },
-        {
-          "name": "Zeo Bakers Muffin",
-          "name_en": "Zeo Bakers Muffin",
-          "price": 2.5,
-          "description": "Cheese Cake",
-          "description_en": "Cheese Cake",
-          "section": "ΓΛΥΚΑ",
-          "section_en": "SWEETS"
-        },
-        {
-          "name": "Zeo Bakers Muffin",
-          "name_en": "Zeo Bakers Muffin",
-          "price": 2.5,
-          "description": "Σοκολάτα - Φράουλα",
-          "description_en": "Chocolate - Strawberry",
-          "section": "ΓΛΥΚΑ",
-          "section_en": "SWEETS"
-        }
-      ],
-      "short_name": "ΣΝΑΚ & ΓΛΥΚΑ",
-      "short_name_en": "Snacks & Sweets"
-    },
-    {
       "id": "beers",
       "name": "ΜΠΙΡΕΣ",
       "name_en": "BEERS",
@@ -1211,6 +1130,150 @@
       "short_name_en": "Spirits"
     },
     {
+      "id": "cocktails",
+      "name": "COCKTAILS",
+      "name_en": "COCKTAILS",
+      "items": [
+        {
+          "name": "Mojito",
+          "name_en": "Mojito",
+          "price": 7.0,
+          "description": "White rum, simple syrup, lime, mint, soda",
+          "description_en": "White rum, simple syrup, lime, mint, soda",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Aperol Spritz",
+          "name_en": "Aperol Spritz",
+          "price": 7.0,
+          "description": "Aperol, prosecco, soda",
+          "description_en": "Aperol, prosecco, soda",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Margarita",
+          "name_en": "Margarita",
+          "price": 7.0,
+          "description": "Tequila blanco, lime juice, orange liqueur",
+          "description_en": "Tequila blanco, lime juice, orange liqueur",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Cuba Libre",
+          "name_en": "Cuba Libre",
+          "price": 7.0,
+          "description": "Dark Rum, lime, cola",
+          "description_en": "Dark Rum, lime, cola",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Negroni",
+          "name_en": "Negroni",
+          "price": 7.0,
+          "description": "Gin, campari, sweet vermouth",
+          "description_en": "Gin, campari, sweet vermouth",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Old Fashioned",
+          "name_en": "Old Fashioned",
+          "price": 7.0,
+          "description": "Bourbon, simple syrup, aromatic bitters",
+          "description_en": "Bourbon, simple syrup, aromatic bitters",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Mai Tai",
+          "name_en": "Mai Tai",
+          "price": 7.0,
+          "description": "Dark Rum, lime juice, orange liqueur, bitter almond",
+          "description_en": "Dark Rum, lime juice, orange liqueur, bitter almond",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Pornstar",
+          "name_en": "Pornstar",
+          "price": 7.0,
+          "description": "Vodka, passion fruit, vanilla",
+          "description_en": "Vodka, passion fruit, vanilla",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Caipiroska",
+          "name_en": "Caipiroska",
+          "price": 7.0,
+          "description": "Vodka, simple syrup, lime",
+          "description_en": "Vodka, simple syrup, lime",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Daiquiri Strawberry",
+          "name_en": "Daiquiri Strawberry",
+          "price": 7.0,
+          "description": "Rum, strawberry, lime",
+          "description_en": "Rum, strawberry, lime",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Long Island",
+          "name_en": "Long Island",
+          "price": 7.0,
+          "description": "Vodka, gin, tequila, rum, orange liqueur, cola",
+          "description_en": "Vodka, gin, tequila, rum, orange liqueur, cola",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Piña Colada",
+          "name_en": "Piña Colada",
+          "price": 7.0,
+          "description": "Malibu, pineapple juice, coconut liqueur",
+          "description_en": "Malibu, pineapple juice, coconut liqueur",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Paloma",
+          "name_en": "Paloma",
+          "price": 7.0,
+          "description": "Tequila blanco, lime juice, pink soda",
+          "description_en": "Tequila blanco, lime juice, pink soda",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Mojito Virgin",
+          "name_en": "Mojito Virgin",
+          "price": 5.0,
+          "description": "Mint, simple syrup, lime, soda",
+          "description_en": "Mint, simple syrup, lime, soda",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        },
+        {
+          "name": "Mocktail",
+          "name_en": "Mocktail",
+          "price": 5.0,
+          "description": "Cranberry juice, orange juice, sprite",
+          "description_en": "Cranberry juice, orange juice, sprite",
+          "section": "COCKTAILS",
+          "section_en": "COKTAILS"
+        }
+      ],
+      "short_name": "COCKTAILS",
+      "short_name_en": "Cocktails"
+    },
+    {
       "id": "wines",
       "name": "ΚΡΑΣΙΑ",
       "name_en": "WINES",
@@ -1367,148 +1430,85 @@
       "short_name_en": "Wines"
     },
     {
-      "id": "cocktails",
-      "name": "COCKTAILS",
-      "name_en": "COCKTAILS",
+      "id": "snacks",
+      "name": "ΣΝΑΚ & ΓΛΥΚΑ",
+      "name_en": "Snacks & Sweets",
       "items": [
         {
-          "name": "Mojito",
-          "name_en": "Mojito",
-          "price": 7.0,
-          "description": "White rum, simple syrup, lime, mint, soda",
-          "description_en": "White rum, simple syrup, lime, mint, soda",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "name": "Panini Κουλουρόψωμο",
+          "name_en": "Panini Bagel",
+          "price": 2.5,
+          "description": "με Μπριζόλα Μπέικον",
+          "description_en": "with Bacon Steak",
+          "section": "ΑΛΜΥΡΑ",
+          "section_en": "SALTY"
         },
         {
-          "name": "Aperol Spritz",
-          "name_en": "Aperol Spritz",
-          "price": 7.0,
-          "description": "Aperol, prosecco, soda",
-          "description_en": "Aperol, prosecco, soda",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "name": "Panini Κρουασάν",
+          "name_en": "Panini Croissant",
+          "price": 2.5,
+          "description": "με Γαλοπούλα",
+          "description_en": "with Turkey",
+          "section": "ΑΛΜΥΡΑ",
+          "section_en": "SALTY"
         },
         {
-          "name": "Margarita",
-          "name_en": "Margarita",
-          "price": 7.0,
-          "description": "Tequila blanco, lime juice, orange liqueur",
-          "description_en": "Tequila blanco, lime juice, orange liqueur",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "name": "Panini Μετσοβίτικα",
+          "name_en": "Panini Metsovitika",
+          "price": 2.5,
+          "description": "με Φιλέτο Κοτόπουλο",
+          "description_en": "with Chicken Fillet",
+          "section": "ΑΛΜΥΡΑ",
+          "section_en": "SALTY"
         },
         {
-          "name": "Cuba Libre",
-          "name_en": "Cuba Libre",
-          "price": 7.0,
-          "description": "Dark Rum, lime, cola",
-          "description_en": "Dark Rum, lime, cola",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "name": "Panini Τορτίγια",
+          "name_en": "Panini Tortilla",
+          "price": 2.5,
+          "description": "με Φιλέτο Κοτόπουλο",
+          "description_en": "with Chicken Fillet",
+          "section": "ΑΛΜΥΡΑ",
+          "section_en": "SALTY"
         },
         {
-          "name": "Negroni",
-          "name_en": "Negroni",
-          "price": 7.0,
-          "description": "Gin, campari, sweet vermouth",
-          "description_en": "Gin, campari, sweet vermouth",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "name": "Panini Ψωμάκι",
+          "name_en": "Panini Bread",
+          "price": 2.5,
+          "description": "με Σουσάμι Γαλοπούλα",
+          "description_en": "with Sesame Turkey",
+          "section": "ΑΛΜΥΡΑ",
+          "section_en": "SALTY"
         },
         {
-          "name": "Old Fashioned",
-          "name_en": "Old Fashioned",
-          "price": 7.0,
-          "description": "Bourbon, simple syrup, aromatic bitters",
-          "description_en": "Bourbon, simple syrup, aromatic bitters",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "name": "Panini Dolce Κρουασάν",
+          "name_en": "Panini Dolce Croissant",
+          "price": 1.5,
+          "description": "με Πραλίνα Φουντουκιού 150gr",
+          "description_en": "with Hazelnut Praline 150gr",
+          "section": "ΓΛΥΚΑ",
+          "section_en": "SWEETS"
         },
         {
-          "name": "Mai Tai",
-          "name_en": "Mai Tai",
-          "price": 7.0,
-          "description": "Dark Rum, lime juice, orange liqueur, bitter almond",
-          "description_en": "Dark Rum, lime juice, orange liqueur, bitter almond",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "name": "Zeo Bakers Muffin",
+          "name_en": "Zeo Bakers Muffin",
+          "price": 2.5,
+          "description": "Cheese Cake",
+          "description_en": "Cheese Cake",
+          "section": "ΓΛΥΚΑ",
+          "section_en": "SWEETS"
         },
         {
-          "name": "Pornstar",
-          "name_en": "Pornstar",
-          "price": 7.0,
-          "description": "Vodka, passion fruit, vanilla",
-          "description_en": "Vodka, passion fruit, vanilla",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Caipiroska",
-          "name_en": "Caipiroska",
-          "price": 7.0,
-          "description": "Vodka, simple syrup, lime",
-          "description_en": "Vodka, simple syrup, lime",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Daiquiri Strawberry",
-          "name_en": "Daiquiri Strawberry",
-          "price": 7.0,
-          "description": "Rum, strawberry, lime",
-          "description_en": "Rum, strawberry, lime",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Long Island",
-          "name_en": "Long Island",
-          "price": 7.0,
-          "description": "Vodka, gin, tequila, rum, orange liqueur, cola",
-          "description_en": "Vodka, gin, tequila, rum, orange liqueur, cola",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Piña Colada",
-          "name_en": "Piña Colada",
-          "price": 7.0,
-          "description": "Malibu, pineapple juice, coconut liqueur",
-          "description_en": "Malibu, pineapple juice, coconut liqueur",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Paloma",
-          "name_en": "Paloma",
-          "price": 7.0,
-          "description": "Tequila blanco, lime juice, pink soda",
-          "description_en": "Tequila blanco, lime juice, pink soda",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Mojito Virgin",
-          "name_en": "Mojito Virgin",
-          "price": 5.0,
-          "description": "Mint, simple syrup, lime, soda",
-          "description_en": "Mint, simple syrup, lime, soda",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
-        },
-        {
-          "name": "Mocktail",
-          "name_en": "Mocktail",
-          "price": 5.0,
-          "description": "Cranberry juice, orange juice, sprite",
-          "description_en": "Cranberry juice, orange juice, sprite",
-          "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "name": "Zeo Bakers Muffin",
+          "name_en": "Zeo Bakers Muffin",
+          "price": 2.5,
+          "description": "Σοκολάτα - Φράουλα",
+          "description_en": "Chocolate - Strawberry",
+          "section": "ΓΛΥΚΑ",
+          "section_en": "SWEETS"
         }
       ],
-      "short_name": "COCKTAILS",
-      "short_name_en": "Cocktails"
+      "short_name": "ΣΝΑΚ & ΓΛΥΚΑ",
+      "short_name_en": "Snacks & Sweets"
     }
   ]
 }
