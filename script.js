@@ -246,11 +246,7 @@
       name.className = "cat-tile-name";
       name.textContent = pickCatName(c);
 
-      const count = document.createElement("div");
-      count.className = "cat-tile-count";
-      count.textContent = t().items(c.items.length);
-
-      a.append(iconWrap, name, count);
+      a.append(iconWrap, name);
       grid.appendChild(a);
     });
     return grid;
@@ -420,16 +416,17 @@
         addr.removeAttribute("href");
       }
 
-      // Hero "Take Away" CTA (top-left, scooter icon + label + phone)
+      // Hero phone button + "Take Away" caption (top-left)
+      const heroCta = $("#hero-cta");
       const heroPhone = $("#hero-phone");
       if (shop.phone) {
         heroPhone.href = "tel:" + shop.phone;
         const number = shop.phone_display || shop.phone;
-        heroPhone.querySelector(".hero-phone-text").textContent = "Take Away · " + number;
-        heroPhone.setAttribute("aria-label", "Take Away — " + number);
-        heroPhone.hidden = false;
+        heroPhone.querySelector(".hero-phone-text").textContent = number;
+        heroPhone.setAttribute("aria-label", t().call + " " + number);
+        heroCta.hidden = false;
       } else {
-        heroPhone.hidden = true;
+        heroCta.hidden = true;
       }
 
       // Footer VAT line
