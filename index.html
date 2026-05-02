@@ -8,10 +8,14 @@
   <meta name="description" content="Καφενεόν Η Γωνία — Ψηφιακός κατάλογος" />
   <link rel="icon" href="assets/logo.jpeg" />
   <link rel="apple-touch-icon" href="assets/logo.jpeg" />
-  <link rel="stylesheet" href="style.css?v=19" />
+  <link rel="stylesheet" href="style.css?v=20" />
 </head>
 <body>
   <header class="hero">
+    <a class="hero-phone" id="hero-phone" href="#" hidden aria-label="">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="17" r="2.5"/><circle cx="18" cy="17" r="2.5"/><path d="M6 17c0-3 2-5 5-5h3c2 0 4 2 4 4v1"/><path d="M14 12V8h2"/></svg>
+      <span class="hero-phone-text"></span>
+    </a>
     <div class="lang-wrap">
       <button class="lang-toggle" id="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false">
         <span id="lang-current">EL</span>
@@ -23,8 +27,11 @@
       </ul>
     </div>
     <img class="hero-logo" src="assets/logo.jpeg" alt="Η ΓΩΝΙΑ — ΚΑΦΕΝΕΟΝ" />
-    <a class="brand-address" id="address" href="#" target="_blank" rel="noopener">Ελευθερίου Βενιζέλου 133, Χρυσούπολη 64200</a>
-    <p class="brand-hours" id="hours"></p>
+    <div class="hero-socials" id="hero-socials"></div>
+    <a class="brand-address" id="address" href="#" target="_blank" rel="noopener">
+      <svg class="brand-address-pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 7-8 13-8 13s-8-6-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span class="brand-address-text">Ελευθερίου Βενιζέλου 133, Χρυσούπολη 64200</span>
+    </a>
   </header>
 
   <main id="app"></main>
@@ -35,6 +42,6 @@
     <p class="foot-sm">Τιμές σε ευρώ. Συμπεριλαμβάνεται ΦΠΑ.</p>
   </footer>
 
-  <script src="script.js?v=19"></script>
+  <script src="script.js?v=20"></script>
 </body>
 </html>

@@ -36,6 +36,7 @@
     phone: `<svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
     map:   `<svg viewBox="0 0 24 24"><path d="M20 10c0 7-8 13-8 13s-8-6-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
     insta: `<svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>`,
+    facebook: `<svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>`,
   };
 
   // Icons from Lucide (lucide.dev) — MIT licensed, ISC original, hand-tuned
@@ -410,43 +411,67 @@
     if (STATE.data) {
       const shop = STATE.data.shop;
 
-      // Address as a tap-to-map link
+      // Address as a tap-to-map link (icon + text)
       const addr = $("#address");
-      addr.textContent = shop.address || "";
+      addr.querySelector(".brand-address-text").textContent = shop.address || "";
       if (shop.maps_url) {
         addr.href = shop.maps_url;
       } else {
         addr.removeAttribute("href");
       }
 
-      // Hours line under the address
-      const hoursEl = $("#hours");
-      const hours = STATE.lang === "en" ? (shop.hours_en || shop.hours) : shop.hours;
-      hoursEl.textContent = hours || "";
-      hoursEl.style.display = hours ? "" : "none";
+      // Hero "Take Away" CTA (top-left, scooter icon + label + phone)
+      const heroPhone = $("#hero-phone");
+      if (shop.phone) {
+        heroPhone.href = "tel:" + shop.phone;
+        const number = shop.phone_display || shop.phone;
+        heroPhone.querySelector(".hero-phone-text").textContent = "Take Away · " + number;
+        heroPhone.setAttribute("aria-label", "Take Away — " + number);
+        heroPhone.hidden = false;
+      } else {
+        heroPhone.hidden = true;
+      }
 
       // Footer VAT line
       $(".foot-sm").textContent = t().vat;
 
-      // Footer action icons (call, directions, instagram)
+      // Footer action icons (directions only — phone in hero, socials in hero)
       renderFootActions(shop);
+
+      // Hero social icons (Instagram + Facebook), under the logo
+      renderHeroSocials(shop);
 
       render();
     }
+  }
+
+  function renderHeroSocials(shop) {
+    const host = $("#hero-socials");
+    host.innerHTML = "";
+    const socials = [];
+    if (shop.instagram_url) {
+      socials.push({ href: shop.instagram_url, icon: FOOT_ICONS.insta, aria: "Instagram" });
+    }
+    if (shop.facebook_url) {
+      socials.push({ href: shop.facebook_url, icon: FOOT_ICONS.facebook, aria: "Facebook" });
+    }
+    socials.forEach((s) => {
+      const link = document.createElement("a");
+      link.className = "hero-social";
+      link.href = s.href;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.setAttribute("aria-label", s.aria);
+      link.innerHTML = s.icon;
+      host.appendChild(link);
+    });
   }
 
   function renderFootActions(shop) {
     const host = $("#foot-actions");
     host.innerHTML = "";
     const actions = [];
-    if (shop.phone) {
-      actions.push({
-        href: "tel:" + shop.phone,
-        label: shop.phone_display || shop.phone,
-        icon: FOOT_ICONS.phone,
-        aria: t().call,
-      });
-    }
+    // Phone is now the prominent take-away CTA in the hero; no duplicate here.
     if (shop.maps_url) {
       actions.push({
         href: shop.maps_url,
@@ -456,15 +481,7 @@
         external: true,
       });
     }
-    if (shop.instagram_url) {
-      actions.push({
-        href: shop.instagram_url,
-        label: t().instagram,
-        icon: FOOT_ICONS.insta,
-        aria: t().instagram,
-        external: true,
-      });
-    }
+    // Instagram & Facebook live in the hero now, not the footer.
     actions.forEach((a) => {
       const link = document.createElement("a");
       link.className = "foot-action";

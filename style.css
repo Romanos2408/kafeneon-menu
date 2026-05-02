@@ -52,26 +52,114 @@ body {
 }
 
 .brand-address {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   margin: 6px 0 0;
   font-size: 12px;
   letter-spacing: 0.04em;
   opacity: 0.85;
   color: var(--olive);
   text-decoration: none;
-  border-bottom: 1px dotted rgba(69, 66, 61, 0.35);
-  padding-bottom: 1px;
 }
 
 .brand-address:hover {
   opacity: 1;
 }
 
-.brand-hours {
-  margin: 4px 0 0;
+.brand-address-text {
+  border-bottom: 1px dotted rgba(69, 66, 61, 0.35);
+  padding-bottom: 1px;
+}
+
+.brand-address-pin {
+  width: 13px;
+  height: 13px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+
+/* Hero social icons (Instagram + Facebook) — between logo and address */
+.hero-socials {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 6px 0 4px;
+}
+
+.hero-social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--olive);
+  color: #f6f2e7;
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.hero-social:hover {
+  background: #2f2d29;
+  transform: translateY(-1px);
+}
+
+.hero-social svg {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Hero "Take Away" CTA — top-left, mirrors the language dropdown */
+.hero-phone {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--olive);
+  color: #f6f2e7;
+  border-radius: 999px;
+  padding: 6px 12px 6px 10px;
   font-size: 11px;
+  font-weight: 700;
   letter-spacing: 0.06em;
-  opacity: 0.65;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+.hero-phone svg {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+
+.hero-phone:hover {
+  background: #2f2d29;
+}
+
+@media (max-width: 360px) {
+  .hero-phone {
+    font-size: 10px;
+    padding: 5px 10px 5px 8px;
+  }
 }
 
 /* Language dropdown (top-right) */
