@@ -163,27 +163,14 @@ body {
 }
 
 .hero-cta-caption {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
+  display: inline-block;
   padding-left: 6px;
   font-size: 10px;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--olive);
   opacity: 0.75;
-}
-
-.hero-cta-caption svg {
-  width: 16px;
-  height: 16px;
-  stroke: currentColor;
-  fill: none;
-  stroke-width: 1.8;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  flex-shrink: 0;
 }
 
 @media (max-width: 360px) {
