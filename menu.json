@@ -1064,9 +1064,10 @@
       "items": [
         {
           "name": "Πιατέλα Μπίρας",
-          "name_en": "",
+          "name_en": "Πιατέλα Μπίρας",
           "price": 8.0,
-          "section": "Πιατέλα Μπίρας"
+          "section": "Πιατέλα Μπίρας",
+          "section_en": "Πιατέλα Μπίρας"
         },
         {
           "name": "Μάμος 500ml",
@@ -1118,6 +1119,86 @@
           "section_en": "BEERS"
         },
         {
+          "name": "Kaiser",
+          "name_en": "Kaiser",
+          "price": 3.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS",
+          "variants": [
+            {
+              "label": "330ml",
+              "label_en": "330ml",
+              "price": 3.5
+            },
+            {
+              "label": "500ml",
+              "label_en": "500ml",
+              "price": 4.5
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Amstel",
+          "name_en": "Amstel",
+          "price": 3.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS",
+          "variants": [
+            {
+              "label": "330ml",
+              "label_en": "330ml",
+              "price": 3.5
+            },
+            {
+              "label": "500ml",
+              "label_en": "500ml",
+              "price": 4.5
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Βεργίνα",
+          "name_en": "Vergina",
+          "price": 3.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS",
+          "variants": [
+            {
+              "label": "330ml",
+              "label_en": "330ml",
+              "price": 3.5
+            },
+            {
+              "label": "500ml",
+              "label_en": "500ml",
+              "price": 4.5
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Άλφα",
+          "name_en": "Alfa",
+          "price": 3.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS",
+          "variants": [
+            {
+              "label": "330ml",
+              "label_en": "330ml",
+              "price": 3.5
+            },
+            {
+              "label": "500ml",
+              "label_en": "500ml",
+              "price": 4.5
+            }
+          ],
+          "price_from": true
+        },
+        {
           "name": "Sol 330ml",
           "name_en": "Sol 330ml",
           "price": 4.0,
@@ -1153,10 +1234,151 @@
       "name_en": "WINES",
       "items": [
         {
+          "name": "Θέμα Παυλίδη",
+          "name_en": "Θέμα Παυλίδη",
+          "price": 6.0,
+          "section": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
+          "section_en": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
+          "variants": [
+            {
+              "label": "ΠΟΤΗΡΙ",
+              "label_en": "ΠΟΤΗΡΙ",
+              "price": 6.0
+            },
+            {
+              "label": "ΦΙΑΛΗ",
+              "label_en": "ΦΙΑΛΗ",
+              "price": 30.0
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Βιβλία Χώρα",
+          "name_en": "Βιβλία Χώρα",
+          "price": 6.0,
+          "section": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
+          "section_en": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
+          "variants": [
+            {
+              "label": "ΠΟΤΗΡΙ",
+              "label_en": "ΠΟΤΗΡΙ",
+              "price": 6.0
+            },
+            {
+              "label": "ΦΙΑΛΗ",
+              "label_en": "ΦΙΑΛΗ",
+              "price": 30.0
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Γεροβασιλείου",
+          "name_en": "Γεροβασιλείου",
+          "price": 6.0,
+          "section": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
+          "section_en": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
+          "variants": [
+            {
+              "label": "ΠΟΤΗΡΙ",
+              "label_en": "ΠΟΤΗΡΙ",
+              "price": 6.0
+            },
+            {
+              "label": "ΦΙΑΛΗ",
+              "label_en": "ΦΙΑΛΗ",
+              "price": 30.0
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Μαλαγουζιά «Διαλεκτό»",
+          "name_en": "Μαλαγουζιά «Διαλεκτό»",
+          "price": 6.0,
+          "section": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
+          "section_en": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
+          "variants": [
+            {
+              "label": "ΠΟΤΗΡΙ",
+              "label_en": "ΠΟΤΗΡΙ",
+              "price": 6.0
+            },
+            {
+              "label": "ΦΙΑΛΗ",
+              "label_en": "ΦΙΑΛΗ",
+              "price": 30.0
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Λαλικός Ροζέ",
+          "name_en": "Λαλικός Ροζέ",
+          "price": 5.0,
+          "section": "ΚΡΑΣΙΑ ΡΟΖΕ",
+          "section_en": "ΚΡΑΣΙΑ ΡΟΖΕ",
+          "variants": [
+            {
+              "label": "ΠΟΤΗΡΙ",
+              "label_en": "ΠΟΤΗΡΙ",
+              "price": 5.0
+            },
+            {
+              "label": "ΦΙΑΛΗ",
+              "label_en": "ΦΙΑΛΗ",
+              "price": 28.0
+            }
+          ],
+          "price_from": true
+        },
+        {
           "name": "Πιατέλα Κρασιού",
-          "name_en": "",
+          "name_en": "Πιατέλα Κρασιού",
           "price": 10.0,
-          "section": "Πιατέλα Κρασιού"
+          "section": "Πιατέλα Κρασιού",
+          "section_en": "Πιατέλα Κρασιού"
+        },
+        {
+          "name": "Θέμα Παυλίδη",
+          "name_en": "Θέμα Παυλίδη",
+          "price": 7.0,
+          "section": "ΚΡΑΣΙΑ",
+          "section_en": "WINES",
+          "variants": [
+            {
+              "label": "ΠΟΤΗΡΙ",
+              "label_en": "ΠΟΤΗΡΙ",
+              "price": 7.0
+            },
+            {
+              "label": "ΦΙΑΛΗ",
+              "label_en": "ΦΙΑΛΗ",
+              "price": 35.0
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Βίβλια Χώρα",
+          "name_en": "Βίβλια Χώρα",
+          "price": 7.0,
+          "section": "ΚΡΑΣΙΑ",
+          "section_en": "WINES",
+          "variants": [
+            {
+              "label": "ΠΟΤΗΡΙ",
+              "label_en": "ΠΟΤΗΡΙ",
+              "price": 7.0
+            },
+            {
+              "label": "ΦΙΑΛΗ",
+              "label_en": "ΦΙΑΛΗ",
+              "price": 35.0
+            }
+          ],
+          "price_from": true
         }
       ]
     },
