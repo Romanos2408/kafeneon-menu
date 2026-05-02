@@ -965,15 +965,15 @@
           "section_en": "WHISKEY"
         },
         {
-          "name": "Chivas",
-          "name_en": "Chivas",
+          "name": "Double Black",
+          "name_en": "Double Black",
           "price": 7.0,
           "section": "ΟΥΙΣΚΙ",
           "section_en": "WHISKEY"
         },
         {
-          "name": "Double Black",
-          "name_en": "Double Black",
+          "name": "Chivas",
+          "name_en": "Chivas",
           "price": 7.0,
           "section": "ΟΥΙΣΚΙ",
           "section_en": "WHISKEY"
@@ -993,16 +993,16 @@
           "section_en": "VODKA"
         },
         {
-          "name": "Belvedere",
-          "name_en": "Belvedere",
-          "price": 7.0,
+          "name": "Serkova",
+          "name_en": "Serkova",
+          "price": 6.0,
           "section": "ΒΟΤΚΑ",
           "section_en": "VODKA"
         },
         {
-          "name": "Serkova",
-          "name_en": "Serkova",
-          "price": 6.0,
+          "name": "Belvedere",
+          "name_en": "Belvedere",
+          "price": 7.0,
           "section": "ΒΟΤΚΑ",
           "section_en": "VODKA"
         },
