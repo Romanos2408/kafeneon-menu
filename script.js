@@ -237,9 +237,10 @@
           sh.textContent = g.sec;
           itemsHost.appendChild(sh);
         }
-        // detect uniform variants in this section
+        // detect uniform variants in this section (skip for beers — keep per-row labels)
         const sigs = new Set(g.items.map(variantSignature));
-        const uniformVariant = sigs.size === 1 && [...sigs][0] !== "";
+        const uniformVariant =
+          cat.id !== "beers" && sigs.size === 1 && [...sigs][0] !== "";
         const sectionWrap = document.createElement("div");
         if (uniformVariant) {
           const sample = g.items[0].variants;

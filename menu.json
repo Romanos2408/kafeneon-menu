@@ -1063,13 +1063,6 @@
       "name_en": "BEERS",
       "items": [
         {
-          "name": "Πιατέλα Μπίρας",
-          "name_en": "Πιατέλα Μπίρας",
-          "price": 8.0,
-          "section": "Πιατέλα Μπίρας",
-          "section_en": "Πιατέλα Μπίρας"
-        },
-        {
           "name": "Μάμος 500ml",
           "name_en": "Mamos 500ml",
           "price": 4.5,
@@ -1228,8 +1221,8 @@
         },
         {
           "name": "Πιατέλα Μπίρας",
-          "name_en": "Beer Plate",
-          "price": 10.0,
+          "name_en": "Πιατέλα Μπίρας",
+          "price": 8.0,
           "section": "ΠΙΑΤΕΛΑ ΜΠΙΡΑΣ",
           "section_en": "BEER PLATE"
         }
