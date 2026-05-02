@@ -98,14 +98,14 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: #6a665d;
+  background: var(--olive);
   color: #f6f2e7;
   text-decoration: none;
   transition: transform 0.15s ease, background 0.15s ease;
 }
 
 .hero-social:hover {
-  background: #56524a;
+  background: #2f2d29;
   transform: translateY(-1px);
 }
 
@@ -135,7 +135,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: #6a665d;
+  background: var(--olive);
   color: #f6f2e7;
   border-radius: 999px;
   padding: 6px 12px 6px 10px;
@@ -159,7 +159,7 @@ body {
 }
 
 .hero-phone:hover {
-  background: #56524a;
+  background: #2f2d29;
 }
 
 .hero-cta-caption {

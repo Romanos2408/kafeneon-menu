@@ -429,9 +429,6 @@
         heroCta.hidden = true;
       }
 
-      // Footer VAT line
-      $(".foot-sm").textContent = t().vat;
-
       // Hero social icons (Instagram + Facebook), under the logo
       renderHeroSocials(shop);
 
