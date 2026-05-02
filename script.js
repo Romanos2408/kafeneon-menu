@@ -28,8 +28,8 @@
   const ICONS = {
     // lucide: coffee
     "coffees-beverages": `<svg viewBox="0 0 24 24"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></svg>`,
-    // lucide: leaf — tea (natural, herbal)
-    "tea": `<svg viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19.8 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg>`,
+    // teabag with tag + string + pillow-shape pouch (drawn in Lucide stroke style)
+    "tea": `<svg viewBox="0 0 24 24"><rect x="10" y="2" width="4" height="3" rx="0.4"/><path d="M11.5 5.2 10 9"/><path d="M12.5 5.2 14 9"/><path d="M7 9h10v8a3 3 0 0 1-3 3h-4a3 3 0 0 1-3-3V9z"/><path d="M7 9.5h10"/></svg>`,
     // lucide: martini-glass — V-glass + olive on a pick
     "cocktails": `<svg viewBox="0 0 24 24"><path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8Z"/><path d="M16 4l-2.5 2.5"/><circle cx="14" cy="6.5" r="1.1" fill="currentColor"/></svg>`,
     // lucide: cup-soda
