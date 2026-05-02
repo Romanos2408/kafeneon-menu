@@ -307,6 +307,14 @@ body {
   color: var(--olive);
   font-size: 15px;
   white-space: nowrap;
+  text-align: right;
+}
+
+.item-price--variants {
+  white-space: normal;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  max-width: 60%;
 }
 
 .item-desc {

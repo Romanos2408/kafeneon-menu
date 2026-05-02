@@ -77,11 +77,11 @@
 
     const price = document.createElement("span");
     price.className = "item-price";
-    if (it.price_from && Array.isArray(it.variants) && it.variants.length > 1) {
-      const prices = it.variants.map((v) => v.price);
-      const lo = Math.min(...prices);
-      const hi = Math.max(...prices);
-      price.textContent = `${fmtPrice(lo)} – ${fmtPrice(hi)}`;
+    if (Array.isArray(it.variants) && it.variants.length) {
+      price.classList.add("item-price--variants");
+      price.textContent = it.variants
+        .map((v) => `${pickVariantLabel(v)} · ${fmtPrice(v.price)}`)
+        .join(" / ");
     } else {
       price.textContent = fmtPrice(it.price);
     }
@@ -94,21 +94,6 @@
       d.className = "item-desc";
       d.textContent = desc;
       row.appendChild(d);
-    }
-
-    if (Array.isArray(it.variants) && it.variants.length) {
-      const wrap = document.createElement("div");
-      wrap.className = "item-variants";
-      it.variants.forEach((v) => {
-        const span = document.createElement("span");
-        span.className = "variant";
-        span.append(document.createTextNode(pickVariantLabel(v) + " · "));
-        const strong = document.createElement("strong");
-        strong.textContent = fmtPrice(v.price);
-        span.appendChild(strong);
-        wrap.appendChild(span);
-      });
-      row.appendChild(wrap);
     }
 
     return row;
