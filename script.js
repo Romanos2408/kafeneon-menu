@@ -28,8 +28,8 @@
   const ICONS = {
     // lucide: coffee
     "coffees-beverages": `<svg viewBox="0 0 24 24"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></svg>`,
-    // teacup on saucer with steam — classic "tea" silhouette
-    "tea": `<svg viewBox="0 0 24 24"><path d="M8 3c-1 1.2-1 2.4 0 3.6"/><path d="M12 3c-1 1.2-1 2.4 0 3.6"/><path d="M5 9h12v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V9z"/><path d="M17 11h2a2 2 0 0 1 0 4h-2"/><path d="M3 21h17"/></svg>`,
+    // teacup on saucer + steam + small leaf garnish (top-right)
+    "tea": `<svg viewBox="0 0 24 24"><path d="M8 3c-1 1.2-1 2.4 0 3.6"/><path d="M12 3c-1 1.2-1 2.4 0 3.6"/><path d="M20 3c2 2 2 5-1 6c-2-1-2-4 1-6z"/><path d="M20 3l-1 6"/><path d="M5 9h12v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V9z"/><path d="M17 11h2a2 2 0 0 1 0 4h-2"/><path d="M3 21h17"/></svg>`,
     // lucide: martini-glass — V-glass + olive on a pick
     "cocktails": `<svg viewBox="0 0 24 24"><path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8Z"/><path d="M16 4l-2.5 2.5"/><circle cx="14" cy="6.5" r="1.1" fill="currentColor"/></svg>`,
     // lucide: cup-soda
