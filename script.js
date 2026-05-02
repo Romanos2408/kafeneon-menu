@@ -28,14 +28,14 @@
   const ICONS = {
     // lucide: coffee
     "coffees-beverages": `<svg viewBox="0 0 24 24"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></svg>`,
-    // teacup on saucer with tea-wave + handle + 3 sinuous steam wisps + 2 overlapping leaves at front-left
-    "tea": `<svg viewBox="0 0 24 24"><path d="M9 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M12 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M15 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M5 9h13v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V9z"/><path d="M5.5 12c2-1 4 1 6 0s4 1 6 0"/><path d="M18 11h2a2 2 0 0 1 0 4h-2"/><ellipse cx="12" cy="20" rx="10" ry="1.5"/><path d="M2 16C1 13 3 11 6 12C5.5 15 4 17 2 16Z"/><path d="M2 16L6 12"/><path d="M5 18.5C4 15.5 6 13.5 9 14.5C8.5 17.5 7 19.5 5 18.5Z"/><path d="M5 18.5L9 14.5"/></svg>`,
+    // teacup on saucer with tea-wave + handle + 3 sinuous steam wisps + ONE bigger leaf at front-left
+    "tea": `<svg viewBox="0 0 24 24"><path d="M9 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M12 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M15 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M5 9h13v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V9z"/><path d="M5.5 12c2-1 4 1 6 0s4 1 6 0"/><path d="M18 11h2a2 2 0 0 1 0 4h-2"/><ellipse cx="12" cy="20" rx="10" ry="1.5"/><path d="M1.5 18C0 14 3 11 7.5 12C7 16 5 19 1.5 18Z"/><path d="M1.5 18L7.5 12"/></svg>`,
     // lucide: martini-glass — V-glass + olive on a pick
     "cocktails": `<svg viewBox="0 0 24 24"><path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8Z"/><path d="M16 4l-2.5 2.5"/><circle cx="14" cy="6.5" r="1.1" fill="currentColor"/></svg>`,
     // lucide: cup-soda
     "soft-drinks": `<svg viewBox="0 0 24 24"><path d="m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8"/><path d="M5 8h14"/><path d="M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0"/><path d="m12 8 1-6h2"/></svg>`,
-    // whiskey/liquor bottle — cork, neck, square shoulders, label
-    "drinks": `<svg viewBox="0 0 24 24"><path d="M11 2h2v2h-2z"/><path d="M10.5 4h3v4"/><path d="M9 8h6c0 1 1 1.5 1 3v9a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-9c0-1.5 1-2 1-3z"/><rect x="9" y="12" width="6" height="6" rx="0.4"/></svg>`,
+    // whiskey rocks glass — open rim, liquid level, two ice cubes, foot line
+    "drinks": `<svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="6.5" ry="1.5"/><path d="M5.5 5v13.5c0 1.5 13 1.5 13 0V5"/><path d="M5.5 11c0 1.5 13 1.5 13 0"/><rect x="7.5" y="10.5" width="4" height="4" rx="0.5"/><rect x="11" y="12.5" width="4" height="4" rx="0.5"/><path d="M7 20h10"/></svg>`,
     // lucide: beer
     "beers": `<svg viewBox="0 0 24 24"><path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5C9.44 3.5 10 3 12 3s2.56.5 3.5.5c.93 0 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/></svg>`,
     // lucide: wine
