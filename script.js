@@ -28,14 +28,14 @@
   const ICONS = {
     // lucide: coffee
     "coffees-beverages": `<svg viewBox="0 0 24 24"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></svg>`,
-    // teapot with spout + lid (Lucide doesn't ship a tea icon — drawn in matching stroke style)
-    "tea": `<svg viewBox="0 0 24 24"><path d="M4 11h13v4a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-4z"/><path d="M17 12h3a2 2 0 0 1 0 4h-3"/><path d="M10 8V6h3v2"/><path d="M11 4c-.5-.7-.5-1.3 0-2"/></svg>`,
-    // lucide: martini-glass-citrus
-    "cocktails": `<svg viewBox="0 0 24 24"><path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8Z"/><path d="M5.5 10h13"/></svg>`,
+    // lucide: leaf — tea (natural, herbal)
+    "tea": `<svg viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19.8 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg>`,
+    // lucide: martini-glass — V-glass + olive on a pick
+    "cocktails": `<svg viewBox="0 0 24 24"><path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8Z"/><path d="M16 4l-2.5 2.5"/><circle cx="14" cy="6.5" r="1.1" fill="currentColor"/></svg>`,
     // lucide: cup-soda
     "soft-drinks": `<svg viewBox="0 0 24 24"><path d="m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8"/><path d="M5 8h14"/><path d="M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0"/><path d="m12 8 1-6h2"/></svg>`,
-    // spirits bottle (no Lucide bottle icon — drawn in matching stroke style)
-    "drinks": `<svg viewBox="0 0 24 24"><path d="M10 2h4v4"/><path d="M9 6h6c0 1 .5 1.5 1 2.5V20a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V8.5C8.5 7.5 9 7 9 6z"/><rect x="9" y="11" width="6" height="5" rx="0.5"/></svg>`,
+    // whiskey tumbler with two ice cubes — drawn in Lucide stroke style
+    "drinks": `<svg viewBox="0 0 24 24"><path d="M5 5h14l-1.4 14.2A2 2 0 0 1 15.6 21H8.4a2 2 0 0 1-2-1.8L5 5z"/><path d="M5.4 9h13.2"/><rect x="8" y="11" width="3.5" height="3.5" rx="0.4"/><rect x="13" y="13.5" width="3.2" height="3.2" rx="0.4"/></svg>`,
     // lucide: beer
     "beers": `<svg viewBox="0 0 24 24"><path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5C9.44 3.5 10 3 12 3s2.56.5 3.5.5c.93 0 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/></svg>`,
     // lucide: wine

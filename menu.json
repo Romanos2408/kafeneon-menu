@@ -1431,8 +1431,8 @@
     },
     {
       "id": "snacks",
-      "name": "ΣΝΑΚ ΑΛΜΥΡΑ / ΓΛΥΚΑ",
-      "name_en": "SALTY / SWEET SNACKS",
+      "name": "ΣΝΑΚ & ΓΛΥΚΑ",
+      "name_en": "Snacks & Sweets",
       "items": [
         {
           "name": "Panini Κουλουρόψωμο",
