@@ -28,8 +28,8 @@
   const ICONS = {
     // lucide: coffee
     "coffees-beverages": `<svg viewBox="0 0 24 24"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></svg>`,
-    // teacup on saucer with tea-wave + handle + 3 sinuous steam wisps + ONE bigger leaf at front-left
-    "tea": `<svg viewBox="0 0 24 24"><path d="M9 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M12 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M15 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M5 9h13v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V9z"/><path d="M5.5 12c2-1 4 1 6 0s4 1 6 0"/><path d="M18 11h2a2 2 0 0 1 0 4h-2"/><ellipse cx="12" cy="20" rx="10" ry="1.5"/><path d="M1.5 18C0 14 3 11 7.5 12C7 16 5 19 1.5 18Z"/><path d="M1.5 18L7.5 12"/></svg>`,
+    // teacup on saucer with tea-wave + handle + 3 sinuous steam wisps + ONE bigger leaf at front-left (flipped)
+    "tea": `<svg viewBox="0 0 24 24"><path d="M9 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M12 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M15 2c-.5 1-.5 2 0 3s.5 2 0 3"/><path d="M5 9h13v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V9z"/><path d="M5.5 12c2-1 4 1 6 0s4 1 6 0"/><path d="M18 11h2a2 2 0 0 1 0 4h-2"/><ellipse cx="12" cy="20" rx="10" ry="1.5"/><path d="M7.5 18C9 14 6 11 1.5 12C2 16 4 19 7.5 18Z"/><path d="M7.5 18L1.5 12"/></svg>`,
     // lucide: martini-glass — V-glass + olive on a pick
     "cocktails": `<svg viewBox="0 0 24 24"><path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8Z"/><path d="M16 4l-2.5 2.5"/><circle cx="14" cy="6.5" r="1.1" fill="currentColor"/></svg>`,
     // lucide: cup-soda
