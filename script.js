@@ -79,9 +79,18 @@
     price.className = "item-price";
     if (Array.isArray(it.variants) && it.variants.length) {
       price.classList.add("item-price--variants");
-      price.textContent = it.variants
-        .map((v) => `${pickVariantLabel(v)} · ${fmtPrice(v.price)}`)
-        .join(" / ");
+      it.variants.forEach((v) => {
+        const line = document.createElement("span");
+        line.className = "variant-line";
+        const label = document.createElement("span");
+        label.className = "variant-label";
+        label.textContent = pickVariantLabel(v);
+        const amount = document.createElement("span");
+        amount.className = "variant-amount";
+        amount.textContent = fmtPrice(v.price);
+        line.append(label, amount);
+        price.appendChild(line);
+      });
     } else {
       price.textContent = fmtPrice(it.price);
     }
