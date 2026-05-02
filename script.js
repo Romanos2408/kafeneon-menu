@@ -67,7 +67,7 @@
   }
 
   // ---- Renderers ----
-  function buildItemRow(it) {
+  function buildItemRow(it, useVariantTable = false) {
     const row = document.createElement("div");
     row.className = "item";
 
@@ -77,7 +77,16 @@
 
     const price = document.createElement("span");
     price.className = "item-price";
-    if (Array.isArray(it.variants) && it.variants.length) {
+
+    if (useVariantTable && Array.isArray(it.variants) && it.variants.length) {
+      price.classList.add("item-price--cells");
+      it.variants.forEach((v) => {
+        const cell = document.createElement("span");
+        cell.className = "variant-amount";
+        cell.textContent = fmtPrice(v.price);
+        price.appendChild(cell);
+      });
+    } else if (Array.isArray(it.variants) && it.variants.length) {
       price.classList.add("item-price--variants");
       it.variants.forEach((v) => {
         const line = document.createElement("span");
@@ -186,6 +195,25 @@
     section.appendChild(itemsHost);
     root.appendChild(section);
 
+    function variantSignature(it) {
+      if (!Array.isArray(it.variants) || !it.variants.length) return "";
+      return it.variants.map((v) => v.label).join("|");
+    }
+
+    function groupBySection(items) {
+      const groups = [];
+      let cur = null;
+      items.forEach((it) => {
+        const sec = pickSection(it) || "";
+        if (!cur || cur.sec !== sec) {
+          cur = { sec, items: [] };
+          groups.push(cur);
+        }
+        cur.items.push(it);
+      });
+      return groups;
+    }
+
     function drawItems() {
       itemsHost.innerHTML = "";
       const q = STATE.query.trim().toLowerCase();
@@ -201,19 +229,35 @@
         itemsHost.appendChild(empty);
         return;
       }
-      let lastSec = null;
-      filtered.forEach((it) => {
-        const sec = pickSection(it);
-        if (sec && sec !== lastSec) {
+      const groups = groupBySection(filtered);
+      groups.forEach((g) => {
+        if (g.sec) {
           const sh = document.createElement("h3");
           sh.className = "section-title";
-          sh.textContent = sec;
+          sh.textContent = g.sec;
           itemsHost.appendChild(sh);
-          lastSec = sec;
-        } else if (!sec) {
-          lastSec = null;
         }
-        itemsHost.appendChild(buildItemRow(it));
+        // detect uniform variants in this section
+        const sigs = new Set(g.items.map(variantSignature));
+        const uniformVariant = sigs.size === 1 && [...sigs][0] !== "";
+        const sectionWrap = document.createElement("div");
+        if (uniformVariant) {
+          const sample = g.items[0].variants;
+          sectionWrap.classList.add("variant-table");
+          sectionWrap.style.setProperty("--cols", sample.length);
+          const head = document.createElement("div");
+          head.className = "variant-head";
+          sample.forEach((v) => {
+            const lbl = document.createElement("span");
+            lbl.textContent = pickVariantLabel(v);
+            head.appendChild(lbl);
+          });
+          sectionWrap.appendChild(head);
+        }
+        g.items.forEach((it) => {
+          sectionWrap.appendChild(buildItemRow(it, uniformVariant));
+        });
+        itemsHost.appendChild(sectionWrap);
       });
     }
 
