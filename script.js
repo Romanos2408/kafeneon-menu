@@ -24,24 +24,26 @@
     },
   };
 
+  // Icons from Lucide (lucide.dev) — MIT licensed, ISC original, hand-tuned
   const ICONS = {
-    // Coffee mug with handle + steam — universal "coffee" symbol
-    "coffees-beverages": `<svg viewBox="0 0 24 24"><path d="M4 10h13v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-6z"/><path d="M17 11h2.5a2.5 2.5 0 0 1 0 5H17"/><path d="M8 6c-1 1-1 2 0 3M11.5 6c-1 1-1 2 0 3M15 6c-1 1-1 2 0 3"/></svg>`,
-    // Teapot with spout, lid handle, steam
-    "tea": `<svg viewBox="0 0 24 24"><path d="M5 13c0-3 2.5-5 5.5-5h3c3 0 5.5 2 5.5 5v2a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4v-2z"/><path d="M19 13l3-1.5"/><path d="M11 8V6.5h2V8"/><path d="M9 4.5c-.5-.7-.5-1.3 0-2"/><path d="M13 4.5c-.5-.7-.5-1.3 0-2"/></svg>`,
-    // Martini glass with olive on a pick
-    "cocktails": `<svg viewBox="0 0 24 24"><path d="M3.5 5h17l-8.5 9v6"/><path d="M8 20h8"/><path d="M16.5 4.5l-2.5 2.5"/><circle cx="14" cy="7" r="1.1" fill="currentColor"/></svg>`,
-    // Takeaway cup with lid + straw (soft drinks / smoothies)
-    "soft-drinks": `<svg viewBox="0 0 24 24"><path d="M6.5 7h11l-1.2 13.2A2 2 0 0 1 14.3 22H9.7a2 2 0 0 1-2-1.8L6.5 7z"/><path d="M5.5 7h13l-.3-2H5.8z"/><path d="M13 4l-1 18"/></svg>`,
-    // Spirits bottle with neck + label
-    "drinks": `<svg viewBox="0 0 24 24"><path d="M10 3h4v4l1 1.5V20a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V8.5L10 7V3z"/><rect x="9" y="11" width="6" height="5"/><path d="M11 4h2"/></svg>`,
-    // Beer mug with foam head + handle
-    "beers": `<svg viewBox="0 0 24 24"><path d="M5 9h11v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9z"/><path d="M16 12h2a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3h-2"/><path d="M5 9c0-1.5 1.2-2.2 2-2 .8.2 1.2-.8 2-1 .8-.2 1.5.8 2.5.8s1.7-1 2.5-.8c.8.2 1.2 1.2 2 1 .8-.2 2 .5 2 2"/><path d="M9 13v5M12.5 13v5"/></svg>`,
-    // Wine glass — slim bowl, long stem, footed base
-    "wines": `<svg viewBox="0 0 24 24"><path d="M7.5 3h9c0 4.5-2 8-4.5 8S7.5 7.5 7.5 3z"/><path d="M9 6.5h6"/><path d="M12 11v9"/><path d="M8 20h8"/></svg>`,
-    // Croissant on a plate (snacks/pastries)
-    "snacks": `<svg viewBox="0 0 24 24"><ellipse cx="12" cy="18.5" rx="8.5" ry="1.5"/><path d="M4.5 14c0-3 3-6 7.5-6s7.5 3 7.5 6c0 1-1 1.5-2.5 1.5-1 0-2-1-3.5-1s-2.5 1-3.5 1c-1 0-2-1-3.5-1S4.5 15 4.5 14z"/><path d="M8 12.5l1.5 2M12 12v2.5M16 12.5l-1.5 2"/></svg>`,
-    "_default": `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>`,
+    // lucide: coffee
+    "coffees-beverages": `<svg viewBox="0 0 24 24"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></svg>`,
+    // teapot with spout + lid (Lucide doesn't ship a tea icon — drawn in matching stroke style)
+    "tea": `<svg viewBox="0 0 24 24"><path d="M4 11h13v4a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-4z"/><path d="M17 12h3a2 2 0 0 1 0 4h-3"/><path d="M10 8V6h3v2"/><path d="M11 4c-.5-.7-.5-1.3 0-2"/></svg>`,
+    // lucide: martini-glass-citrus
+    "cocktails": `<svg viewBox="0 0 24 24"><path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8Z"/><path d="M5.5 10h13"/></svg>`,
+    // lucide: cup-soda
+    "soft-drinks": `<svg viewBox="0 0 24 24"><path d="m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8"/><path d="M5 8h14"/><path d="M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0"/><path d="m12 8 1-6h2"/></svg>`,
+    // spirits bottle (no Lucide bottle icon — drawn in matching stroke style)
+    "drinks": `<svg viewBox="0 0 24 24"><path d="M10 2h4v4"/><path d="M9 6h6c0 1 .5 1.5 1 2.5V20a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V8.5C8.5 7.5 9 7 9 6z"/><rect x="9" y="11" width="6" height="5" rx="0.5"/></svg>`,
+    // lucide: beer
+    "beers": `<svg viewBox="0 0 24 24"><path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5C9.44 3.5 10 3 12 3s2.56.5 3.5.5c.93 0 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/></svg>`,
+    // lucide: wine
+    "wines": `<svg viewBox="0 0 24 24"><path d="M8 22h8"/><path d="M7 10h10"/><path d="M12 15v7"/><path d="M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5Z"/></svg>`,
+    // lucide: cookie
+    "snacks": `<svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"/><path d="M8.5 8.5v.01"/><path d="M16 15.5v.01"/><path d="M12 12v.01"/><path d="M11 17v.01"/><path d="M7 14v.01"/></svg>`,
+    // lucide: circle-help (default)
+    "_default": `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>`,
   };
 
   const fmtPrice = (n) =>
