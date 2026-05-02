@@ -449,11 +449,11 @@
     const host = $("#hero-socials");
     host.innerHTML = "";
     const socials = [];
-    if (shop.instagram_url) {
-      socials.push({ href: shop.instagram_url, icon: FOOT_ICONS.insta, aria: "Instagram" });
-    }
     if (shop.facebook_url) {
       socials.push({ href: shop.facebook_url, icon: FOOT_ICONS.facebook, aria: "Facebook" });
+    }
+    if (shop.instagram_url) {
+      socials.push({ href: shop.instagram_url, icon: FOOT_ICONS.insta, aria: "Instagram" });
     }
     socials.forEach((s) => {
       const link = document.createElement("a");

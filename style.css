@@ -46,9 +46,9 @@ body {
 
 .hero-logo {
   display: block;
-  width: min(220px, 60%);
+  width: min(320px, 80%);
   height: auto;
-  margin: 0 auto 6px;
+  margin: 0 auto 8px;
 }
 
 .brand-address {
