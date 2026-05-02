@@ -10,18 +10,32 @@
   const LABELS = {
     el: {
       search: "Αναζήτηση…",
+      searchAll: "Αναζήτηση σε όλα τα προϊόντα…",
       empty: "Δεν βρέθηκαν προϊόντα.",
       vat: "Τιμές σε ευρώ. Συμπεριλαμβάνεται ΦΠΑ.",
       back: "Πίσω",
       items: (n) => `${n} προϊόντα`,
+      call: "Κλήση",
+      directions: "Διεύθυνση",
+      instagram: "Instagram",
     },
     en: {
       search: "Search…",
+      searchAll: "Search all items…",
       empty: "No items found.",
       vat: "Prices in euro. VAT included.",
       back: "Back",
       items: (n) => `${n} items`,
+      call: "Call",
+      directions: "Directions",
+      instagram: "Instagram",
     },
+  };
+
+  const FOOT_ICONS = {
+    phone: `<svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
+    map:   `<svg viewBox="0 0 24 24"><path d="M20 10c0 7-8 13-8 13s-8-6-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
+    insta: `<svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>`,
   };
 
   // Icons from Lucide (lucide.dev) — MIT licensed, ISC original, hand-tuned
@@ -147,9 +161,76 @@
     const root = $("#app");
     root.innerHTML = "";
 
+    // Global search input (filters across every category)
+    const searchWrap = document.createElement("div");
+    searchWrap.className = "home-search";
+    const search = document.createElement("input");
+    search.type = "search";
+    search.placeholder = t().searchAll;
+    search.value = STATE.homeQuery || "";
+    search.autocomplete = "off";
+    search.addEventListener("input", (e) => {
+      STATE.homeQuery = e.target.value;
+      drawHomeBody();
+    });
+    searchWrap.appendChild(search);
+    root.appendChild(searchWrap);
+
+    const body = document.createElement("div");
+    body.id = "home-body";
+    root.appendChild(body);
+
+    function drawHomeBody() {
+      body.innerHTML = "";
+      const q = (STATE.homeQuery || "").trim().toLowerCase();
+      if (!q) {
+        body.appendChild(buildTileGrid());
+        return;
+      }
+      // Search results grouped by category
+      const groups = STATE.data.categories
+        .map((c) => ({
+          cat: c,
+          items: c.items.filter((it) => itemMatchesQuery(it, q)),
+        }))
+        .filter((g) => g.items.length > 0);
+
+      if (!groups.length) {
+        const empty = document.createElement("p");
+        empty.className = "empty";
+        empty.textContent = t().empty;
+        body.appendChild(empty);
+        return;
+      }
+
+      groups.forEach((g) => {
+        const block = document.createElement("section");
+        block.className = "home-search-group";
+
+        const head = document.createElement("a");
+        head.className = "home-search-cat";
+        head.href = `#${g.cat.id}`;
+        head.textContent = pickCatName(g.cat);
+        block.appendChild(head);
+
+        g.items.forEach((it) => {
+          const link = document.createElement("a");
+          link.className = "home-search-item";
+          link.href = `#${g.cat.id}`;
+          link.innerHTML = `<span class="home-search-name">${escapeHtml(pickName(it))}</span><span class="home-search-price">${escapeHtml(fmtPrice(it.price))}</span>`;
+          block.appendChild(link);
+        });
+
+        body.appendChild(block);
+      });
+    }
+
+    drawHomeBody();
+  }
+
+  function buildTileGrid() {
     const grid = document.createElement("div");
     grid.className = "cat-grid";
-
     STATE.data.categories.forEach((c) => {
       const a = document.createElement("a");
       a.className = "cat-tile";
@@ -171,8 +252,17 @@
       a.append(iconWrap, name, count);
       grid.appendChild(a);
     });
+    return grid;
+  }
 
-    root.appendChild(grid);
+  function itemMatchesQuery(it, q) {
+    if (!q) return true;
+    const fields = [it.name, it.name_en, it.description, it.description_en, it.section, it.section_en];
+    return fields.some((f) => f && f.toLowerCase().includes(q));
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
   }
 
   function renderCategory(id) {
@@ -318,10 +408,75 @@
       li.classList.toggle("active", li.dataset.lang === STATE.lang);
     });
     if (STATE.data) {
-      $("#address").textContent = STATE.data.shop.address || "";
+      const shop = STATE.data.shop;
+
+      // Address as a tap-to-map link
+      const addr = $("#address");
+      addr.textContent = shop.address || "";
+      if (shop.maps_url) {
+        addr.href = shop.maps_url;
+      } else {
+        addr.removeAttribute("href");
+      }
+
+      // Hours line under the address
+      const hoursEl = $("#hours");
+      const hours = STATE.lang === "en" ? (shop.hours_en || shop.hours) : shop.hours;
+      hoursEl.textContent = hours || "";
+      hoursEl.style.display = hours ? "" : "none";
+
+      // Footer VAT line
       $(".foot-sm").textContent = t().vat;
+
+      // Footer action icons (call, directions, instagram)
+      renderFootActions(shop);
+
       render();
     }
+  }
+
+  function renderFootActions(shop) {
+    const host = $("#foot-actions");
+    host.innerHTML = "";
+    const actions = [];
+    if (shop.phone) {
+      actions.push({
+        href: "tel:" + shop.phone,
+        label: shop.phone_display || shop.phone,
+        icon: FOOT_ICONS.phone,
+        aria: t().call,
+      });
+    }
+    if (shop.maps_url) {
+      actions.push({
+        href: shop.maps_url,
+        label: t().directions,
+        icon: FOOT_ICONS.map,
+        aria: t().directions,
+        external: true,
+      });
+    }
+    if (shop.instagram_url) {
+      actions.push({
+        href: shop.instagram_url,
+        label: t().instagram,
+        icon: FOOT_ICONS.insta,
+        aria: t().instagram,
+        external: true,
+      });
+    }
+    actions.forEach((a) => {
+      const link = document.createElement("a");
+      link.className = "foot-action";
+      link.href = a.href;
+      link.setAttribute("aria-label", a.aria);
+      if (a.external) {
+        link.target = "_blank";
+        link.rel = "noopener";
+      }
+      link.innerHTML = a.icon + `<span>${escapeHtml(a.label)}</span>`;
+      host.appendChild(link);
+    });
   }
 
   function bindLangMenu() {

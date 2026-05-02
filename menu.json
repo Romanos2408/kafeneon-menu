@@ -5,7 +5,12 @@
     "tagline": "Taste the true coffee",
     "address": "Ελευθερίου Βενιζέλου 133, Χρυσούπολη 64200",
     "phone": "",
-    "instagram": "ΗΓΩΝΙΑ"
+    "instagram": "kafeneon_h_gonia",
+    "hours": "Καθημερινά 07:00 – 01:00",
+    "hours_en": "Daily 07:00 – 01:00",
+    "phone_display": "",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=%CE%95%CE%BB%CE%B5%CF%85%CE%B8%CE%B5%CF%81%CE%AF%CE%BF%CF%85%20%CE%92%CE%B5%CE%BD%CE%B9%CE%B6%CE%AD%CE%BB%CE%BF%CF%85%20133%2C%20%CE%A7%CF%81%CF%85%CF%83%CE%BF%CF%8D%CF%80%CE%BF%CE%BB%CE%B7%2064200",
+    "instagram_url": "https://instagram.com/kafeneon_h_gonia"
   },
   "categories": [
     {
