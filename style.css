@@ -419,6 +419,14 @@ body {
   line-height: 1.4;
 }
 
+.item-time {
+  font-size: 12px;
+  color: var(--ink-soft);
+  font-weight: 400;
+  font-style: italic;
+  margin-left: 2px;
+}
+
 .item-variants {
   grid-column: 1 / -1;
   margin-top: 6px;

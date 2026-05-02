@@ -247,181 +247,221 @@
           "name": "Gunpowder bio",
           "name_en": "Gunpowder bio",
           "price": 2.5,
-          "description": "Πράσινο τσάι Κίνας βιολογικής καλλιέργειας σε σχήμα μπαλίτσας. 2-3min",
-          "description_en": "Organically grown Chinese green tea in the shape of a ball. 2-3min",
+          "description": "Πράσινο τσάι Κίνας βιολογικής καλλιέργειας σε σχήμα μπαλίτσας",
+          "description_en": "Organically grown Chinese green tea in the shape of a ball",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "2-3min",
+          "time_en": "2-3min"
         },
         {
           "name": "Earl Grey Lord Byron",
           "name_en": "Earl Grey Lord Byron",
           "price": 2.5,
-          "description": "Μαύρο τσάι με δυνατό άρωμα περγαμόντου. 4-5min",
-          "description_en": "Black tea with a strong bergamot aroma. 4-5min",
+          "description": "Μαύρο τσάι με δυνατό άρωμα περγαμόντου",
+          "description_en": "Black tea with a strong bergamot aroma",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "4-5min",
+          "time_en": "4-5min"
         },
         {
           "name": "Δρόμος του Μεταξιού",
           "name_en": "Silk Road",
           "price": 2.5,
-          "description": "Μαύρο τσάι με πιπέρι, κανέλα, κάρδαμο και πιπερόριζα. 4-5min",
-          "description_en": "Black tea with pepper, cinnamon, cardamom and ginger. 4-5min",
+          "description": "Μαύρο τσάι με πιπέρι, κανέλα, κάρδαμο και πιπερόριζα",
+          "description_en": "Black tea with pepper, cinnamon, cardamom and ginger",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "4-5min",
+          "time_en": "4-5min"
         },
         {
           "name": "Μήλο της Έριδος",
           "name_en": "Apple of Discord",
           "price": 2.5,
-          "description": "Μαύρο τσάι με μήλο, κανέλα, αμύγδαλο και βανίλια. 4-5min",
-          "description_en": "Black tea with apple, cinnamon, almond and vanilla. 4-5min",
+          "description": "Μαύρο τσάι με μήλο, κανέλα, αμύγδαλο και βανίλια",
+          "description_en": "Black tea with apple, cinnamon, almond and vanilla",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "4-5min",
+          "time_en": "4-5min"
         },
         {
           "name": "Τσάι των Χριστουγένων",
           "name_en": "Christmas tea",
           "price": 2.5,
-          "description": "Μαύρο τσάι με κεράσι, αμύγδαλο, κανέλλα, κάρδαμο, κορίανδρο, πορτοκάλι, ροζ πιπέρι, γαρύφαλλο. 4-5min",
-          "description_en": "Black tea with cherry, almond, cinnamon, cardamom, coriander, orange, pink pepper, clove. 4-5min",
+          "description": "Μαύρο τσάι με κεράσι, αμύγδαλο, κανέλλα, κάρδαμο, κορίανδρο, πορτοκάλι, ροζ πιπέρι, γαρύφαλλο",
+          "description_en": "Black tea with cherry, almond, cinnamon, cardamom, coriander, orange, pink pepper, clove",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "4-5min",
+          "time_en": "4-5min"
         },
         {
           "name": "Αιολική Γη",
           "name_en": "Aeolian Land",
           "price": 2.5,
-          "description": "Πράσινο τσάι με, δαμάσκινο, μήλο, ροδάκινο, αχλάδι. 2-3min",
-          "description_en": "Green tea with, plum, apple, peach, pear. 2-3min",
+          "description": "Πράσινο τσάι με, δαμάσκινο, μήλο, ροδάκινο, αχλάδι",
+          "description_en": "Green tea with, plum, apple, peach, pear",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "2-3min",
+          "time_en": "2-3min"
         },
         {
           "name": "Δάκρυ της Χίου",
           "name_en": "Tear of Chios",
           "price": 2.5,
-          "description": "Πράσινο τσάι με μαστίχα Χίου, λεμόνι, αμύγδαλο και φυστίκι Αιγίνης. 2-3min",
-          "description_en": "Green tea with Chios mastic, lemon, almond and Aegina pistachio. 2-3min",
+          "description": "Πράσινο τσάι με μαστίχα Χίου, λεμόνι, αμύγδαλο και φυστίκι Αιγίνης",
+          "description_en": "Green tea with Chios mastic, lemon, almond and Aegina pistachio",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "2-3min",
+          "time_en": "2-3min"
         },
         {
           "name": "Μυρωμένος Θάμνος",
           "name_en": "Fragrant Bush",
           "price": 2.5,
-          "description": "Πράσινο τσάι με πορτοκάλι, μήλο, κανέλλα, κάρδαμο, κορίανδρο, ροζ πιπέρι και γαρίφαλο. 2-3min",
-          "description_en": "Green tea with orange, apple, cinnamon, cardamom, coriander, pink pepper and cloves. 2-3min",
+          "description": "Πράσινο τσάι με πορτοκάλι, μήλο, κανέλλα, κάρδαμο, κορίανδρο, ροζ πιπέρι και γαρίφαλο",
+          "description_en": "Green tea with orange, apple, cinnamon, cardamom, coriander, pink pepper and cloves",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "2-3min",
+          "time_en": "2-3min"
         },
         {
           "name": "Πράσινος Δράκος",
           "name_en": "Green Dragon",
           "price": 2.5,
-          "description": "Πράσινο τσάι με κανέλα και πορτοκάλι. 2-3min",
-          "description_en": "Green tea with cinnamon and orange. 2-3min",
+          "description": "Πράσινο τσάι με κανέλα και πορτοκάλι",
+          "description_en": "Green tea with cinnamon and orange",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "2-3min",
+          "time_en": "2-3min"
         },
         {
           "name": "Goji Acai",
           "name_en": "Goji Acai",
           "price": 2.5,
-          "description": "Πράσινο τσάι με ιβίσκο, κυνόροδο, καρπό γκότζι και ασάι, ρόδι, μήλο, μούρο. 2-3min",
-          "description_en": "Green tea with hibiscus, rosehip, goji and acai berries, pomegranate, apple, berry. 2-3min",
+          "description": "Πράσινο τσάι με ιβίσκο, κυνόροδο, καρπό γκότζι και ασάι, ρόδι, μήλο, μούρο",
+          "description_en": "Green tea with hibiscus, rosehip, goji and acai berries, pomegranate, apple, berry",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "2-3min",
+          "time_en": "2-3min"
         },
         {
           "name": "White Christmas",
           "name_en": "White Christmas",
           "price": 2.5,
-          "description": "Λευκό τσάι με μέλι, αμύγδαλο, πορτοκάλι, κάρδαμο, αστεροειδές άνισο, ιβίσκος, παντζάρι. 8-10min",
-          "description_en": "White tea with honey, almond, orange, cardamom, star anise, hibiscus, beetroot. 8-10min",
+          "description": "Λευκό τσάι με μέλι, αμύγδαλο, πορτοκάλι, κάρδαμο, αστεροειδές άνισο, ιβίσκος, παντζάρι",
+          "description_en": "White tea with honey, almond, orange, cardamom, star anise, hibiscus, beetroot",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "8-10min",
+          "time_en": "8-10min"
         },
         {
           "name": "Rokkoko",
           "name_en": "Rokkoko",
           "price": 2.5,
-          "description": "Μίγμα μαύρου και πράσινου τσαγιού με ινδοκάρυδο και καραμέλα. 3-4min",
-          "description_en": "A blend of black and green tea with coconut and caramel. 3-4min",
+          "description": "Μίγμα μαύρου και πράσινου τσαγιού με ινδοκάρυδο και καραμέλα",
+          "description_en": "A blend of black and green tea with coconut and caramel",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "3-4min",
+          "time_en": "3-4min"
         },
         {
           "name": "Δώρα των Μάγων",
           "name_en": "Gifts of the Magi",
           "price": 2.5,
-          "description": "Μέλι, αμύγδαλο, πορτοκάλι, κάρδαμο, αστεροειδές άνισο, ιβίσκος, παντζάρι. 8-10min",
-          "description_en": "Honey, almond, orange, cardamom, star anise, hibiscus, beetroot. 8-10min",
+          "description": "Μέλι, αμύγδαλο, πορτοκάλι, κάρδαμο, αστεροειδές άνισο, ιβίσκος, παντζάρι",
+          "description_en": "Honey, almond, orange, cardamom, star anise, hibiscus, beetroot",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "8-10min",
+          "time_en": "8-10min"
         },
         {
           "name": "Κόκκινη Πλατεία",
           "name_en": "Red Square",
           "price": 2.5,
-          "description": "Σύνθεση από αποξηραμένα φρούτα με ιβίσκο, cranberry, μήλο. 8-10min",
-          "description_en": "Dried fruit blend with hibiscus, cranberry, apple. 8-10min",
+          "description": "Σύνθεση από αποξηραμένα φρούτα με ιβίσκο, cranberry, μήλο",
+          "description_en": "Dried fruit blend with hibiscus, cranberry, apple",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "8-10min",
+          "time_en": "8-10min"
         },
         {
           "name": "Χριστούγεννα στη Βιέννη",
           "name_en": "Christmas in Vienna",
           "price": 2.5,
-          "description": "Ιβίσκος, μήλο, μάγκο, παπάγια, ανανά, μούρο, αμύγδαλο, σταφίδες, κανέλα. 8-10min",
-          "description_en": "Hibiscus, apple, mango, papaya, pineapple, berry, almond, raisins, cinnamon. 8-10min",
+          "description": "Ιβίσκος, μήλο, μάγκο, παπάγια, ανανά, μούρο, αμύγδαλο, σταφίδες, κανέλα",
+          "description_en": "Hibiscus, apple, mango, papaya, pineapple, berry, almond, raisins, cinnamon",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "8-10min",
+          "time_en": "8-10min"
         },
         {
           "name": "Golden Blue tea",
           "name_en": "Golden Blue tea",
           "price": 2.5,
-          "description": "Τσάι blue tea \"με το χαρακτηριστικό του μπλέ χρώμα\" σε συνδυασμό με ανανά, μάνγκο, μπανάνα καιλεμονόχορτο. 6-8min",
-          "description_en": "Blue tea \"with its characteristic blue color\" combined with pineapple, mango, banana and lemongrass. 6-8min",
+          "description": "Τσάι blue tea \"με το χαρακτηριστικό του μπλέ χρώμα\" σε συνδυασμό με ανανά, μάνγκο, μπανάνα καιλεμονόχορτο",
+          "description_en": "Blue tea \"with its characteristic blue color\" combined with pineapple, mango, banana and lemongrass",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "6-8min",
+          "time_en": "6-8min"
         },
         {
           "name": "Τσάι Κρυολογήματος",
           "name_en": "Cold Tea",
           "price": 2.5,
-          "description": "Πιπερόριζα, γλυκόριζα, πιπέρι, κανέλα, lemon grass, χαμομήλι, λουΐζα. 8-10min",
-          "description_en": "Ginger, licorice, pepper, cinnamon, lemon grass, chamomile, verbena. 8-10min",
+          "description": "Πιπερόριζα, γλυκόριζα, πιπέρι, κανέλα, lemon grass, χαμομήλι, λουΐζα",
+          "description_en": "Ginger, licorice, pepper, cinnamon, lemon grass, chamomile, verbena",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "8-10min",
+          "time_en": "8-10min"
         },
         {
           "name": "Μέντα",
           "name_en": "Mint",
           "price": 2.5,
-          "description": "Δροσιστικό βότανο, που ανακουφίζει το πεπτικό σύστημα. 8-10min",
-          "description_en": "A refreshing herb that soothes the digestive system. 8-10min",
+          "description": "Δροσιστικό βότανο, που ανακουφίζει το πεπτικό σύστημα",
+          "description_en": "A refreshing herb that soothes the digestive system",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "8-10min",
+          "time_en": "8-10min"
         },
         {
           "name": "Τσάι του Βουνού",
           "name_en": "Mountain Tea",
           "price": 2.5,
-          "description": "Βότανο εναντίον του κρυολογήματος και του πονόλαιμου. 8-10min",
-          "description_en": "Herb against colds and sore throats. 8-10min",
+          "description": "Βότανο εναντίον του κρυολογήματος και του πονόλαιμου",
+          "description_en": "Herb against colds and sore throats",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "8-10min",
+          "time_en": "8-10min"
         },
         {
           "name": "Χαμομήλι",
           "name_en": "Chamomile",
           "price": 2.5,
-          "description": "Χαλαρωτικό βότανο. 8-10min",
-          "description_en": "Relaxing herb. 8-10min",
+          "description": "Χαλαρωτικό βότανο",
+          "description_en": "Relaxing herb",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
-          "section_en": "The GONIA Cafe and the Tea Street offer you:"
+          "section_en": "The GONIA Cafe and the Tea Street offer you:",
+          "time": "8-10min",
+          "time_en": "8-10min"
         }
       ]
     },

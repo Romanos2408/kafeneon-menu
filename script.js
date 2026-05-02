@@ -67,6 +67,10 @@
   }
 
   // ---- Renderers ----
+  function pickTime(it) {
+    return STATE.lang === "en" ? it.time_en || it.time || null : it.time || null;
+  }
+
   function buildItemRow(it, useVariantTable = false) {
     const row = document.createElement("div");
     row.className = "item";
@@ -74,6 +78,14 @@
     const name = document.createElement("span");
     name.className = "item-name";
     name.textContent = pickName(it);
+    const time = pickTime(it);
+    if (time) {
+      const t = document.createElement("span");
+      t.className = "item-time";
+      t.textContent = time;
+      name.appendChild(document.createTextNode(" "));
+      name.appendChild(t);
+    }
 
     const price = document.createElement("span");
     price.className = "item-price";
