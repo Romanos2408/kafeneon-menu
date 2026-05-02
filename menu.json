@@ -14,7 +14,7 @@
       "name_en": "COFFEES-BEVERAGES",
       "items": [
         {
-          "name": "Espresso  Μονό",
+          "name": "Espresso Μονό",
           "name_en": "Espresso",
           "price": 2.3,
           "section": "ΚΑΦΕΔΕΣ",
@@ -22,7 +22,7 @@
         },
         {
           "name": "Espresso Διπλό",
-          "name_en": "Espresso  Double",
+          "name_en": "Espresso Double",
           "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
@@ -77,7 +77,7 @@
           "section_en": "COFFEES"
         },
         {
-          "name": "Freddo Espresso  Μονό",
+          "name": "Freddo Espresso Μονό",
           "name_en": "Freddo Espresso",
           "price": 2.3,
           "section": "ΚΑΦΕΔΕΣ",
@@ -91,7 +91,7 @@
           "section_en": "COFFEES"
         },
         {
-          "name": "Freddo Cappuccino  Μονό",
+          "name": "Freddo Cappuccino Μονό",
           "name_en": "Freddo Cappuccino",
           "price": 2.7,
           "section": "ΚΑΦΕΔΕΣ",
@@ -106,7 +106,7 @@
         },
         {
           "name": "Nes Kαφέ",
-          "name_en": "Nes  Cafe",
+          "name_en": "Nes Cafe",
           "price": 2.3,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
@@ -120,7 +120,7 @@
         },
         {
           "name": "Φίλτρου",
-          "name_en": "Filte Coffee",
+          "name_en": "Filter Coffee",
           "price": 2.3,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
@@ -176,13 +176,13 @@
           "name_en": "Milkshake Strawberry Glory",
           "price": 3.5,
           "description": "Μιλκ Σέικ φράουλα - βανίλια",
-          "description_en": "Milkshake Strawberry - Vanila",
+          "description_en": "Milkshake Strawberry - Vanilla",
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
         },
         {
           "name": "Σοκολάτα Classic",
-          "name_en": "Chocolate  Classic",
+          "name_en": "Chocolate Classic",
           "price": 3.0,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
@@ -209,29 +209,29 @@
           "section_en": "BEVERAGES"
         },
         {
-          "name": "Σοκολατα Φράουλα-Βανίλια",
+          "name": "Σοκολάτα Φράουλα-Βανίλια",
           "name_en": "Strawberry-Vanilla Chocolate",
           "price": 3.0,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
         },
         {
-          "name": "Mochaccino ζεστό",
+          "name": "Mochaccino Ζεστό",
           "name_en": "Mochaccino",
           "price": 3.4,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
         },
         {
-          "name": "Kακάο Ζεστό μονό",
+          "name": "Κακάο Ζεστό μονό",
           "name_en": "Hot Cacao",
           "price": 2.2,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
         },
         {
-          "name": "Κακάο Ζεστά διπλό",
-          "name_en": "Hot double Cacao",
+          "name": "Κακάο Ζεστό Διπλό",
+          "name_en": "Hot Double Cacao",
           "price": 2.7,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
@@ -471,35 +471,35 @@
       "name_en": "COCKTAILS",
       "items": [
         {
-          "name": "PALOMA",
-          "name_en": "PALOMA",
+          "name": "Paloma",
+          "name_en": "Paloma",
           "price": 7.0,
-          "description": "tequila blanco, lime juice, pink soda",
-          "description_en": "tequila blanco, lime juice, pink soda",
+          "description": "Tequila blanco, lime juice, pink soda",
+          "description_en": "Tequila blanco, lime juice, pink soda",
           "section": "COKTAILS",
           "section_en": "COKTAILS"
         },
         {
-          "name": "MARGARITA",
-          "name_en": "MARGARITA",
+          "name": "Margarita",
+          "name_en": "Margarita",
           "price": 7.0,
-          "description": "tequila blanco, lime juice, orange liqueur",
-          "description_en": "tequila blanco, lime juice, orange liqueur",
+          "description": "Tequila blanco, lime juice, orange liqueur",
+          "description_en": "Tequila blanco, lime juice, orange liqueur",
           "section": "COKTAILS",
           "section_en": "COKTAILS"
         },
         {
-          "name": "MOJITO",
-          "name_en": "MOJITO",
+          "name": "Mojito",
+          "name_en": "Mojito",
           "price": 7.0,
-          "description": "white rum, simple syrop, lime, mint, soda",
-          "description_en": "white rum, simple syrop, lime, mint, soda",
+          "description": "White rum, simple syrup, lime, mint, soda",
+          "description_en": "White rum, simple syrup, lime, mint, soda",
           "section": "COKTAILS",
           "section_en": "COKTAILS"
         },
         {
-          "name": "MAI TAI",
-          "name_en": "MAI TAI",
+          "name": "Mai Tai",
+          "name_en": "Mai Tai",
           "price": 7.0,
           "description": "Dark Rum, lime juice, orange liqueur, bitter almond",
           "description_en": "Dark Rum, lime juice, orange liqueur, bitter almond",
@@ -507,8 +507,8 @@
           "section_en": "COKTAILS"
         },
         {
-          "name": "PORNSTAR",
-          "name_en": "PORNSTAR",
+          "name": "Pornstar",
+          "name_en": "Pornstar",
           "price": 7.0,
           "description": "Vodka, passion fruit, vanilla",
           "description_en": "Vodka, passion fruit, vanilla",
@@ -516,8 +516,8 @@
           "section_en": "COKTAILS"
         },
         {
-          "name": "NEGRONI",
-          "name_en": "NEGRONI",
+          "name": "Negroni",
+          "name_en": "Negroni",
           "price": 7.0,
           "description": "Gin, campari, sweet vermouth",
           "description_en": "Gin, campari, sweet vermouth",
@@ -525,17 +525,17 @@
           "section_en": "COKTAILS"
         },
         {
-          "name": "OLD FASHIONED",
-          "name_en": "OLD FASHIONED",
+          "name": "Old Fashioned",
+          "name_en": "Old Fashioned",
           "price": 7.0,
-          "description": "Bourbon, simple syrop, aromatic bitters",
-          "description_en": "Bourbon, simple syrop, aromatic bitters",
+          "description": "Bourbon, simple syrup, aromatic bitters",
+          "description_en": "Bourbon, simple syrup, aromatic bitters",
           "section": "COKTAILS",
           "section_en": "COKTAILS"
         },
         {
-          "name": "APEROL SPRITZ",
-          "name_en": "APEROL SPRITZ",
+          "name": "Aperol Spritz",
+          "name_en": "Aperol Spritz",
           "price": 7.0,
           "description": "Aperol, prosecco, soda",
           "description_en": "Aperol, prosecco, soda",
@@ -543,8 +543,8 @@
           "section_en": "COKTAILS"
         },
         {
-          "name": "CUBA LIBRE",
-          "name_en": "CUBA LIBRE",
+          "name": "Cuba Libre",
+          "name_en": "Cuba Libre",
           "price": 7.0,
           "description": "Dark Rum, lime, cola",
           "description_en": "Dark Rum, lime, cola",
@@ -552,8 +552,8 @@
           "section_en": "COKTAILS"
         },
         {
-          "name": "LONG ISLAND",
-          "name_en": "LONG ISLAND",
+          "name": "Long Island",
+          "name_en": "Long Island",
           "price": 7.0,
           "description": "Vodka, gin, tequila, rum, orange liqueur, cola",
           "description_en": "Vodka, gin, tequila, rum, orange liqueur, cola",
@@ -561,8 +561,8 @@
           "section_en": "COKTAILS"
         },
         {
-          "name": "DAQUIRI STRAWBERRY",
-          "name_en": "DAQUIRI STRAWBERRY",
+          "name": "Daiquiri Strawberry",
+          "name_en": "Daiquiri Strawberry",
           "price": 7.0,
           "description": "Rum, strawberry, lime",
           "description_en": "Rum, strawberry, lime",
@@ -570,38 +570,38 @@
           "section_en": "COKTAILS"
         },
         {
-          "name": "CAIPIROSKA",
-          "name_en": "CAIPIROSKA",
+          "name": "Caipiroska",
+          "name_en": "Caipiroska",
           "price": 7.0,
-          "description": "Vodka, simple syrop, lime",
-          "description_en": "Vodka, simple syrop, lime",
+          "description": "Vodka, simple syrup, lime",
+          "description_en": "Vodka, simple syrup, lime",
           "section": "COKTAILS",
           "section_en": "COKTAILS"
         },
         {
-          "name": "PINA COLADA",
-          "name_en": "PINA COLADA",
+          "name": "Piña Colada",
+          "name_en": "Piña Colada",
           "price": 7.0,
-          "description": "Mallibu, pineapple juice, coconut liqueur",
-          "description_en": "Mallibu, pineapple juice, coconut liqueur",
+          "description": "Malibu, pineapple juice, coconut liqueur",
+          "description_en": "Malibu, pineapple juice, coconut liqueur",
           "section": "COKTAILS",
           "section_en": "COKTAILS"
         },
         {
-          "name": "MOJITO VIRGIN",
-          "name_en": "MOJITO VIRGIN",
+          "name": "Mojito Virgin",
+          "name_en": "Mojito Virgin",
           "price": 5.0,
-          "description": "Mint, simple syrop, lime, soda",
-          "description_en": "Mint, simple syrop, lime, soda",
+          "description": "Mint, simple syrup, lime, soda",
+          "description_en": "Mint, simple syrup, lime, soda",
           "section": "COKTAILS",
           "section_en": "COKTAILS"
         },
         {
-          "name": "mocktail",
-          "name_en": "mocktail",
+          "name": "Mocktail",
+          "name_en": "Mocktail",
           "price": 5.0,
-          "description": "cranberry juice, orange juice, sprite",
-          "description_en": "cranberry juice, orange juice, sprite",
+          "description": "Cranberry juice, orange juice, sprite",
+          "description_en": "Cranberry juice, orange juice, sprite",
           "section": "COKTAILS",
           "section_en": "COKTAILS"
         }
@@ -669,7 +669,7 @@
           "section_en": "SOFT DRINKS"
         },
         {
-          "name": "Lipton Ice Tea Λεμόνι  330ml",
+          "name": "Lipton Ice Tea Λεμόνι 330ml",
           "name_en": "Lipton Ice Tea Lemon 330ml",
           "price": 2.5,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
@@ -704,8 +704,8 @@
           "section_en": "ENERGY DRINKS"
         },
         {
-          "name": "Hell Classics  250ml",
-          "name_en": "Hell Classics  250ml",
+          "name": "Hell Classics 250ml",
+          "name_en": "Hell Classics 250ml",
           "price": 2.0,
           "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
           "section_en": "ENERGY DRINKS"
@@ -822,7 +822,7 @@
           "name": "Smoothie Wild Forest",
           "name_en": "Smoothie Wild Forest",
           "price": 3.5,
-          "description": "Με φράουλα, μύρτιλο, βατόμουρα, μούρο, φρανκοστάφυλο, καίκκινο και μαύρο κερασι",
+          "description": "Με φράουλα, μύρτιλο, βατόμουρα, μούρο, φρανκοστάφυλο, κόκκινο και μαύρο κερασι",
           "description_en": "With strawberry, blueberry, blackberry, mulberry, gooseberry, red and black cherry",
           "section": "SMOTHIES",
           "section_en": "SMOTHIES"
@@ -1131,13 +1131,6 @@
           "section_en": "BEERS"
         },
         {
-          "name": "Μάμος 500ml",
-          "name_en": "Mamos 500ml",
-          "price": 4.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
-        },
-        {
           "name": "Mythos 500ml",
           "name_en": "Mythos 500ml",
           "price": 4.5,
@@ -1246,15 +1239,15 @@
           "section_en": "BEERS"
         },
         {
-          "name": "Amster Free 330ml",
-          "name_en": "Amster Free 330ml",
+          "name": "Amstel Free 330ml",
+          "name_en": "Amstel Free 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
         },
         {
-          "name": "Gorgon's Space  330ml",
-          "name_en": "Gorgon's Space  330ml",
+          "name": "Gorgon's Space 330ml",
+          "name_en": "Gorgon's Space 330ml",
           "price": 4.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
