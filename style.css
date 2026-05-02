@@ -328,7 +328,7 @@ body {
 .variant-head {
   display: grid;
   grid-template-columns: 1fr repeat(var(--cols, 2), 96px);
-  column-gap: 20px;
+  column-gap: 10px;
   padding: 0 0 8px;
   border-bottom: 1px solid var(--line);
   margin: 0 0 4px;
@@ -354,7 +354,7 @@ body {
 .section-card--variant .item {
   display: grid;
   grid-template-columns: 1fr repeat(var(--cols, 2), 96px);
-  column-gap: 20px;
+  column-gap: 10px;
   align-items: baseline;
 }
 
