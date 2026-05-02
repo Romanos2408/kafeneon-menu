@@ -159,22 +159,22 @@ body {
 }
 
 .cat-tile-icon {
-  width: 44px;
-  height: 44px;
+  width: 52px;
+  height: 52px;
   color: var(--olive);
   background: var(--sage);
-  border-radius: 12px;
+  border-radius: 14px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
 .cat-tile-icon svg {
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   stroke: currentColor;
   fill: none;
-  stroke-width: 1.6;
+  stroke-width: 1.5;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
@@ -182,16 +182,21 @@ body {
 .cat-tile-name {
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--olive);
-  line-height: 1.25;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .cat-tile-count {
-  font-size: 11px;
+  font-size: 10px;
   color: var(--ink-soft);
-  letter-spacing: 0.06em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 /* Category detail page */

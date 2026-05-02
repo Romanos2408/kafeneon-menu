@@ -236,7 +236,9 @@
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
         }
-      ]
+      ],
+      "short_name": "ΚΑΦΕΔΕΣ",
+      "short_name_en": "Coffee"
     },
     {
       "id": "tea",
@@ -463,7 +465,9 @@
           "time": "8-10min",
           "time_en": "8-10min"
         }
-      ]
+      ],
+      "short_name": "ΤΣΑΪ",
+      "short_name_en": "Tea"
     },
     {
       "id": "cocktails",
@@ -605,7 +609,9 @@
           "section": "COKTAILS",
           "section_en": "COKTAILS"
         }
-      ]
+      ],
+      "short_name": "COCKTAILS",
+      "short_name_en": "Cocktails"
     },
     {
       "id": "soft-drinks",
@@ -864,7 +870,9 @@
           "section": "ΓΡΑΝΙΤΕΣ",
           "section_en": "GRANITES"
         }
-      ]
+      ],
+      "short_name": "ΑΝΑΨΥΚΤΙΚΑ",
+      "short_name_en": "Soft Drinks"
     },
     {
       "id": "drinks",
@@ -1095,7 +1103,9 @@
           "section": "PREMIUM",
           "section_en": "PREMIUM"
         }
-      ]
+      ],
+      "short_name": "ΠΟΤΑ",
+      "short_name_en": "Spirits"
     },
     {
       "id": "beers",
@@ -1259,7 +1269,9 @@
           "section": "ΠΙΑΤΕΛΑ ΜΠΙΡΑΣ",
           "section_en": "BEER PLATE"
         }
-      ]
+      ],
+      "short_name": "ΜΠΙΡΕΣ",
+      "short_name_en": "Beers"
     },
     {
       "id": "wines",
@@ -1413,7 +1425,9 @@
           "section": "Πιατέλα Κρασιού",
           "section_en": "Wine Plate"
         }
-      ]
+      ],
+      "short_name": "ΚΡΑΣΙΑ",
+      "short_name_en": "Wines"
     },
     {
       "id": "snacks",
@@ -1492,7 +1506,9 @@
           "section": "ΓΛΥΚΑ",
           "section_en": "SWEETS"
         }
-      ]
+      ],
+      "short_name": "ΣΝΑΚ & ΓΛΥΚΑ",
+      "short_name_en": "Snacks & Sweets"
     }
   ]
 }
