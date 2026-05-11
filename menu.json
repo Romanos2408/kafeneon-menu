@@ -22,70 +22,63 @@
         {
           "name": "Espresso Μονό",
           "name_en": "Espresso",
-          "price": 2.3,
+          "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Espresso Διπλό",
           "name_en": "Espresso Double",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Espresso Americano Μονό",
           "name_en": "Espresso Americano",
-          "price": 2.3,
+          "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Espresso Americano Διπλό",
           "name_en": "Espresso Americano Double",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Espresso Macchiato",
           "name_en": "Espresso Macchiato",
-          "price": 2.8,
+          "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Espresso Latte Macchiato",
           "name_en": "Espresso Latte Macchiato",
-          "price": 2.8,
+          "price": 3.5,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Cappuccino Μονό",
           "name_en": "Cappuccino",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Cappuccino Διπλό",
           "name_en": "Cappuccino Double",
-          "price": 2.8,
-          "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
-        },
-        {
-          "name": "Cappuccino Latte",
-          "name_en": "Cappuccino Latte",
-          "price": 3.0,
+          "price": 3.5,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Freddo Espresso Μονό",
           "name_en": "Freddo Espresso",
-          "price": 2.3,
+          "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
@@ -99,63 +92,56 @@
         {
           "name": "Freddo Cappuccino Μονό",
           "name_en": "Freddo Cappuccino",
-          "price": 2.7,
+          "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Freddo Cappuccino Διπλό",
           "name_en": "Freddo Cappuccino Double",
-          "price": 2.8,
+          "price": 3.5,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Nes Kαφέ",
           "name_en": "Nes Cafe",
-          "price": 2.3,
+          "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Φραπέ",
           "name_en": "Frappe",
-          "price": 2.3,
+          "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Φίλτρου",
           "name_en": "Filter Coffee",
-          "price": 2.3,
+          "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Ελληνικός Μονός",
           "name_en": "Greek Coffee",
-          "price": 2.2,
+          "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Ελληνικός Διπλός",
           "name_en": "Double Greek Coffee",
-          "price": 2.7,
+          "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
         {
           "name": "Ελληνικός Frio",
           "name_en": "Greek Coffee Frio",
-          "price": 2.5,
-          "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
-        },
-        {
-          "name": "Γαλλικός",
-          "name_en": "Filter",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
           "section_en": "COFFEES"
         },
@@ -194,8 +180,15 @@
           "section_en": "BEVERAGES"
         },
         {
-          "name": "Σοκολάτα Λευκή Oreo",
-          "name_en": "White Chocolate Oreo",
+          "name": "Σοκολάτα Λευκή",
+          "name_en": "White Chocolate",
+          "price": 3.0,
+          "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
+          "section_en": "BEVERAGES"
+        },
+        {
+          "name": "Σοκολάτα Oreo",
+          "name_en": "Chocolate Oreo",
           "price": 3.0,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
@@ -215,30 +208,30 @@
           "section_en": "BEVERAGES"
         },
         {
-          "name": "Σοκολάτα Φράουλα-Βανίλια",
-          "name_en": "Strawberry-Vanilla Chocolate",
-          "price": 3.0,
+          "name": "Σοκολάτα Βιενουά",
+          "name_en": "Chocolate Viennois",
+          "price": 3.5,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
         },
         {
-          "name": "Mochaccino Ζεστό",
-          "name_en": "Mochaccino",
-          "price": 3.4,
+          "name": "Mochaccino Ζεστό & Κρύο",
+          "name_en": "Mochaccino Hot & Cold",
+          "price": 3.5,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
         },
         {
           "name": "Κακάο Ζεστό μονό",
           "name_en": "Hot Cacao",
-          "price": 2.2,
+          "price": 2.5,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
         },
         {
           "name": "Κακάο Ζεστό Διπλό",
           "name_en": "Hot Double Cacao",
-          "price": 2.7,
+          "price": 3.0,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
           "section_en": "BEVERAGES"
         }
@@ -254,7 +247,7 @@
         {
           "name": "Gunpowder bio",
           "name_en": "Gunpowder bio",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Πράσινο τσάι Κίνας βιολογικής καλλιέργειας σε σχήμα μπαλίτσας",
           "description_en": "Organically grown Chinese green tea in the shape of a ball",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -265,7 +258,7 @@
         {
           "name": "Earl Grey Lord Byron",
           "name_en": "Earl Grey Lord Byron",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Μαύρο τσάι με δυνατό άρωμα περγαμόντου",
           "description_en": "Black tea with a strong bergamot aroma",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -276,7 +269,7 @@
         {
           "name": "Δρόμος του Μεταξιού",
           "name_en": "Silk Road",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Μαύρο τσάι με πιπέρι, κανέλα, κάρδαμο και πιπερόριζα",
           "description_en": "Black tea with pepper, cinnamon, cardamom and ginger",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -287,7 +280,7 @@
         {
           "name": "Μήλο της Έριδος",
           "name_en": "Apple of Discord",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Μαύρο τσάι με μήλο, κανέλα, αμύγδαλο και βανίλια",
           "description_en": "Black tea with apple, cinnamon, almond and vanilla",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -298,7 +291,7 @@
         {
           "name": "Τσάι των Χριστουγένων",
           "name_en": "Christmas tea",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Μαύρο τσάι με κεράσι, αμύγδαλο, κανέλλα, κάρδαμο, κορίανδρο, πορτοκάλι, ροζ πιπέρι, γαρύφαλλο",
           "description_en": "Black tea with cherry, almond, cinnamon, cardamom, coriander, orange, pink pepper, clove",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -309,7 +302,7 @@
         {
           "name": "Αιολική Γη",
           "name_en": "Aeolian Land",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Πράσινο τσάι με, δαμάσκινο, μήλο, ροδάκινο, αχλάδι",
           "description_en": "Green tea with, plum, apple, peach, pear",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -320,7 +313,7 @@
         {
           "name": "Δάκρυ της Χίου",
           "name_en": "Tear of Chios",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Πράσινο τσάι με μαστίχα Χίου, λεμόνι, αμύγδαλο και φυστίκι Αιγίνης",
           "description_en": "Green tea with Chios mastic, lemon, almond and Aegina pistachio",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -331,7 +324,7 @@
         {
           "name": "Μυρωμένος Θάμνος",
           "name_en": "Fragrant Bush",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Πράσινο τσάι με πορτοκάλι, μήλο, κανέλλα, κάρδαμο, κορίανδρο, ροζ πιπέρι και γαρίφαλο",
           "description_en": "Green tea with orange, apple, cinnamon, cardamom, coriander, pink pepper and cloves",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -342,7 +335,7 @@
         {
           "name": "Πράσινος Δράκος",
           "name_en": "Green Dragon",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Πράσινο τσάι με κανέλα και πορτοκάλι",
           "description_en": "Green tea with cinnamon and orange",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -353,7 +346,7 @@
         {
           "name": "Goji Acai",
           "name_en": "Goji Acai",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Πράσινο τσάι με ιβίσκο, κυνόροδο, καρπό γκότζι και ασάι, ρόδι, μήλο, μούρο",
           "description_en": "Green tea with hibiscus, rosehip, goji and acai berries, pomegranate, apple, berry",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -364,7 +357,7 @@
         {
           "name": "White Christmas",
           "name_en": "White Christmas",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Λευκό τσάι με μέλι, αμύγδαλο, πορτοκάλι, κάρδαμο, αστεροειδές άνισο, ιβίσκος, παντζάρι",
           "description_en": "White tea with honey, almond, orange, cardamom, star anise, hibiscus, beetroot",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -375,7 +368,7 @@
         {
           "name": "Rokkoko",
           "name_en": "Rokkoko",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Μίγμα μαύρου και πράσινου τσαγιού με ινδοκάρυδο και καραμέλα",
           "description_en": "A blend of black and green tea with coconut and caramel",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -386,7 +379,7 @@
         {
           "name": "Δώρα των Μάγων",
           "name_en": "Gifts of the Magi",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Μέλι, αμύγδαλο, πορτοκάλι, κάρδαμο, αστεροειδές άνισο, ιβίσκος, παντζάρι",
           "description_en": "Honey, almond, orange, cardamom, star anise, hibiscus, beetroot",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -397,7 +390,7 @@
         {
           "name": "Κόκκινη Πλατεία",
           "name_en": "Red Square",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Σύνθεση από αποξηραμένα φρούτα με ιβίσκο, cranberry, μήλο",
           "description_en": "Dried fruit blend with hibiscus, cranberry, apple",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -408,7 +401,7 @@
         {
           "name": "Χριστούγεννα στη Βιέννη",
           "name_en": "Christmas in Vienna",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Ιβίσκος, μήλο, μάγκο, παπάγια, ανανά, μούρο, αμύγδαλο, σταφίδες, κανέλα",
           "description_en": "Hibiscus, apple, mango, papaya, pineapple, berry, almond, raisins, cinnamon",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -419,7 +412,7 @@
         {
           "name": "Golden Blue tea",
           "name_en": "Golden Blue tea",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Τσάι blue tea \"με το χαρακτηριστικό του μπλέ χρώμα\" σε συνδυασμό με ανανά, μάνγκο, μπανάνα καιλεμονόχορτο",
           "description_en": "Blue tea \"with its characteristic blue color\" combined with pineapple, mango, banana and lemongrass",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -430,7 +423,7 @@
         {
           "name": "Τσάι Κρυολογήματος",
           "name_en": "Cold Tea",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Πιπερόριζα, γλυκόριζα, πιπέρι, κανέλα, lemon grass, χαμομήλι, λουΐζα",
           "description_en": "Ginger, licorice, pepper, cinnamon, lemon grass, chamomile, verbena",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -441,7 +434,7 @@
         {
           "name": "Μέντα",
           "name_en": "Mint",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Δροσιστικό βότανο, που ανακουφίζει το πεπτικό σύστημα",
           "description_en": "A refreshing herb that soothes the digestive system",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -452,7 +445,7 @@
         {
           "name": "Τσάι του Βουνού",
           "name_en": "Mountain Tea",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Βότανο εναντίον του κρυολογήματος και του πονόλαιμου",
           "description_en": "Herb against colds and sore throats",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -463,7 +456,7 @@
         {
           "name": "Χαμομήλι",
           "name_en": "Chamomile",
-          "price": 2.5,
+          "price": 3.0,
           "description": "Χαλαρωτικό βότανο",
           "description_en": "Relaxing herb",
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
@@ -483,63 +476,63 @@
         {
           "name": "Coca Cola 330ml",
           "name_en": "Coca Cola 330ml",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
         {
           "name": "Coca Cola Zero 330ml",
           "name_en": "Coca Cola Zero 330ml",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
         {
           "name": "Sprite 330ml",
           "name_en": "Sprite 330ml",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
         {
           "name": "Fanta Πορτοκαλάδα 330ml",
           "name_en": "Fanta Orange 330ml",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
         {
           "name": "Fanta Λεμονάδα 330ml",
           "name_en": "Fanta Lemonade 330ml",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
         {
           "name": "Three Cents Pink Soda 250ml",
           "name_en": "Three Cents Pink Soda 250ml",
-          "price": 3.0,
+          "price": 3.5,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
         {
           "name": "Lipton Ice Tea Λεμόνι 330ml",
           "name_en": "Lipton Ice Tea Lemon 330ml",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
         {
           "name": "Lipton Ice Tea Ροδάκινο 330ml",
           "name_en": "Lipton Ice Tea Peach 330ml",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
         {
           "name": "Lipton Ice Tea Πράσινο 330ml",
           "name_en": "Lipton Ice Tea Green 330ml",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
           "section_en": "SOFT DRINKS"
         },
@@ -567,49 +560,49 @@
         {
           "name": "Πορτοκάλι",
           "name_en": "Orange",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
         },
         {
           "name": "Ανάμεικτος",
           "name_en": "Mixed",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
         },
         {
           "name": "Μήλο",
           "name_en": "Apple",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
         },
         {
           "name": "Φράουλα",
           "name_en": "Strawberry",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
         },
         {
           "name": "Ροδάκινο",
           "name_en": "Peach",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
         },
         {
           "name": "Μπανάνα",
           "name_en": "Banana",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
         },
         {
           "name": "Βύσσινο",
           "name_en": "Sour cherry",
-          "price": 2.5,
+          "price": 3.0,
           "section": "ΧΥΜΟΙ",
           "section_en": "JUICES"
         },
@@ -707,7 +700,7 @@
         {
           "name": "Red Bull 250ml",
           "name_en": "Red Bull 250ml",
-          "price": 3.0,
+          "price": 3.5,
           "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
           "section_en": "ENERGY DRINKS"
         },
@@ -715,6 +708,13 @@
           "name": "Hell Classics 250ml",
           "name_en": "Hell Classics 250ml",
           "price": 2.0,
+          "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
+          "section_en": "ENERGY DRINKS"
+        },
+        {
+          "name": "Hell 500ml",
+          "name_en": "Hell 500ml",
+          "price": 2.5,
           "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
           "section_en": "ENERGY DRINKS"
         },
@@ -922,22 +922,8 @@
           "section_en": "WHISKEY"
         },
         {
-          "name": "Jack Daniels",
-          "name_en": "Jack Daniels",
-          "price": 7.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
           "name": "Jameson",
           "name_en": "Jameson",
-          "price": 6.0,
-          "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
-        },
-        {
-          "name": "Cutty Sark",
-          "name_en": "Cutty Sark",
           "price": 6.0,
           "section": "ΟΥΙΣΚΙ",
           "section_en": "WHISKEY"
@@ -971,8 +957,8 @@
           "section_en": "WHISKEY"
         },
         {
-          "name": "Double Black",
-          "name_en": "Double Black",
+          "name": "Johnnie Double Black",
+          "name_en": "Johnnie Double Black",
           "price": 7.0,
           "section": "ΟΥΙΣΚΙ",
           "section_en": "WHISKEY"
@@ -981,6 +967,41 @@
           "name": "Chivas",
           "name_en": "Chivas",
           "price": 7.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Jack Daniels",
+          "name_en": "Jack Daniels",
+          "price": 8.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Jack Daniels Honey",
+          "name_en": "Jack Daniels Honey",
+          "price": 8.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Glenfiddich",
+          "name_en": "Glenfiddich",
+          "price": 8.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Jameson Black Barrel",
+          "name_en": "Jameson Black Barrel",
+          "price": 8.0,
+          "section": "ΟΥΙΣΚΙ",
+          "section_en": "WHISKEY"
+        },
+        {
+          "name": "Dimple",
+          "name_en": "Dimple",
+          "price": 8.0,
           "section": "ΟΥΙΣΚΙ",
           "section_en": "WHISKEY"
         },
@@ -1008,44 +1029,30 @@
         {
           "name": "Belvedere",
           "name_en": "Belvedere",
-          "price": 7.0,
+          "price": 9.0,
           "section": "ΒΟΤΚΑ",
           "section_en": "VODKA"
         },
         {
-          "name": "Cuervo Κίτρινη",
-          "name_en": "Cuervo Yellow",
-          "price": 6.0,
-          "section": "ΤΕΚΙΛΑ",
-          "section_en": "TEQUILA"
+          "name": "Cîroc",
+          "name_en": "Cîroc",
+          "price": 9.0,
+          "section": "ΒΟΤΚΑ",
+          "section_en": "VODKA"
         },
         {
-          "name": "Cuervo Λευκή",
-          "name_en": "Cuervo White",
-          "price": 6.0,
-          "section": "ΤΕΚΙΛΑ",
-          "section_en": "TEQUILA"
+          "name": "Grey Goose",
+          "name_en": "Grey Goose",
+          "price": 9.0,
+          "section": "ΒΟΤΚΑ",
+          "section_en": "VODKA"
         },
         {
-          "name": "Bacardi",
-          "name_en": "Bacardi",
-          "price": 6.0,
-          "section": "ΡΟΥΜΙ",
-          "section_en": "RUM"
-        },
-        {
-          "name": "Havana",
-          "name_en": "Havana",
-          "price": 6.0,
-          "section": "ΡΟΥΜΙ",
-          "section_en": "RUM"
-        },
-        {
-          "name": "Bombay",
-          "name_en": "Bombay",
-          "price": 7.0,
-          "section": "ΤΖΙΝ",
-          "section_en": "GIN"
+          "name": "Beluga",
+          "name_en": "Beluga",
+          "price": 9.0,
+          "section": "ΒΟΤΚΑ",
+          "section_en": "VODKA"
         },
         {
           "name": "Gordon's",
@@ -1055,11 +1062,88 @@
           "section_en": "GIN"
         },
         {
+          "name": "Beefeater",
+          "name_en": "Beefeater",
+          "price": 6.0,
+          "section": "ΤΖΙΝ",
+          "section_en": "GIN"
+        },
+        {
+          "name": "Bombay",
+          "name_en": "Bombay",
+          "price": 7.0,
+          "section": "ΤΖΙΝ",
+          "section_en": "GIN"
+        },
+        {
           "name": "Tanqueray",
           "name_en": "Tanqueray",
           "price": 7.0,
           "section": "ΤΖΙΝ",
           "section_en": "GIN"
+        },
+        {
+          "name": "Hendrick's",
+          "name_en": "Hendrick's",
+          "price": 9.0,
+          "section": "ΤΖΙΝ",
+          "section_en": "GIN"
+        },
+        {
+          "name": "Mataroa",
+          "name_en": "Mataroa",
+          "price": 9.0,
+          "section": "ΤΖΙΝ",
+          "section_en": "GIN"
+        },
+        {
+          "name": "Cuervo Λευκή",
+          "name_en": "Cuervo White",
+          "price": 6.0,
+          "section": "ΤΕΚΙΛΑ",
+          "section_en": "TEQUILA"
+        },
+        {
+          "name": "Cuervo Κίτρινη",
+          "name_en": "Cuervo Yellow",
+          "price": 6.0,
+          "section": "ΤΕΚΙΛΑ",
+          "section_en": "TEQUILA"
+        },
+        {
+          "name": "Sierra Λευκή",
+          "name_en": "Sierra White",
+          "price": 6.0,
+          "section": "ΤΕΚΙΛΑ",
+          "section_en": "TEQUILA"
+        },
+        {
+          "name": "Sierra Κίτρινη",
+          "name_en": "Sierra Yellow",
+          "price": 6.0,
+          "section": "ΤΕΚΙΛΑ",
+          "section_en": "TEQUILA"
+        },
+        {
+          "name": "Havana",
+          "name_en": "Havana",
+          "price": 6.0,
+          "section": "ΡΟΥΜΙ",
+          "section_en": "RUM"
+        },
+        {
+          "name": "Bacardi",
+          "name_en": "Bacardi",
+          "price": 6.0,
+          "section": "ΡΟΥΜΙ",
+          "section_en": "RUM"
+        },
+        {
+          "name": "Nusa Caña",
+          "name_en": "Nusa Caña",
+          "price": 9.0,
+          "section": "ΡΟΥΜΙ",
+          "section_en": "RUM"
         },
         {
           "name": "Sambuca",
@@ -1102,34 +1186,6 @@
           "price": 6.0,
           "section": "ΑΠΕΡΙΤΙΦ",
           "section_en": "APERITIF"
-        },
-        {
-          "name": "Hendrick's",
-          "name_en": "Hendrick's",
-          "price": 8.0,
-          "section": "PREMIUM",
-          "section_en": "PREMIUM"
-        },
-        {
-          "name": "Glenfiddich",
-          "name_en": "Glenfiddich",
-          "price": 8.0,
-          "section": "PREMIUM",
-          "section_en": "PREMIUM"
-        },
-        {
-          "name": "Jameson Black Barrel",
-          "name_en": "Jameson Black Barrel",
-          "price": 8.0,
-          "section": "PREMIUM",
-          "section_en": "PREMIUM"
-        },
-        {
-          "name": "Dimple",
-          "name_en": "Dimple",
-          "price": 8.0,
-          "section": "PREMIUM",
-          "section_en": "PREMIUM"
         }
       ],
       "short_name": "ΠΟΤΑ",
@@ -1143,7 +1199,7 @@
         {
           "name": "Mojito",
           "name_en": "Mojito",
-          "price": 7.0,
+          "price": 8.0,
           "description": "White rum, simple syrup, lime, mint, soda",
           "description_en": "White rum, simple syrup, lime, mint, soda",
           "section": "COCKTAILS",
@@ -1152,7 +1208,7 @@
         {
           "name": "Aperol Spritz",
           "name_en": "Aperol Spritz",
-          "price": 7.0,
+          "price": 8.0,
           "description": "Aperol, prosecco, soda",
           "description_en": "Aperol, prosecco, soda",
           "section": "COCKTAILS",
@@ -1170,7 +1226,7 @@
         {
           "name": "Cuba Libre",
           "name_en": "Cuba Libre",
-          "price": 7.0,
+          "price": 8.0,
           "description": "Dark Rum, lime, cola",
           "description_en": "Dark Rum, lime, cola",
           "section": "COCKTAILS",
@@ -1179,7 +1235,7 @@
         {
           "name": "Negroni",
           "name_en": "Negroni",
-          "price": 7.0,
+          "price": 8.0,
           "description": "Gin, campari, sweet vermouth",
           "description_en": "Gin, campari, sweet vermouth",
           "section": "COCKTAILS",
@@ -1188,7 +1244,7 @@
         {
           "name": "Old Fashioned",
           "name_en": "Old Fashioned",
-          "price": 7.0,
+          "price": 8.0,
           "description": "Bourbon, simple syrup, aromatic bitters",
           "description_en": "Bourbon, simple syrup, aromatic bitters",
           "section": "COCKTAILS",
@@ -1197,7 +1253,7 @@
         {
           "name": "Mai Tai",
           "name_en": "Mai Tai",
-          "price": 7.0,
+          "price": 8.0,
           "description": "Dark Rum, lime juice, orange liqueur, bitter almond",
           "description_en": "Dark Rum, lime juice, orange liqueur, bitter almond",
           "section": "COCKTAILS",
@@ -1206,7 +1262,7 @@
         {
           "name": "Pornstar",
           "name_en": "Pornstar",
-          "price": 7.0,
+          "price": 8.0,
           "description": "Vodka, passion fruit, vanilla",
           "description_en": "Vodka, passion fruit, vanilla",
           "section": "COCKTAILS",
@@ -1224,7 +1280,7 @@
         {
           "name": "Daiquiri Strawberry",
           "name_en": "Daiquiri Strawberry",
-          "price": 7.0,
+          "price": 8.0,
           "description": "Rum, strawberry, lime",
           "description_en": "Rum, strawberry, lime",
           "section": "COCKTAILS",
@@ -1233,7 +1289,7 @@
         {
           "name": "Long Island",
           "name_en": "Long Island",
-          "price": 7.0,
+          "price": 8.0,
           "description": "Vodka, gin, tequila, rum, orange liqueur, cola",
           "description_en": "Vodka, gin, tequila, rum, orange liqueur, cola",
           "section": "COCKTAILS",
@@ -1242,7 +1298,7 @@
         {
           "name": "Piña Colada",
           "name_en": "Piña Colada",
-          "price": 7.0,
+          "price": 8.0,
           "description": "Malibu, pineapple juice, coconut liqueur",
           "description_en": "Malibu, pineapple juice, coconut liqueur",
           "section": "COCKTAILS",
@@ -1251,7 +1307,7 @@
         {
           "name": "Paloma",
           "name_en": "Paloma",
-          "price": 7.0,
+          "price": 8.0,
           "description": "Tequila blanco, lime juice, pink soda",
           "description_en": "Tequila blanco, lime juice, pink soda",
           "section": "COCKTAILS",
@@ -1260,7 +1316,7 @@
         {
           "name": "Mojito Virgin",
           "name_en": "Mojito Virgin",
-          "price": 5.0,
+          "price": 7.0,
           "description": "Mint, simple syrup, lime, soda",
           "description_en": "Mint, simple syrup, lime, soda",
           "section": "COCKTAILS",
@@ -1269,7 +1325,7 @@
         {
           "name": "Mocktail",
           "name_en": "Mocktail",
-          "price": 5.0,
+          "price": 7.0,
           "description": "Cranberry juice, orange juice, sprite",
           "description_en": "Cranberry juice, orange juice, sprite",
           "section": "COCKTAILS",
