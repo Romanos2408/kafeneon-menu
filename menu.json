@@ -742,116 +742,29 @@
       "name_en": "BEERS",
       "items": [
         {
-          "name": "Άλφα",
-          "name_en": "Alfa",
+          "name": "Άλφα 330ml",
+          "name_en": "Alfa 330ml",
           "price": 3.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS",
-          "variants": [
-            {
-              "label": "330ml",
-              "label_en": "330ml",
-              "price": 3.5
-            },
-            {
-              "label": "500ml",
-              "label_en": "500ml",
-              "price": 4.5
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Mythos 500ml",
-          "name_en": "Mythos 500ml",
-          "price": 4.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
         },
         {
-          "name": "Heineken 500ml",
-          "name_en": "Heineken 500ml",
-          "price": 4.5,
+          "name": "Μύθος 330ml",
+          "name_en": "Mythos 330ml",
+          "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
         },
         {
-          "name": "Amstel",
-          "name_en": "Amstel",
+          "name": "Μάμος 330ml",
+          "name_en": "Mamos 330ml",
           "price": 3.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS",
-          "variants": [
-            {
-              "label": "330ml",
-              "label_en": "330ml",
-              "price": 3.5
-            },
-            {
-              "label": "500ml",
-              "label_en": "500ml",
-              "price": 4.5
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Kaiser",
-          "name_en": "Kaiser",
-          "price": 3.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS",
-          "variants": [
-            {
-              "label": "330ml",
-              "label_en": "330ml",
-              "price": 3.5
-            },
-            {
-              "label": "500ml",
-              "label_en": "500ml",
-              "price": 4.5
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Βεργίνα",
-          "name_en": "Vergina",
-          "price": 3.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS",
-          "variants": [
-            {
-              "label": "330ml",
-              "label_en": "330ml",
-              "price": 3.5
-            },
-            {
-              "label": "500ml",
-              "label_en": "500ml",
-              "price": 4.5
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Βεργίνα BOUS 500ml",
-          "name_en": "Vergina BOUS 500ml",
-          "price": 4.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
         },
         {
-          "name": "Sol 330ml",
-          "name_en": "Sol 330ml",
-          "price": 4.0,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
-        },
-        {
-          "name": "Amstel Radler 330ml",
-          "name_en": "Amstel Radler 330ml",
+          "name": "Amstel 330ml",
+          "name_en": "Amstel 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
@@ -864,30 +777,44 @@
           "section_en": "BEERS"
         },
         {
-          "name": "Μάμος 500ml",
-          "name_en": "Mamos 500ml",
+          "name": "Amstel Radler 330ml",
+          "name_en": "Amstel Radler 330ml",
+          "price": 3.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS"
+        },
+        {
+          "name": "Fix 330ml",
+          "name_en": "Fix 330ml",
+          "price": 3.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS"
+        },
+        {
+          "name": "Fix Free 330ml",
+          "name_en": "Fix Free 330ml",
+          "price": 3.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS"
+        },
+        {
+          "name": "Kaiser 330ml",
+          "name_en": "Kaiser 330ml",
+          "price": 3.5,
+          "section": "ΜΠΙΡΕΣ",
+          "section_en": "BEERS"
+        },
+        {
+          "name": "Corona",
+          "name_en": "Corona",
           "price": 4.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
         },
         {
-          "name": "Νύμφη 500ml",
-          "name_en": "Nimfi 500ml",
+          "name": "Βαρέλι 450ml",
+          "name_en": "Draft 450ml",
           "price": 4.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
-        },
-        {
-          "name": "Gorgon's Space 330ml",
-          "name_en": "Gorgon's Space 330ml",
-          "price": 4.5,
-          "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
-        },
-        {
-          "name": "Βαρέλι Άλφα 400ml",
-          "name_en": "Vareli Alfa 400ml",
-          "price": 4.0,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
         },
