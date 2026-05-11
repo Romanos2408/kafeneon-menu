@@ -1261,31 +1261,51 @@
       "name_en": "WINES",
       "items": [
         {
-          "name": "Λαλικός",
-          "name_en": "Lalikos",
-          "price": 6.0,
-          "section": "ΚΡΑΣΙΑ ΡΟΖΕ",
-          "section_en": "ROSÉ WINES",
+          "name": "Θέμα Παυλίδη",
+          "name_en": "Thema Pavlidi",
+          "price": 7.0,
+          "section": "ΚΡΑΣΙΑ ΕΡΥΘΡΑ",
+          "section_en": "RED WINES",
           "variants": [
             {
               "label": "ποτήρι",
               "label_en": "glass",
-              "price": 6.0
+              "price": 7.0
             },
             {
               "label": "μπουκάλι",
               "label_en": "bottle",
-              "price": 30.0
+              "price": 35.0
             }
           ],
           "price_from": true
         },
         {
-          "name": "Αναστασία",
-          "name_en": "Anastasia",
+          "name": "Βιβλία Χώρα",
+          "name_en": "Biblia Chora",
+          "price": 7.0,
+          "section": "ΚΡΑΣΙΑ ΕΡΥΘΡΑ",
+          "section_en": "RED WINES",
+          "variants": [
+            {
+              "label": "ποτήρι",
+              "label_en": "glass",
+              "price": 7.0
+            },
+            {
+              "label": "μπουκάλι",
+              "label_en": "bottle",
+              "price": 35.0
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Βασιλική Πορφύρα",
+          "name_en": "Vasiliki Porfyra",
           "price": 6.0,
-          "section": "ΚΡΑΣΙΑ ΡΟΖΕ",
-          "section_en": "ROSÉ WINES",
+          "section": "ΚΡΑΣΙΑ ΕΡΥΘΡΑ",
+          "section_en": "RED WINES",
           "variants": [
             {
               "label": "ποτήρι",
@@ -1381,51 +1401,31 @@
           "price_from": true
         },
         {
-          "name": "Θέμα Παυλίδη",
-          "name_en": "Thema Pavlidi",
-          "price": 7.0,
-          "section": "ΚΡΑΣΙΑ ΕΡΥΘΡΑ",
-          "section_en": "RED WINES",
-          "variants": [
-            {
-              "label": "ποτήρι",
-              "label_en": "glass",
-              "price": 7.0
-            },
-            {
-              "label": "μπουκάλι",
-              "label_en": "bottle",
-              "price": 35.0
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Βιβλία Χώρα",
-          "name_en": "Biblia Chora",
-          "price": 7.0,
-          "section": "ΚΡΑΣΙΑ ΕΡΥΘΡΑ",
-          "section_en": "RED WINES",
-          "variants": [
-            {
-              "label": "ποτήρι",
-              "label_en": "glass",
-              "price": 7.0
-            },
-            {
-              "label": "μπουκάλι",
-              "label_en": "bottle",
-              "price": 35.0
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Βασιλική Πορφύρα",
-          "name_en": "Vasiliki Porfyra",
+          "name": "Λαλικός",
+          "name_en": "Lalikos",
           "price": 6.0,
-          "section": "ΚΡΑΣΙΑ ΕΡΥΘΡΑ",
-          "section_en": "RED WINES",
+          "section": "ΚΡΑΣΙΑ ΡΟΖΕ",
+          "section_en": "ROSÉ WINES",
+          "variants": [
+            {
+              "label": "ποτήρι",
+              "label_en": "glass",
+              "price": 6.0
+            },
+            {
+              "label": "μπουκάλι",
+              "label_en": "bottle",
+              "price": 30.0
+            }
+          ],
+          "price_from": true
+        },
+        {
+          "name": "Αναστασία",
+          "name_en": "Anastasia",
+          "price": 6.0,
+          "section": "ΚΡΑΣΙΑ ΡΟΖΕ",
+          "section_en": "ROSÉ WINES",
           "variants": [
             {
               "label": "ποτήρι",
