@@ -1261,151 +1261,18 @@
       "name_en": "WINES",
       "items": [
         {
-          "name": "Θέμα Παυλίδη",
-          "name_en": "Θέμα Παυλίδη",
-          "price": 7.0,
-          "section": "ΚΡΑΣΙΑ ΕΡΥΘΡΑ",
-          "section_en": "RED WINES",
-          "variants": [
-            {
-              "label": "ποτήρι",
-              "label_en": "glass",
-              "price": 7.0
-            },
-            {
-              "label": "φιάλη",
-              "label_en": "bottle",
-              "price": 35.0
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Βίβλια Χώρα",
-          "name_en": "Βίβλια Χώρα",
-          "price": 7.0,
-          "section": "ΚΡΑΣΙΑ ΕΡΥΘΡΑ",
-          "section_en": "RED WINES",
-          "variants": [
-            {
-              "label": "ποτήρι",
-              "label_en": "glass",
-              "price": 7.0
-            },
-            {
-              "label": "φιάλη",
-              "label_en": "bottle",
-              "price": 35.0
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Θέμα Παυλίδη",
-          "name_en": "Θέμα Παυλίδη",
+          "name": "Λαλικός",
+          "name_en": "Lalikos",
           "price": 6.0,
-          "section": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
-          "section_en": "WHITE WINES",
-          "variants": [
-            {
-              "label": "ποτήρι",
-              "label_en": "glass",
-              "price": 6.0
-            },
-            {
-              "label": "φιάλη",
-              "label_en": "bottle",
-              "price": 30.0
-            }
-          ],
-          "price_from": true
+          "section": "ΚΡΑΣΙΑ",
+          "section_en": "WINES"
         },
         {
-          "name": "Βιβλία Χώρα",
-          "name_en": "Βιβλία Χώρα",
+          "name": "Αναστασία",
+          "name_en": "Anastasia",
           "price": 6.0,
-          "section": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
-          "section_en": "WHITE WINES",
-          "variants": [
-            {
-              "label": "ποτήρι",
-              "label_en": "glass",
-              "price": 6.0
-            },
-            {
-              "label": "φιάλη",
-              "label_en": "bottle",
-              "price": 30.0
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Γεροβασιλείου",
-          "name_en": "Γεροβασιλείου",
-          "price": 6.0,
-          "section": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
-          "section_en": "WHITE WINES",
-          "variants": [
-            {
-              "label": "ποτήρι",
-              "label_en": "glass",
-              "price": 6.0
-            },
-            {
-              "label": "φιάλη",
-              "label_en": "bottle",
-              "price": 30.0
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Μαλαγουζιά «Διαλεκτό»",
-          "name_en": "Μαλαγουζιά «Διαλεκτό»",
-          "price": 6.0,
-          "section": "ΚΡΑΣΙΑ ΛΕΥΚΑ",
-          "section_en": "WHITE WINES",
-          "variants": [
-            {
-              "label": "ποτήρι",
-              "label_en": "glass",
-              "price": 6.0
-            },
-            {
-              "label": "φιάλη",
-              "label_en": "bottle",
-              "price": 30.0
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Λαλικός Ροζέ",
-          "name_en": "Λαλικός Ροζέ",
-          "price": 5.0,
-          "section": "ΚΡΑΣΙΑ ΡΟΖΕ",
-          "section_en": "ROSE WINES",
-          "variants": [
-            {
-              "label": "ποτήρι",
-              "label_en": "glass",
-              "price": 5.0
-            },
-            {
-              "label": "φιάλη",
-              "label_en": "bottle",
-              "price": 28.0
-            }
-          ],
-          "price_from": true
-        },
-        {
-          "name": "Πιατέλα Κρασιού",
-          "name_en": "Πιατέλα Κρασιού",
-          "price": 10.0,
-          "section": "Πιατέλα Κρασιού",
-          "section_en": "Wine Plate"
+          "section": "ΚΡΑΣΙΑ",
+          "section_en": "WINES"
         }
       ],
       "short_name": "ΚΡΑΣΙΑ",
