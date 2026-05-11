@@ -817,13 +817,6 @@
           "price": 4.5,
           "section": "ΜΠΙΡΕΣ",
           "section_en": "BEERS"
-        },
-        {
-          "name": "Πιατέλα Μπίρας",
-          "name_en": "Πιατέλα Μπίρας",
-          "price": 8.0,
-          "section": "ΠΙΑΤΕΛΑ ΜΠΙΡΑΣ",
-          "section_en": "BEER PLATE"
         }
       ],
       "short_name": "ΜΠΙΡΕΣ",
