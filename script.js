@@ -5,6 +5,7 @@
     lang: localStorage.getItem("kafeneon-lang") || "el",
     data: null,
     query: "",
+    mode: new URLSearchParams(location.search).get("delivery") === "1" ? "delivery" : "dinein",
   };
 
   const LABELS = {
@@ -18,6 +19,7 @@
       call: "Κλήση",
       directions: "Διεύθυνση",
       instagram: "Instagram",
+      orderOnline: "Παραγγείλετε Online",
     },
     en: {
       search: "Search…",
@@ -29,6 +31,7 @@
       call: "Call",
       directions: "Directions",
       instagram: "Instagram",
+      orderOnline: "Order Online",
     },
   };
 
@@ -76,6 +79,10 @@
     return c.short_name || c.name;
   };
   const pickVariantLabel = (v) => (STATE.lang === "en" && v.label_en ? v.label_en : v.label);
+  const pickPrice = (it) =>
+    STATE.mode === "delivery" && it.price_delivery != null ? it.price_delivery : it.price;
+  const pickVariantPrice = (v) =>
+    STATE.mode === "delivery" && v.price_delivery != null ? v.price_delivery : v.price;
 
   const $ = (sel) => document.querySelector(sel);
 
@@ -124,7 +131,7 @@
       it.variants.forEach((v) => {
         const cell = document.createElement("span");
         cell.className = "variant-amount";
-        cell.textContent = fmtPrice(v.price);
+        cell.textContent = fmtPrice(pickVariantPrice(v));
         price.appendChild(cell);
       });
     } else if (Array.isArray(it.variants) && it.variants.length) {
@@ -137,12 +144,12 @@
         label.textContent = pickVariantLabel(v);
         const amount = document.createElement("span");
         amount.className = "variant-amount";
-        amount.textContent = fmtPrice(v.price);
+        amount.textContent = fmtPrice(pickVariantPrice(v));
         line.append(label, amount);
         price.appendChild(line);
       });
     } else {
-      price.textContent = fmtPrice(it.price);
+      price.textContent = fmtPrice(pickPrice(it));
     }
 
     row.append(name, price);
@@ -218,7 +225,7 @@
           const link = document.createElement("a");
           link.className = "home-search-item";
           link.href = `#${g.cat.id}`;
-          link.innerHTML = `<span class="home-search-name">${escapeHtml(pickName(it))}</span><span class="home-search-price">${escapeHtml(fmtPrice(it.price))}</span>`;
+          link.innerHTML = `<span class="home-search-name">${escapeHtml(pickName(it))}</span><span class="home-search-price">${escapeHtml(fmtPrice(pickPrice(it)))}</span>`;
           block.appendChild(link);
         });
 
@@ -416,17 +423,33 @@
         addr.removeAttribute("href");
       }
 
-      // Hero phone button + "Take Away" caption (top-left)
+      // Hero phone button + "Take Away" caption (top-left) — delivery mode only
       const heroCta = $("#hero-cta");
       const heroPhone = $("#hero-phone");
-      if (shop.phone) {
+      const heroOrder = $("#hero-order");
+      const heroOrderSub = $("#hero-order-sub");
+      if (STATE.mode === "delivery" && shop.phone) {
         heroPhone.href = "tel:" + shop.phone;
         const number = shop.phone_display || shop.phone;
         heroPhone.querySelector(".hero-phone-text").textContent = number;
         heroPhone.setAttribute("aria-label", t().call + " " + number);
+        heroPhone.hidden = false;
         heroCta.hidden = false;
       } else {
+        heroPhone.hidden = true;
         heroCta.hidden = true;
+      }
+
+      if (STATE.mode === "delivery" && shop.delivery_url) {
+        heroOrder.href = shop.delivery_url;
+        heroOrder.querySelector(".hero-order-text").textContent = t().orderOnline;
+        heroOrder.setAttribute("aria-label", t().orderOnline);
+        heroOrder.hidden = false;
+        heroOrderSub.hidden = false;
+        heroCta.hidden = false;
+      } else {
+        heroOrder.hidden = true;
+        heroOrderSub.hidden = true;
       }
 
       // Hero social icons (Instagram + Facebook), under the logo

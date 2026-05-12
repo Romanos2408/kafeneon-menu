@@ -11,7 +11,8 @@
     "phone_display": "25910 23114",
     "maps_url": "https://www.google.com/maps/place/%CE%9A%CE%B1%CF%86%CE%AD+%CE%97+%CE%93%CE%A9%CE%9D%CE%99%CE%91/@40.9846691,24.7008723,21z/data=!4m16!1m9!3m8!1s0x14ae9ca59876aca9:0x4a9b3f2d1c2f83b7!2sEl.+Venizelou+133,+Chrisoupoli+642+00!3b1!8m2!3d40.9846671!4d24.7009619!10e5!16s%2Fg%2F11xn4zfjn7!3m5!1s0x14ae9ddeaf14626d:0x6e1b8c44d2609147!8m2!3d40.9846921!4d24.7009567!16s%2Fg%2F11h7krtyjq?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
     "instagram_url": "https://www.instagram.com/_kafeneon_/",
-    "facebook_url": "https://www.facebook.com/profile.php?id=100040598567551"
+    "facebook_url": "https://www.facebook.com/profile.php?id=100040598567551",
+    "delivery_url": "https://www.fagi.gr/xrysoupoli/eshops/gwnia/"
   },
   "categories": [
     {
@@ -24,126 +25,144 @@
           "name_en": "Espresso",
           "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 2.5
         },
         {
           "name": "Espresso Διπλό",
           "name_en": "Espresso Double",
           "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.0
         },
         {
           "name": "Espresso Americano Μονό",
           "name_en": "Espresso Americano",
           "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 2.5
         },
         {
           "name": "Espresso Americano Διπλό",
           "name_en": "Espresso Americano Double",
           "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.0
         },
         {
           "name": "Espresso Macchiato",
           "name_en": "Espresso Macchiato",
           "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.0
         },
         {
           "name": "Espresso Latte Macchiato",
           "name_en": "Espresso Latte Macchiato",
           "price": 3.5,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.5
         },
         {
           "name": "Cappuccino Μονό",
           "name_en": "Cappuccino",
           "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.0
         },
         {
           "name": "Cappuccino Διπλό",
           "name_en": "Cappuccino Double",
           "price": 3.5,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.5
         },
         {
           "name": "Freddo Espresso Μονό",
           "name_en": "Freddo Espresso",
           "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 2.5
         },
         {
           "name": "Freddo Espresso Διπλό",
           "name_en": "Freddo Espresso Double",
           "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.0
         },
         {
           "name": "Freddo Cappuccino Μονό",
           "name_en": "Freddo Cappuccino",
           "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.0
         },
         {
           "name": "Freddo Cappuccino Διπλό",
           "name_en": "Freddo Cappuccino Double",
           "price": 3.5,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.5
         },
         {
           "name": "Nes Kαφέ",
           "name_en": "Nes Cafe",
           "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 2.5
         },
         {
           "name": "Φραπέ",
           "name_en": "Frappe",
           "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 2.5
         },
         {
           "name": "Φίλτρου",
           "name_en": "Filter Coffee",
           "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.0
         },
         {
           "name": "Ελληνικός Μονός",
           "name_en": "Greek Coffee",
           "price": 2.5,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 2.5
         },
         {
           "name": "Ελληνικός Διπλός",
           "name_en": "Double Greek Coffee",
           "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.0
         },
         {
           "name": "Ελληνικός Frio",
           "name_en": "Greek Coffee Frio",
           "price": 3.0,
           "section": "ΚΑΦΕΔΕΣ",
-          "section_en": "COFFEES"
+          "section_en": "COFFEES",
+          "price_delivery": 3.0
         },
         {
           "name": "Milkshake Banoffee",
@@ -152,7 +171,8 @@
           "description": "Μιλκ Σέικ σοκολάτα-μπισκότο",
           "description_en": "Milkshake chocolate - biscuit",
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.5
         },
         {
           "name": "Milkshake Choco Loco",
@@ -161,7 +181,8 @@
           "description": "Μιλκ Σέικ σοκολάτα",
           "description_en": "Milkshake chocolate",
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.5
         },
         {
           "name": "Milkshake Strawberry Glory",
@@ -170,70 +191,80 @@
           "description": "Μιλκ Σέικ φράουλα - βανίλια",
           "description_en": "Milkshake Strawberry - Vanilla",
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.5
         },
         {
           "name": "Σοκολάτα Classic",
           "name_en": "Chocolate Classic",
           "price": 3.0,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.0
         },
         {
           "name": "Σοκολάτα Λευκή",
           "name_en": "White Chocolate",
           "price": 3.0,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.0
         },
         {
           "name": "Σοκολάτα Oreo",
           "name_en": "Chocolate Oreo",
           "price": 3.0,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.0
         },
         {
           "name": "Σοκολάτα Bueno",
           "name_en": "Chocolate Bueno",
           "price": 3.0,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.0
         },
         {
           "name": "Σοκολάτα Αλμυρή καραμέλα",
           "name_en": "Chocolate Salty Caramel",
           "price": 3.0,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.0
         },
         {
           "name": "Σοκολάτα Βιενουά",
           "name_en": "Chocolate Viennois",
           "price": 3.5,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.5
         },
         {
           "name": "Mochaccino Ζεστό & Κρύο",
           "name_en": "Mochaccino Hot & Cold",
           "price": 3.5,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.5
         },
         {
           "name": "Κακάο Ζεστό μονό",
           "name_en": "Hot Cacao",
           "price": 2.5,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 2.5
         },
         {
           "name": "Κακάο Ζεστό Διπλό",
           "name_en": "Hot Double Cacao",
           "price": 3.0,
           "section": "ΣΟΚΟΛΑΤΕΣ - MILKSHAKES",
-          "section_en": "BEVERAGES"
+          "section_en": "BEVERAGES",
+          "price_delivery": 3.0
         }
       ],
       "short_name": "ΚΑΦΕΔΕΣ",
@@ -253,7 +284,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "2-3min",
-          "time_en": "2-3min"
+          "time_en": "2-3min",
+          "price_delivery": 3.0
         },
         {
           "name": "Earl Grey Lord Byron",
@@ -264,7 +296,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "4-5min",
-          "time_en": "4-5min"
+          "time_en": "4-5min",
+          "price_delivery": 3.0
         },
         {
           "name": "Δρόμος του Μεταξιού",
@@ -275,7 +308,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "4-5min",
-          "time_en": "4-5min"
+          "time_en": "4-5min",
+          "price_delivery": 3.0
         },
         {
           "name": "Μήλο της Έριδος",
@@ -286,7 +320,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "4-5min",
-          "time_en": "4-5min"
+          "time_en": "4-5min",
+          "price_delivery": 3.0
         },
         {
           "name": "Τσάι των Χριστουγένων",
@@ -297,7 +332,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "4-5min",
-          "time_en": "4-5min"
+          "time_en": "4-5min",
+          "price_delivery": 3.0
         },
         {
           "name": "Αιολική Γη",
@@ -308,7 +344,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "2-3min",
-          "time_en": "2-3min"
+          "time_en": "2-3min",
+          "price_delivery": 3.0
         },
         {
           "name": "Δάκρυ της Χίου",
@@ -319,7 +356,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "2-3min",
-          "time_en": "2-3min"
+          "time_en": "2-3min",
+          "price_delivery": 3.0
         },
         {
           "name": "Μυρωμένος Θάμνος",
@@ -330,7 +368,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "2-3min",
-          "time_en": "2-3min"
+          "time_en": "2-3min",
+          "price_delivery": 3.0
         },
         {
           "name": "Πράσινος Δράκος",
@@ -341,7 +380,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "2-3min",
-          "time_en": "2-3min"
+          "time_en": "2-3min",
+          "price_delivery": 3.0
         },
         {
           "name": "Goji Acai",
@@ -352,7 +392,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "2-3min",
-          "time_en": "2-3min"
+          "time_en": "2-3min",
+          "price_delivery": 3.0
         },
         {
           "name": "White Christmas",
@@ -363,7 +404,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "8-10min",
-          "time_en": "8-10min"
+          "time_en": "8-10min",
+          "price_delivery": 3.0
         },
         {
           "name": "Rokkoko",
@@ -374,7 +416,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "3-4min",
-          "time_en": "3-4min"
+          "time_en": "3-4min",
+          "price_delivery": 3.0
         },
         {
           "name": "Δώρα των Μάγων",
@@ -385,7 +428,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "8-10min",
-          "time_en": "8-10min"
+          "time_en": "8-10min",
+          "price_delivery": 3.0
         },
         {
           "name": "Κόκκινη Πλατεία",
@@ -396,7 +440,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "8-10min",
-          "time_en": "8-10min"
+          "time_en": "8-10min",
+          "price_delivery": 3.0
         },
         {
           "name": "Χριστούγεννα στη Βιέννη",
@@ -407,7 +452,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "8-10min",
-          "time_en": "8-10min"
+          "time_en": "8-10min",
+          "price_delivery": 3.0
         },
         {
           "name": "Golden Blue tea",
@@ -418,7 +464,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "6-8min",
-          "time_en": "6-8min"
+          "time_en": "6-8min",
+          "price_delivery": 3.0
         },
         {
           "name": "Τσάι Κρυολογήματος",
@@ -429,7 +476,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "8-10min",
-          "time_en": "8-10min"
+          "time_en": "8-10min",
+          "price_delivery": 3.0
         },
         {
           "name": "Μέντα",
@@ -440,7 +488,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "8-10min",
-          "time_en": "8-10min"
+          "time_en": "8-10min",
+          "price_delivery": 3.0
         },
         {
           "name": "Τσάι του Βουνού",
@@ -451,7 +500,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "8-10min",
-          "time_en": "8-10min"
+          "time_en": "8-10min",
+          "price_delivery": 3.0
         },
         {
           "name": "Χαμομήλι",
@@ -462,7 +512,8 @@
           "section": "Το Καφενέον η ΓΩΝΙΑ και ο δρόμος του τσαγιού σας προτείνουν:",
           "section_en": "The GONIA Cafe and the Tea Street offer you:",
           "time": "8-10min",
-          "time_en": "8-10min"
+          "time_en": "8-10min",
+          "price_delivery": 3.0
         }
       ],
       "short_name": "ΤΣΑΪ",
@@ -478,161 +529,184 @@
           "name_en": "Coca Cola 330ml",
           "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
+          "section_en": "SOFT DRINKS",
+          "price_delivery": 3.0
         },
         {
           "name": "Coca Cola Zero 330ml",
           "name_en": "Coca Cola Zero 330ml",
           "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
+          "section_en": "SOFT DRINKS",
+          "price_delivery": 3.0
         },
         {
           "name": "Sprite 330ml",
           "name_en": "Sprite 330ml",
           "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
+          "section_en": "SOFT DRINKS",
+          "price_delivery": 3.0
         },
         {
           "name": "Fanta Πορτοκαλάδα 330ml",
           "name_en": "Fanta Orange 330ml",
           "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
+          "section_en": "SOFT DRINKS",
+          "price_delivery": 3.0
         },
         {
           "name": "Fanta Λεμονάδα 330ml",
           "name_en": "Fanta Lemonade 330ml",
           "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
+          "section_en": "SOFT DRINKS",
+          "price_delivery": 3.0
         },
         {
           "name": "Three Cents Pink Soda 250ml",
           "name_en": "Three Cents Pink Soda 250ml",
           "price": 3.5,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
+          "section_en": "SOFT DRINKS",
+          "price_delivery": 3.5
         },
         {
           "name": "Lipton Ice Tea Λεμόνι 330ml",
           "name_en": "Lipton Ice Tea Lemon 330ml",
           "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
+          "section_en": "SOFT DRINKS",
+          "price_delivery": 3.0
         },
         {
           "name": "Lipton Ice Tea Ροδάκινο 330ml",
           "name_en": "Lipton Ice Tea Peach 330ml",
           "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
+          "section_en": "SOFT DRINKS",
+          "price_delivery": 3.0
         },
         {
           "name": "Lipton Ice Tea Πράσινο 330ml",
           "name_en": "Lipton Ice Tea Green 330ml",
           "price": 3.0,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
+          "section_en": "SOFT DRINKS",
+          "price_delivery": 3.0
         },
         {
           "name": "Νερό 500ml",
           "name_en": "Water 500ml",
           "price": 0.5,
           "section": "ΑΝΑΨΥΚΤΙΚΑ",
-          "section_en": "SOFT DRINKS"
+          "section_en": "SOFT DRINKS",
+          "price_delivery": 0.5
         },
         {
           "name": "Φυσικός χυμός Πορτοκάλι",
           "name_en": "Natural Orange",
           "price": 3.5,
           "section": "ΧΥΜΟΙ",
-          "section_en": "JUICES"
+          "section_en": "JUICES",
+          "price_delivery": 3.5
         },
         {
           "name": "Φυσικός χυμός Ανάμεικτος",
           "name_en": "Natural Mixed",
           "price": 4.0,
           "section": "ΧΥΜΟΙ",
-          "section_en": "JUICES"
+          "section_en": "JUICES",
+          "price_delivery": 4.0
         },
         {
           "name": "Πορτοκάλι",
           "name_en": "Orange",
           "price": 3.0,
           "section": "ΧΥΜΟΙ",
-          "section_en": "JUICES"
+          "section_en": "JUICES",
+          "price_delivery": 3.0
         },
         {
           "name": "Ανάμεικτος",
           "name_en": "Mixed",
           "price": 3.0,
           "section": "ΧΥΜΟΙ",
-          "section_en": "JUICES"
+          "section_en": "JUICES",
+          "price_delivery": 3.0
         },
         {
           "name": "Μήλο",
           "name_en": "Apple",
           "price": 3.0,
           "section": "ΧΥΜΟΙ",
-          "section_en": "JUICES"
+          "section_en": "JUICES",
+          "price_delivery": 3.0
         },
         {
           "name": "Φράουλα",
           "name_en": "Strawberry",
           "price": 3.0,
           "section": "ΧΥΜΟΙ",
-          "section_en": "JUICES"
+          "section_en": "JUICES",
+          "price_delivery": 3.0
         },
         {
           "name": "Ροδάκινο",
           "name_en": "Peach",
           "price": 3.0,
           "section": "ΧΥΜΟΙ",
-          "section_en": "JUICES"
+          "section_en": "JUICES",
+          "price_delivery": 3.0
         },
         {
           "name": "Μπανάνα",
           "name_en": "Banana",
           "price": 3.0,
           "section": "ΧΥΜΟΙ",
-          "section_en": "JUICES"
+          "section_en": "JUICES",
+          "price_delivery": 3.0
         },
         {
           "name": "Βύσσινο",
           "name_en": "Sour cherry",
           "price": 3.0,
           "section": "ΧΥΜΟΙ",
-          "section_en": "JUICES"
+          "section_en": "JUICES",
+          "price_delivery": 3.0
         },
         {
           "name": "Γρανίτα Λεμόνι",
           "name_en": "Lemon Granita",
           "price": 3.0,
           "section": "ΓΡΑΝΙΤΕΣ",
-          "section_en": "GRANITES"
+          "section_en": "GRANITES",
+          "price_delivery": 3.0
         },
         {
           "name": "Γρανίτα Φράουλα",
           "name_en": "Strawberry Granita",
           "price": 3.0,
           "section": "ΓΡΑΝΙΤΕΣ",
-          "section_en": "GRANITES"
+          "section_en": "GRANITES",
+          "price_delivery": 3.0
         },
         {
           "name": "Γρανίτα Καρπούζι",
           "name_en": "Watermelon Granita",
           "price": 3.0,
           "section": "ΓΡΑΝΙΤΕΣ",
-          "section_en": "GRANITES"
+          "section_en": "GRANITES",
+          "price_delivery": 3.0
         },
         {
           "name": "Γρανίτα Μάνγκο",
           "name_en": "Mango Granita",
           "price": 3.0,
           "section": "ΓΡΑΝΙΤΕΣ",
-          "section_en": "GRANITES"
+          "section_en": "GRANITES",
+          "price_delivery": 3.0
         },
         {
           "name": "Smoothie Green Freak",
@@ -641,7 +715,8 @@
           "description": "με σπανάκι, πορτοκάλι, καρότο και ανανά",
           "description_en": "with spinach, orange, carrot and pineapple",
           "section": "SMOOTHIES",
-          "section_en": "SMOTHIES"
+          "section_en": "SMOTHIES",
+          "price_delivery": 3.5
         },
         {
           "name": "Smoothie Dream Cream",
@@ -650,7 +725,8 @@
           "description": "με καρύδα, ανανά και μπανάνα",
           "description_en": "with coconut, pineapple and banana",
           "section": "SMOOTHIES",
-          "section_en": "SMOTHIES"
+          "section_en": "SMOTHIES",
+          "price_delivery": 3.5
         },
         {
           "name": "Smoothie Pink Paradise",
@@ -659,7 +735,8 @@
           "description": "Με φράουλα, ροδάκινο και μάνγκο",
           "description_en": "With strawberry, peach and mango",
           "section": "SMOOTHIES",
-          "section_en": "SMOTHIES"
+          "section_en": "SMOTHIES",
+          "price_delivery": 3.5
         },
         {
           "name": "Smoothie Red Passion",
@@ -668,7 +745,8 @@
           "description": "με φράουλα, βατόμουρο και μάνγκo",
           "description_en": "with strawberry, raspberry and mango",
           "section": "SMOOTHIES",
-          "section_en": "SMOTHIES"
+          "section_en": "SMOTHIES",
+          "price_delivery": 3.5
         },
         {
           "name": "Smoothie Tropical Mix",
@@ -677,7 +755,8 @@
           "description": "Με ανανα, παπάγια και μάνγκο",
           "description_en": "With pineapple, papaya and mango",
           "section": "SMOOTHIES",
-          "section_en": "SMOTHIES"
+          "section_en": "SMOTHIES",
+          "price_delivery": 3.5
         },
         {
           "name": "Smoothie Wild Forest",
@@ -686,7 +765,8 @@
           "description": "Με φράουλα, μύρτιλο, βατόμουρα, μούρο, φρανκοστάφυλο, κόκκινο και μαύρο κερασι",
           "description_en": "With strawberry, blueberry, blackberry, mulberry, gooseberry, red and black cherry",
           "section": "SMOOTHIES",
-          "section_en": "SMOTHIES"
+          "section_en": "SMOTHIES",
+          "price_delivery": 3.5
         },
         {
           "name": "Smoothie Yellow Sunrise",
@@ -695,42 +775,48 @@
           "description": "με μάνγκο, ροδάκινο και ανανά",
           "description_en": "with mango, peach and pineapple",
           "section": "SMOOTHIES",
-          "section_en": "SMOTHIES"
+          "section_en": "SMOTHIES",
+          "price_delivery": 3.5
         },
         {
           "name": "Red Bull 250ml",
           "name_en": "Red Bull 250ml",
           "price": 3.5,
           "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
-          "section_en": "ENERGY DRINKS"
+          "section_en": "ENERGY DRINKS",
+          "price_delivery": 3.5
         },
         {
           "name": "Hell Classics 250ml",
           "name_en": "Hell Classics 250ml",
           "price": 2.0,
           "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
-          "section_en": "ENERGY DRINKS"
+          "section_en": "ENERGY DRINKS",
+          "price_delivery": 2.0
         },
         {
           "name": "Hell 500ml",
           "name_en": "Hell 500ml",
           "price": 2.5,
           "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
-          "section_en": "ENERGY DRINKS"
+          "section_en": "ENERGY DRINKS",
+          "price_delivery": 2.5
         },
         {
           "name": "Monster Energy Green 500ml",
           "name_en": "Monster Energy Green 500ml",
           "price": 3.0,
           "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
-          "section_en": "ENERGY DRINKS"
+          "section_en": "ENERGY DRINKS",
+          "price_delivery": 3.0
         },
         {
           "name": "Monster Energy Absolute Zero 500ml",
           "name_en": "Monster Energy Absolute Zero 500ml",
           "price": 3.0,
           "section": "ΕΝΕΡΓΕΙΑΚΑ ΠΟΤΑ",
-          "section_en": "ENERGY DRINKS"
+          "section_en": "ENERGY DRINKS",
+          "price_delivery": 3.0
         }
       ],
       "short_name": "ΑΝΑΨΥΚΤΙΚΑ",
@@ -746,77 +832,88 @@
           "name_en": "Alfa 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 3.5
         },
         {
           "name": "Μύθος 330ml",
           "name_en": "Mythos 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 3.5
         },
         {
           "name": "Μάμος 330ml",
           "name_en": "Mamos 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 3.5
         },
         {
           "name": "Amstel 330ml",
           "name_en": "Amstel 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 3.5
         },
         {
           "name": "Amstel Free 330ml",
           "name_en": "Amstel Free 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 3.5
         },
         {
           "name": "Amstel Radler 330ml",
           "name_en": "Amstel Radler 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 3.5
         },
         {
           "name": "Fix 330ml",
           "name_en": "Fix 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 3.5
         },
         {
           "name": "Fix Free 330ml",
           "name_en": "Fix Free 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 3.5
         },
         {
           "name": "Kaiser 330ml",
           "name_en": "Kaiser 330ml",
           "price": 3.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 3.5
         },
         {
           "name": "Corona",
           "name_en": "Corona",
           "price": 4.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 4.5
         },
         {
           "name": "Βαρέλι 450ml",
           "name_en": "Draft 450ml",
           "price": 4.5,
           "section": "ΜΠΙΡΕΣ",
-          "section_en": "BEERS"
+          "section_en": "BEERS",
+          "price_delivery": 4.5
         }
       ],
       "short_name": "ΜΠΙΡΕΣ",
@@ -832,280 +929,320 @@
           "name_en": "Johnnie Red",
           "price": 6.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 6.0
         },
         {
           "name": "Famous",
           "name_en": "Famous",
           "price": 6.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 6.0
         },
         {
           "name": "Jameson",
           "name_en": "Jameson",
           "price": 6.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 6.0
         },
         {
           "name": "Dewar's",
           "name_en": "Dewar's",
           "price": 6.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 6.0
         },
         {
           "name": "Tullamore",
           "name_en": "Tullamore",
           "price": 6.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 6.0
         },
         {
           "name": "Haig",
           "name_en": "Haig",
           "price": 6.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 6.0
         },
         {
           "name": "Johnnie Black",
           "name_en": "Johnnie Black",
           "price": 7.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 7.0
         },
         {
           "name": "Johnnie Double Black",
           "name_en": "Johnnie Double Black",
           "price": 7.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 7.0
         },
         {
           "name": "Chivas",
           "name_en": "Chivas",
           "price": 7.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 7.0
         },
         {
           "name": "Jack Daniels",
           "name_en": "Jack Daniels",
           "price": 8.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 8.0
         },
         {
           "name": "Jack Daniels Honey",
           "name_en": "Jack Daniels Honey",
           "price": 8.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 8.0
         },
         {
           "name": "Glenfiddich",
           "name_en": "Glenfiddich",
           "price": 8.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 8.0
         },
         {
           "name": "Jameson Black Barrel",
           "name_en": "Jameson Black Barrel",
           "price": 8.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 8.0
         },
         {
           "name": "Dimple",
           "name_en": "Dimple",
           "price": 8.0,
           "section": "ΟΥΙΣΚΙ",
-          "section_en": "WHISKEY"
+          "section_en": "WHISKEY",
+          "price_delivery": 8.0
         },
         {
           "name": "Absolut",
           "name_en": "Absolut",
           "price": 6.0,
           "section": "ΒΟΤΚΑ",
-          "section_en": "VODKA"
+          "section_en": "VODKA",
+          "price_delivery": 6.0
         },
         {
           "name": "Stolichnaya",
           "name_en": "Stolichnaya",
           "price": 6.0,
           "section": "ΒΟΤΚΑ",
-          "section_en": "VODKA"
+          "section_en": "VODKA",
+          "price_delivery": 6.0
         },
         {
           "name": "Serkova",
           "name_en": "Serkova",
           "price": 6.0,
           "section": "ΒΟΤΚΑ",
-          "section_en": "VODKA"
+          "section_en": "VODKA",
+          "price_delivery": 6.0
         },
         {
           "name": "Belvedere",
           "name_en": "Belvedere",
           "price": 9.0,
           "section": "ΒΟΤΚΑ",
-          "section_en": "VODKA"
+          "section_en": "VODKA",
+          "price_delivery": 9.0
         },
         {
           "name": "Cîroc",
           "name_en": "Cîroc",
           "price": 9.0,
           "section": "ΒΟΤΚΑ",
-          "section_en": "VODKA"
+          "section_en": "VODKA",
+          "price_delivery": 9.0
         },
         {
           "name": "Grey Goose",
           "name_en": "Grey Goose",
           "price": 9.0,
           "section": "ΒΟΤΚΑ",
-          "section_en": "VODKA"
+          "section_en": "VODKA",
+          "price_delivery": 9.0
         },
         {
           "name": "Beluga",
           "name_en": "Beluga",
           "price": 9.0,
           "section": "ΒΟΤΚΑ",
-          "section_en": "VODKA"
+          "section_en": "VODKA",
+          "price_delivery": 9.0
         },
         {
           "name": "Gordon's",
           "name_en": "Gordon's",
           "price": 6.0,
           "section": "ΤΖΙΝ",
-          "section_en": "GIN"
+          "section_en": "GIN",
+          "price_delivery": 6.0
         },
         {
           "name": "Beefeater",
           "name_en": "Beefeater",
           "price": 6.0,
           "section": "ΤΖΙΝ",
-          "section_en": "GIN"
+          "section_en": "GIN",
+          "price_delivery": 6.0
         },
         {
           "name": "Bombay",
           "name_en": "Bombay",
           "price": 7.0,
           "section": "ΤΖΙΝ",
-          "section_en": "GIN"
+          "section_en": "GIN",
+          "price_delivery": 7.0
         },
         {
           "name": "Tanqueray",
           "name_en": "Tanqueray",
           "price": 7.0,
           "section": "ΤΖΙΝ",
-          "section_en": "GIN"
+          "section_en": "GIN",
+          "price_delivery": 7.0
         },
         {
           "name": "Hendrick's",
           "name_en": "Hendrick's",
           "price": 9.0,
           "section": "ΤΖΙΝ",
-          "section_en": "GIN"
+          "section_en": "GIN",
+          "price_delivery": 9.0
         },
         {
           "name": "Mataroa",
           "name_en": "Mataroa",
           "price": 9.0,
           "section": "ΤΖΙΝ",
-          "section_en": "GIN"
+          "section_en": "GIN",
+          "price_delivery": 9.0
         },
         {
           "name": "Cuervo Λευκή",
           "name_en": "Cuervo White",
           "price": 6.0,
           "section": "ΤΕΚΙΛΑ",
-          "section_en": "TEQUILA"
+          "section_en": "TEQUILA",
+          "price_delivery": 6.0
         },
         {
           "name": "Cuervo Κίτρινη",
           "name_en": "Cuervo Yellow",
           "price": 6.0,
           "section": "ΤΕΚΙΛΑ",
-          "section_en": "TEQUILA"
+          "section_en": "TEQUILA",
+          "price_delivery": 6.0
         },
         {
           "name": "Sierra Λευκή",
           "name_en": "Sierra White",
           "price": 6.0,
           "section": "ΤΕΚΙΛΑ",
-          "section_en": "TEQUILA"
+          "section_en": "TEQUILA",
+          "price_delivery": 6.0
         },
         {
           "name": "Sierra Κίτρινη",
           "name_en": "Sierra Yellow",
           "price": 6.0,
           "section": "ΤΕΚΙΛΑ",
-          "section_en": "TEQUILA"
+          "section_en": "TEQUILA",
+          "price_delivery": 6.0
         },
         {
           "name": "Havana",
           "name_en": "Havana",
           "price": 6.0,
           "section": "ΡΟΥΜΙ",
-          "section_en": "RUM"
+          "section_en": "RUM",
+          "price_delivery": 6.0
         },
         {
           "name": "Bacardi",
           "name_en": "Bacardi",
           "price": 6.0,
           "section": "ΡΟΥΜΙ",
-          "section_en": "RUM"
+          "section_en": "RUM",
+          "price_delivery": 6.0
         },
         {
           "name": "Nusa Caña",
           "name_en": "Nusa Caña",
           "price": 9.0,
           "section": "ΡΟΥΜΙ",
-          "section_en": "RUM"
+          "section_en": "RUM",
+          "price_delivery": 9.0
         },
         {
           "name": "Sambuca",
           "name_en": "Sambuca",
           "price": 6.0,
           "section": "ΛΙΚΕΡ",
-          "section_en": "LIQUEUR"
+          "section_en": "LIQUEUR",
+          "price_delivery": 6.0
         },
         {
           "name": "Comfort",
           "name_en": "Comfort",
           "price": 6.0,
           "section": "ΛΙΚΕΡ",
-          "section_en": "LIQUEUR"
+          "section_en": "LIQUEUR",
+          "price_delivery": 6.0
         },
         {
           "name": "Dissarono",
           "name_en": "Dissarono",
           "price": 6.0,
           "section": "ΛΙΚΕΡ",
-          "section_en": "LIQUEUR"
+          "section_en": "LIQUEUR",
+          "price_delivery": 6.0
         },
         {
           "name": "Martini",
           "name_en": "Martini",
           "price": 6.0,
           "section": "ΛΙΚΕΡ",
-          "section_en": "LIQUEUR"
+          "section_en": "LIQUEUR",
+          "price_delivery": 6.0
         },
         {
           "name": "Aperol",
           "name_en": "Aperol",
           "price": 7.0,
           "section": "ΑΠΕΡΙΤΙΦ",
-          "section_en": "APERITIF"
+          "section_en": "APERITIF",
+          "price_delivery": 7.0
         },
         {
           "name": "Campari",
           "name_en": "Campari",
           "price": 6.0,
           "section": "ΑΠΕΡΙΤΙΦ",
-          "section_en": "APERITIF"
+          "section_en": "APERITIF",
+          "price_delivery": 6.0
         }
       ],
       "short_name": "ΠΟΤΑ",
@@ -1123,7 +1260,8 @@
           "description": "White rum, simple syrup, lime, mint, soda",
           "description_en": "White rum, simple syrup, lime, mint, soda",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Aperol Spritz",
@@ -1132,7 +1270,8 @@
           "description": "Aperol, prosecco, soda",
           "description_en": "Aperol, prosecco, soda",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Margarita",
@@ -1141,7 +1280,8 @@
           "description": "Tequila blanco, lime juice, orange liqueur",
           "description_en": "Tequila blanco, lime juice, orange liqueur",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Cuba Libre",
@@ -1150,7 +1290,8 @@
           "description": "Dark Rum, lime, cola",
           "description_en": "Dark Rum, lime, cola",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Negroni",
@@ -1159,7 +1300,8 @@
           "description": "Gin, campari, sweet vermouth",
           "description_en": "Gin, campari, sweet vermouth",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Old Fashioned",
@@ -1168,7 +1310,8 @@
           "description": "Bourbon, simple syrup, aromatic bitters",
           "description_en": "Bourbon, simple syrup, aromatic bitters",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Mai Tai",
@@ -1177,7 +1320,8 @@
           "description": "Dark Rum, lime juice, orange liqueur, bitter almond",
           "description_en": "Dark Rum, lime juice, orange liqueur, bitter almond",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Pornstar",
@@ -1186,7 +1330,8 @@
           "description": "Vodka, passion fruit, vanilla",
           "description_en": "Vodka, passion fruit, vanilla",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Caipiroska",
@@ -1195,7 +1340,8 @@
           "description": "Vodka, simple syrup, lime",
           "description_en": "Vodka, simple syrup, lime",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Daiquiri Strawberry",
@@ -1204,7 +1350,8 @@
           "description": "Rum, strawberry, lime",
           "description_en": "Rum, strawberry, lime",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Long Island",
@@ -1213,7 +1360,8 @@
           "description": "Vodka, gin, tequila, rum, orange liqueur, cola",
           "description_en": "Vodka, gin, tequila, rum, orange liqueur, cola",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Piña Colada",
@@ -1222,7 +1370,8 @@
           "description": "Malibu, pineapple juice, coconut liqueur",
           "description_en": "Malibu, pineapple juice, coconut liqueur",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Paloma",
@@ -1231,7 +1380,8 @@
           "description": "Tequila blanco, lime juice, pink soda",
           "description_en": "Tequila blanco, lime juice, pink soda",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 8.0
         },
         {
           "name": "Mojito Virgin",
@@ -1240,7 +1390,8 @@
           "description": "Mint, simple syrup, lime, soda",
           "description_en": "Mint, simple syrup, lime, soda",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 7.0
         },
         {
           "name": "Mocktail",
@@ -1249,7 +1400,8 @@
           "description": "Cranberry juice, orange juice, sprite",
           "description_en": "Cranberry juice, orange juice, sprite",
           "section": "COCKTAILS",
-          "section_en": "COKTAILS"
+          "section_en": "COKTAILS",
+          "price_delivery": 7.0
         }
       ],
       "short_name": "COCKTAILS",
@@ -1270,15 +1422,18 @@
             {
               "label": "ποτήρι",
               "label_en": "glass",
-              "price": 7.0
+              "price": 7.0,
+              "price_delivery": 7.0
             },
             {
               "label": "μπουκάλι",
               "label_en": "bottle",
-              "price": 35.0
+              "price": 35.0,
+              "price_delivery": 35.0
             }
           ],
-          "price_from": true
+          "price_from": true,
+          "price_delivery": 7.0
         },
         {
           "name": "Βιβλία Χώρα",
@@ -1290,15 +1445,18 @@
             {
               "label": "ποτήρι",
               "label_en": "glass",
-              "price": 7.0
+              "price": 7.0,
+              "price_delivery": 7.0
             },
             {
               "label": "μπουκάλι",
               "label_en": "bottle",
-              "price": 35.0
+              "price": 35.0,
+              "price_delivery": 35.0
             }
           ],
-          "price_from": true
+          "price_from": true,
+          "price_delivery": 7.0
         },
         {
           "name": "Βασιλική Πορφύρα",
@@ -1310,15 +1468,18 @@
             {
               "label": "ποτήρι",
               "label_en": "glass",
-              "price": 6.0
+              "price": 6.0,
+              "price_delivery": 6.0
             },
             {
               "label": "μπουκάλι",
               "label_en": "bottle",
-              "price": 30.0
+              "price": 30.0,
+              "price_delivery": 30.0
             }
           ],
-          "price_from": true
+          "price_from": true,
+          "price_delivery": 6.0
         },
         {
           "name": "Θέμα Παυλίδη",
@@ -1330,15 +1491,18 @@
             {
               "label": "ποτήρι",
               "label_en": "glass",
-              "price": 6.0
+              "price": 6.0,
+              "price_delivery": 6.0
             },
             {
               "label": "μπουκάλι",
               "label_en": "bottle",
-              "price": 30.0
+              "price": 30.0,
+              "price_delivery": 30.0
             }
           ],
-          "price_from": true
+          "price_from": true,
+          "price_delivery": 6.0
         },
         {
           "name": "Βιβλία Χώρα",
@@ -1350,15 +1514,18 @@
             {
               "label": "ποτήρι",
               "label_en": "glass",
-              "price": 6.0
+              "price": 6.0,
+              "price_delivery": 6.0
             },
             {
               "label": "μπουκάλι",
               "label_en": "bottle",
-              "price": 30.0
+              "price": 30.0,
+              "price_delivery": 30.0
             }
           ],
-          "price_from": true
+          "price_from": true,
+          "price_delivery": 6.0
         },
         {
           "name": "Γεροβασιλείου",
@@ -1370,15 +1537,18 @@
             {
               "label": "ποτήρι",
               "label_en": "glass",
-              "price": 6.0
+              "price": 6.0,
+              "price_delivery": 6.0
             },
             {
               "label": "μπουκάλι",
               "label_en": "bottle",
-              "price": 30.0
+              "price": 30.0,
+              "price_delivery": 30.0
             }
           ],
-          "price_from": true
+          "price_from": true,
+          "price_delivery": 6.0
         },
         {
           "name": "Μαλαγουζιά «Διάλεκτο»",
@@ -1390,15 +1560,18 @@
             {
               "label": "ποτήρι",
               "label_en": "glass",
-              "price": 6.0
+              "price": 6.0,
+              "price_delivery": 6.0
             },
             {
               "label": "μπουκάλι",
               "label_en": "bottle",
-              "price": 30.0
+              "price": 30.0,
+              "price_delivery": 30.0
             }
           ],
-          "price_from": true
+          "price_from": true,
+          "price_delivery": 6.0
         },
         {
           "name": "Λαλικός",
@@ -1410,15 +1583,18 @@
             {
               "label": "ποτήρι",
               "label_en": "glass",
-              "price": 6.0
+              "price": 6.0,
+              "price_delivery": 6.0
             },
             {
               "label": "μπουκάλι",
               "label_en": "bottle",
-              "price": 30.0
+              "price": 30.0,
+              "price_delivery": 30.0
             }
           ],
-          "price_from": true
+          "price_from": true,
+          "price_delivery": 6.0
         },
         {
           "name": "Αναστασία",
@@ -1430,15 +1606,18 @@
             {
               "label": "ποτήρι",
               "label_en": "glass",
-              "price": 6.0
+              "price": 6.0,
+              "price_delivery": 6.0
             },
             {
               "label": "μπουκάλι",
               "label_en": "bottle",
-              "price": 30.0
+              "price": 30.0,
+              "price_delivery": 30.0
             }
           ],
-          "price_from": true
+          "price_from": true,
+          "price_delivery": 6.0
         }
       ],
       "short_name": "ΚΡΑΣΙΑ",
@@ -1456,7 +1635,8 @@
           "description": "με Μπριζόλα Μπέικον",
           "description_en": "with Bacon Steak",
           "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
+          "section_en": "SALTY",
+          "price_delivery": 2.5
         },
         {
           "name": "Panini Κρουασάν",
@@ -1465,7 +1645,8 @@
           "description": "με Γαλοπούλα",
           "description_en": "with Turkey",
           "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
+          "section_en": "SALTY",
+          "price_delivery": 2.5
         },
         {
           "name": "Panini Μετσοβίτικα",
@@ -1474,7 +1655,8 @@
           "description": "με Φιλέτο Κοτόπουλο",
           "description_en": "with Chicken Fillet",
           "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
+          "section_en": "SALTY",
+          "price_delivery": 2.5
         },
         {
           "name": "Panini Τορτίγια",
@@ -1483,7 +1665,8 @@
           "description": "με Φιλέτο Κοτόπουλο",
           "description_en": "with Chicken Fillet",
           "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
+          "section_en": "SALTY",
+          "price_delivery": 2.5
         },
         {
           "name": "Panini Ψωμάκι",
@@ -1492,7 +1675,8 @@
           "description": "με Σουσάμι Γαλοπούλα",
           "description_en": "with Sesame Turkey",
           "section": "ΑΛΜΥΡΑ",
-          "section_en": "SALTY"
+          "section_en": "SALTY",
+          "price_delivery": 2.5
         },
         {
           "name": "Panini Dolce Κρουασάν",
@@ -1501,7 +1685,8 @@
           "description": "με Πραλίνα Φουντουκιού 150gr",
           "description_en": "with Hazelnut Praline 150gr",
           "section": "ΓΛΥΚΑ",
-          "section_en": "SWEETS"
+          "section_en": "SWEETS",
+          "price_delivery": 1.5
         },
         {
           "name": "Zeo Bakers Muffin",
@@ -1510,7 +1695,8 @@
           "description": "Cheese Cake",
           "description_en": "Cheese Cake",
           "section": "ΓΛΥΚΑ",
-          "section_en": "SWEETS"
+          "section_en": "SWEETS",
+          "price_delivery": 2.5
         },
         {
           "name": "Zeo Bakers Muffin",
@@ -1519,7 +1705,8 @@
           "description": "Σοκολάτα - Φράουλα",
           "description_en": "Chocolate - Strawberry",
           "section": "ΓΛΥΚΑ",
-          "section_en": "SWEETS"
+          "section_en": "SWEETS",
+          "price_delivery": 2.5
         }
       ],
       "short_name": "ΣΝΑΚ & ΓΛΥΚΑ",

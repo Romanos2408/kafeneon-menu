@@ -173,8 +173,50 @@ body {
   text-align: center;
 }
 
+.hero-order {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #d05a2a;
+  color: #fff7ea;
+  border-radius: 999px;
+  padding: 6px 12px 6px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.14);
+  margin-top: 2px;
+}
+
+.hero-order svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+
+.hero-order:hover {
+  background: #b04719;
+}
+
+.hero-order-sub {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--olive);
+  opacity: 0.75;
+  text-align: center;
+}
+
 @media (max-width: 360px) {
-  .hero-phone {
+  .hero-phone,
+  .hero-order {
     font-size: 11px;
     padding: 5px 10px 5px 8px;
   }
