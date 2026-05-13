@@ -131,6 +131,8 @@ body {
   z-index: 10;
 }
 
+[hidden] { display: none !important; }
+
 .hero-phone {
   display: inline-flex;
   align-items: center;
