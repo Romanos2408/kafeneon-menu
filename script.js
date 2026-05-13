@@ -65,7 +65,9 @@
   };
 
   const fmtPrice = (n) =>
-    new Intl.NumberFormat("el-GR", { style: "currency", currency: "EUR" }).format(n);
+    n == null
+      ? ""
+      : new Intl.NumberFormat("el-GR", { style: "currency", currency: "EUR" }).format(n);
 
   const t = () => LABELS[STATE.lang];
   const pickName = (it) => (STATE.lang === "en" && it.name_en ? it.name_en : it.name);
@@ -79,10 +81,12 @@
     return c.short_name || c.name;
   };
   const pickVariantLabel = (v) => (STATE.lang === "en" && v.label_en ? v.label_en : v.label);
+  // In each mode the price for that mode is authoritative; no cross-mode fallback.
+  // Missing price => null => renders as empty (intentional: surfaces gaps in the price list).
   const pickPrice = (it) =>
-    STATE.mode === "delivery" && it.price_delivery != null ? it.price_delivery : it.price;
+    STATE.mode === "delivery" ? (it.price_delivery ?? null) : (it.price ?? null);
   const pickVariantPrice = (v) =>
-    STATE.mode === "delivery" && v.price_delivery != null ? v.price_delivery : v.price;
+    STATE.mode === "delivery" ? (v.price_delivery ?? null) : (v.price ?? null);
 
   const $ = (sel) => document.querySelector(sel);
 
