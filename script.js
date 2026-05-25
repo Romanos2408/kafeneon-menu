@@ -13,7 +13,10 @@
       search: "Αναζήτηση…",
       searchAll: "Αναζήτηση σε όλα τα προϊόντα…",
       empty: "Δεν βρέθηκαν προϊόντα.",
-      vat: "Τιμές σε ευρώ. Συμπεριλαμβάνεται ΦΠΑ.",
+      vat: {
+        dinein: "Στις τιμές περιλαμβάνεται ΦΠΑ 24%.",
+        delivery: "Στις τιμές περιλαμβάνεται ΦΠΑ 13%.",
+      },
       back: "Πίσω",
       items: (n) => `${n} προϊόντα`,
       call: "Κλήση",
@@ -25,7 +28,10 @@
       search: "Search…",
       searchAll: "Search all items…",
       empty: "No items found.",
-      vat: "Prices in euro. VAT included.",
+      vat: {
+        dinein: "A 24% VAT is included in all prices.",
+        delivery: "A 13% VAT is included in all prices.",
+      },
       back: "Back",
       items: (n) => `${n} items`,
       call: "Call",
@@ -458,6 +464,16 @@
 
       // Hero social icons (Instagram + Facebook), under the logo
       renderHeroSocials(shop);
+
+      // VAT note in footer — mode-aware (24% dine-in, 13% delivery)
+      const foot = $("#foot");
+      if (foot) {
+        foot.innerHTML = "";
+        const note = document.createElement("p");
+        note.className = "foot-sm";
+        note.textContent = t().vat[STATE.mode] || "";
+        foot.appendChild(note);
+      }
 
       render();
     }
